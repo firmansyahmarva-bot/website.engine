@@ -10,6 +10,7 @@ import { QuoteEstimator } from '@/components/QuoteEstimator';
 import { PricingSection } from '@/components/PricingSection';
 import { ComponentShowcase } from '@/components/ComponentShowcase';
 import { ProgrammaticSEOSection } from '@/components/ProgrammaticSEOSection';
+import { AuthorityKnowledgeHub } from '@/components/AuthorityKnowledgeHub';
 import { FAQSection } from '@/components/FAQSection';
 import { Footer } from '@/components/Footer';
 import { FloatingWhatsApp } from '@/components/FloatingWhatsApp';
@@ -49,8 +50,11 @@ export default function HomePage() {
         {/* 100+ Modular UI Components Library */}
         <ComponentShowcase currentLang={currentLang} />
 
-        {/* Programmatic Organic SEO Traffic Machine */}
+        {/* Programmatic Organic SEO Traffic Machine (UK, Europe, Indonesia, Middle East) */}
         <ProgrammaticSEOSection currentLang={currentLang} />
+
+        {/* 10k Topic Authority Knowledge & AI Engine Citations Hub */}
+        <AuthorityKnowledgeHub currentLang={currentLang} />
 
         {/* Search-Optimized FAQ Section */}
         <FAQSection currentLang={currentLang} />

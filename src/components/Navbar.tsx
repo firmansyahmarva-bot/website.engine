@@ -59,6 +59,9 @@ export const Navbar: React.FC<NavbarProps> = ({ currentLang, onLanguageChange })
             <a href="#components" className="hover:text-white transition-colors">
               {currentLang === 'id' ? '100+ Komponen' : currentLang === 'ar' ? 'مكتبة المكونات' : 'Components'}
             </a>
+            <a href="#knowledge" className="hover:text-white transition-colors text-cyan-400 font-bold">
+              {currentLang === 'id' ? 'Knowledge Hub' : currentLang === 'ar' ? 'مركز المعرفة' : 'Knowledge Hub'}
+            </a>
             <a href="#faq" className="hover:text-white transition-colors">
               FAQ
             </a>

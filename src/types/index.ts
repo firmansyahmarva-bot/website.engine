@@ -104,10 +104,12 @@ export interface IndustrySEO {
 export interface LocationSEO {
   slug: string;
   country: string;
+  region?: 'UK & Europe' | 'Indonesia' | 'Middle East' | 'Global';
   name: {
     id: string;
     en: string;
     ar: string;
   };
   currency: Currency;
+  searchIntentUK?: string[];
 }

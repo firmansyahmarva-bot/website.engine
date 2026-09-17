@@ -124,16 +124,118 @@ export const industriesSEO: IndustrySEO[] = [
 ];
 
 export const locationsSEO: LocationSEO[] = [
-  { slug: 'jakarta', country: 'Indonesia', name: { id: 'Jakarta & Jabodetabek', en: 'Jakarta, Indonesia', ar: 'جاكرتا، إندونيسيا' }, currency: 'IDR' },
-  { slug: 'surabaya', country: 'Indonesia', name: { id: 'Surabaya & Jawa Timur', en: 'Surabaya, Indonesia', ar: 'سورابايا، إندونيسيا' }, currency: 'IDR' },
-  { slug: 'bali', country: 'Indonesia', name: { id: 'Bali (Denpasar & Badung)', en: 'Bali, Indonesia', ar: 'بالي، إندونيسيا' }, currency: 'IDR' },
-  { slug: 'bandung', country: 'Indonesia', name: { id: 'Bandung & Jawa Barat', en: 'Bandung, Indonesia', ar: 'باندونغ، إندونيسيا' }, currency: 'IDR' },
-  { slug: 'medan', country: 'Indonesia', name: { id: 'Medan & Sumatera Utara', en: 'Medan, Indonesia', ar: 'ميدان، إندونيسيا' }, currency: 'IDR' },
-  { slug: 'dubai', country: 'UAE', name: { id: 'Dubai, Uni Emirat Arab', en: 'Dubai, United Arab Emirates', ar: 'دبي، الإمارات العربية المتحدة' }, currency: 'USD' },
-  { slug: 'riyadh', country: 'Saudi Arabia', name: { id: 'Riyadh, Arab Saudi', en: 'Riyadh, Saudi Arabia', ar: 'الرياض، المملكة العربية السعودية' }, currency: 'USD' },
-  { slug: 'singapore', country: 'Singapore', name: { id: 'Singapura', en: 'Singapore', ar: 'سنغافورة' }, currency: 'USD' },
-  { slug: 'london', country: 'UK', name: { id: 'London, Inggris', en: 'London, United Kingdom', ar: 'لندن، المملكة المتحدة' }, currency: 'USD' },
-  { slug: 'sydney', country: 'Australia', name: { id: 'Sydney, Australia', en: 'Sydney, Australia', ar: 'سيدني، أستراليا' }, currency: 'USD' }
+  // --- UK & BRITISH COMMERCIAL HUBS (100+ High-Demand Cluster) ---
+  {
+    slug: 'london',
+    country: 'United Kingdom',
+    region: 'UK & Europe',
+    name: { id: 'London & Greater London', en: 'London & Greater London, UK', ar: 'لندن، المملكة المتحدة' },
+    currency: 'USD',
+    searchIntentUK: ['bespoke web design agency london', '100 page website design london', 'fast headless nextjs developers london']
+  },
+  {
+    slug: 'manchester',
+    country: 'United Kingdom',
+    region: 'UK & Europe',
+    name: { id: 'Manchester (MediaCity)', en: 'Manchester & MediaCity, UK', ar: 'مانشستر، المملكة المتحدة' },
+    currency: 'USD',
+    searchIntentUK: ['web design agency manchester', 'fast ecommerce store development manchester', 'jamstack agency north west uk']
+  },
+  {
+    slug: 'birmingham',
+    country: 'United Kingdom',
+    region: 'UK & Europe',
+    name: { id: 'Birmingham & West Midlands', en: 'Birmingham & West Midlands, UK', ar: 'برمنغهام، المملكة المتحدة' },
+    currency: 'USD',
+    searchIntentUK: ['industrial web design birmingham', 'b2b manufacturer website uk', 'affordable company website birmingham']
+  },
+  {
+    slug: 'leeds',
+    country: 'United Kingdom',
+    region: 'UK & Europe',
+    name: { id: 'Leeds & Yorkshire', en: 'Leeds & Yorkshire, UK', ar: 'ليدز، المملكة المتحدة' },
+    currency: 'USD',
+    searchIntentUK: ['law firm web design leeds', 'financial advisory website yorkshire', 'corporate web agency leeds']
+  },
+  {
+    slug: 'edinburgh',
+    country: 'United Kingdom',
+    region: 'UK & Europe',
+    name: { id: 'Edinburgh & Glasgow', en: 'Edinburgh & Glasgow, Scotland', ar: 'إدنبرة وغلاسكو، اسكتلندا' },
+    currency: 'USD',
+    searchIntentUK: ['web design scotland edinburgh', 'property listing website glasgow', 'fintech web design edinburgh']
+  },
+  {
+    slug: 'bristol',
+    country: 'United Kingdom',
+    region: 'UK & Europe',
+    name: { id: 'Bristol & Bath', en: 'Bristol & Bath, UK', ar: 'بريستول، المملكة المتحدة' },
+    currency: 'USD',
+    searchIntentUK: ['creative agency web design bristol', 'sustainable green web development uk', 'tech startup website bath']
+  },
+  {
+    slug: 'cambridge',
+    country: 'United Kingdom',
+    region: 'UK & Europe',
+    name: { id: 'Cambridge & Oxford', en: 'Cambridge & Oxford Tech Cluster', ar: 'كامبريدج وأكسفورد، المملكة المتحدة' },
+    currency: 'USD',
+    searchIntentUK: ['biotech web development cambridge', 'deeptech ai website design oxford', 'academic portal development uk']
+  },
+
+  // --- EUROPEAN TECH & BUSINESS CAPITALS ---
+  {
+    slug: 'dublin',
+    country: 'Ireland',
+    region: 'UK & Europe',
+    name: { id: 'Dublin Tech District', en: 'Dublin Tech Silicon Docks, Ireland', ar: 'دبلن، أيرلندا' },
+    currency: 'USD',
+    searchIntentUK: ['saas web development agency dublin', 'gdpr compliant website design ireland', 'fast nextjs agency dublin']
+  },
+  {
+    slug: 'amsterdam',
+    country: 'Netherlands',
+    region: 'UK & Europe',
+    name: { id: 'Amsterdam & Randstad', en: 'Amsterdam & Randstad, Netherlands', ar: 'أمستردام، هولندا' },
+    currency: 'USD',
+    searchIntentUK: ['ecommerce website development amsterdam', 'modern web agency netherlands', 'sustainable cloudflare jamstack amsterdam']
+  },
+  {
+    slug: 'berlin',
+    country: 'Germany',
+    region: 'UK & Europe',
+    name: { id: 'Berlin & Frankfurt', en: 'Berlin & Frankfurt, Germany', ar: 'برلين وفرانكفورت، ألمانيا' },
+    currency: 'USD',
+    searchIntentUK: ['high performance web development berlin', 'b2b corporate website frankfurt', 'gdpr compliant agency germany']
+  },
+  {
+    slug: 'paris',
+    country: 'France',
+    region: 'UK & Europe',
+    name: { id: 'Paris & Île-de-France', en: 'Paris & Île-de-France, France', ar: 'باريس، فرنسا' },
+    currency: 'USD',
+    searchIntentUK: ['luxury brand web design paris', 'editorial creative website france', 'd2c catalog web development paris']
+  },
+  {
+    slug: 'zurich',
+    country: 'Switzerland',
+    region: 'UK & Europe',
+    name: { id: 'Zurich & Geneva', en: 'Zurich & Geneva, Switzerland', ar: 'زيورخ وجنيف، سويسرا' },
+    currency: 'USD',
+    searchIntentUK: ['private banking website zurich', 'luxury wealth advisory web design geneva', 'high security swiss web development']
+  },
+
+  // --- INDONESIA COMMERCIAL HUBS ---
+  { slug: 'jakarta', country: 'Indonesia', region: 'Indonesia', name: { id: 'Jakarta & Jabodetabek', en: 'Jakarta, Indonesia', ar: 'جاكرتا، إندونيسيا' }, currency: 'IDR' },
+  { slug: 'surabaya', country: 'Indonesia', region: 'Indonesia', name: { id: 'Surabaya & Jawa Timur', en: 'Surabaya, Indonesia', ar: 'سورابايا، إندونيسيا' }, currency: 'IDR' },
+  { slug: 'bali', country: 'Indonesia', region: 'Indonesia', name: { id: 'Bali (Denpasar & Badung)', en: 'Bali, Indonesia', ar: 'بالي، إندونيسيا' }, currency: 'IDR' },
+  { slug: 'bandung', country: 'Indonesia', region: 'Indonesia', name: { id: 'Bandung & Jawa Barat', en: 'Bandung, Indonesia', ar: 'باندونغ، إندونيسيا' }, currency: 'IDR' },
+  { slug: 'medan', country: 'Indonesia', region: 'Indonesia', name: { id: 'Medan & Sumatera Utara', en: 'Medan, Indonesia', ar: 'ميدان، إندونيسيا' }, currency: 'IDR' },
+
+  // --- MIDDLE EAST & GLOBAL HUBS ---
+  { slug: 'dubai', country: 'UAE', region: 'Middle East', name: { id: 'Dubai, Uni Emirat Arab', en: 'Dubai, United Arab Emirates', ar: 'دبي، الإمارات العربية المتحدة' }, currency: 'USD' },
+  { slug: 'riyadh', country: 'Saudi Arabia', region: 'Middle East', name: { id: 'Riyadh, Arab Saudi', en: 'Riyadh, Saudi Arabia', ar: 'الرياض، المملكة العربية السعودية' }, currency: 'USD' },
+  { slug: 'singapore', country: 'Singapore', region: 'Global', name: { id: 'Singapura Tech Hub', en: 'Singapore Commercial Hub', ar: 'سنغافورة' }, currency: 'USD' },
+  { slug: 'sydney', country: 'Australia', region: 'Global', name: { id: 'Sydney & NSW', en: 'Sydney & New South Wales, Australia', ar: 'سيدني، أستراليا' }, currency: 'USD' }
 ];
 
 export const faqsData = [

@@ -51,7 +51,7 @@ export const knowledgeCategories = [
   { id: 'ai-search', label: { id: 'Optimasi Pencarian AI', en: 'AI Search Optimization', ar: 'الظهور في محركات الذكاء الاصطناعي' } }
 ];
 
-export const knowledgeTopics: KnowledgeTopic[] = [
+const baseTopics: KnowledgeTopic[] = [
   {
     slug: 'what-is-a-website-and-why-businesses-need-it',
     category: 'fundamentals',
@@ -346,4 +346,133 @@ export const knowledgeTopics: KnowledgeTopic[] = [
       }
     ]
   }
+];
+
+// --- PROGRAMMATIC 500 AUTHORITY TOPICS ENGINE ---
+const verticals = [
+  { id: 'corporate-holding', label: { id: 'Korporasi & Holding', en: 'Corporate & Holding', ar: 'المؤسسات والشركات القابضة' }, cat: 'fundamentals' as const },
+  { id: 'ecommerce-retail', label: { id: 'Toko Online & E-Commerce', en: 'E-Commerce & Retail', ar: 'المتاجر الإلكترونية' }, cat: 'ecommerce' as const },
+  { id: 'real-estate', label: { id: 'Properti & Villa Mewah', en: 'Luxury Real Estate & Villa', ar: 'العقارات والفلل الفاخرة' }, cat: 'fundamentals' as const },
+  { id: 'healthcare-clinic', label: { id: 'Klinik Medis & Dokter', en: 'Healthcare & Medical Clinic', ar: 'العيادات والمراكز الطبية' }, cat: 'fundamentals' as const },
+  { id: 'restaurant-hospitality', label: { id: 'Restoran & Kuliner', en: 'Culinary & Fine Dining', ar: 'المطاعم والضيافة' }, cat: 'ui-components' as const },
+  { id: 'b2b-export', label: { id: 'Eksportir & Pabrik B2B', en: 'B2B Exporter & Manufacturing', ar: 'المصانع والتصدير الدولي' }, cat: 'ecommerce' as const },
+  { id: 'legal-financial', label: { id: 'Kantor Hukum & Pajak', en: 'Legal & Wealth Advisory', ar: 'المحاماة والاستشارات المالية' }, cat: 'seo-authority' as const },
+  { id: 'education-academy', label: { id: 'Bimbel & Akademi Kursus', en: 'Academy & EdTech Courses', ar: 'الأكاديميات والتعليم' }, cat: 'ui-components' as const },
+  { id: 'logistics-industrial', label: { id: 'Ekspedisi & Industri Berat', en: 'Freight Logistics & Industrial', ar: 'الشحن والصناعات الثقيلة' }, cat: 'fundamentals' as const },
+  { id: 'creative-agency', label: { id: 'Agensi Kreatif & Portofolio', en: 'Creative Agency & Design', ar: 'الوكالات الإبداعية والتصميم' }, cat: 'ui-components' as const }
+];
+
+const pillars = [
+  { id: 'sub-second-speed', cat: 'speed-performance' as const, name: { id: 'Optimasi Kecepatan Sub-Detik', en: 'Sub-Second PageSpeed Optimization', ar: 'تحسين سرعة التحميل الفائقة' } },
+  { id: 'whatsapp-lead-funnel', cat: 'fundamentals' as const, name: { id: 'Corong Konversi WhatsApp Otomatis', en: 'Automated WhatsApp Conversion Funnel', ar: 'مسار تحويل العملاء عبر واتساب' } },
+  { id: 'google-search-console', cat: 'seo-authority' as const, name: { id: 'Audit Pengindeksan Google Search Console', en: 'GSC Indexation & Query Audit', ar: 'تدقيق أرشفة قوقل سيرش كونسول' } },
+  { id: 'core-web-vitals', cat: 'speed-performance' as const, name: { id: 'Standar Kelolosan Core Web Vitals (LCP, INP, CLS)', en: 'Core Web Vitals Threshold Benchmark', ar: 'معايير جودة وسرعة تجربة المستخدم' } },
+  { id: 'programmatic-seo', cat: 'seo-authority' as const, name: { id: 'Arsitektur Programmatic SEO 100+ Halaman', en: '100+ Page Programmatic SEO Architecture', ar: 'هيكلية السيو البرمجي متعدد الصفحات' } },
+  { id: 'ai-overview-geo', cat: 'ai-search' as const, name: { id: 'Optimasi Rujukan AI (ChatGPT, Perplexity, Gemini)', en: 'Generative Engine Optimization (GEO)', ar: 'الظهور في نتائج محركات الذكاء الاصطناعي' } },
+  { id: 'analytics-roi', cat: 'analytics' as const, name: { id: 'Pelacakan Event Google Tag & Perhitungan ROI', en: 'Google Tag Tracking & Lead ROI Analytics', ar: 'تتبع الأحداث وقياس العائد على الاستثمار' } },
+  { id: 'cost-breakdown', cat: 'fundamentals' as const, name: { id: 'Transparansi Biaya & Estimasi Balik Modal', en: 'Development Cost Analysis & Break-Even', ar: 'تحليل تكلفة التطوير واسترداد رأس المال' } },
+  { id: 'ui-bento-components', cat: 'ui-components' as const, name: { id: 'Komponen Visual Bento Grid & Mobile UX', en: 'Bento Grid UI Blocks & Mobile Usability', ar: 'واجهات المستخدم العصرية وشبكات بينتو' } },
+  { id: 'uk-europe-export', cat: 'ecommerce' as const, name: { id: 'Strategi Penetrasi Pasar UK, Eropa & Timur Tengah', en: 'UK, European & Gulf Market Ingestion', ar: 'استراتيجيات التوسع في الأسواق البريطانية والأوروبية' } }
+];
+
+const markets = [
+  { id: 'uk-london', name: { id: 'Pasar UK (London & Manchester)', en: 'UK Market (London & Manchester)', ar: 'السوق البريطاني (لندن ومانشستر)' } },
+  { id: 'europe-eu', name: { id: 'Pasar Eropa (Amsterdam & Berlin)', en: 'European Hubs (Amsterdam & Berlin)', ar: 'المراكز الأوروبية (أمستردام وبرلين)' } },
+  { id: 'indonesia-id', name: { id: 'Pasar Indonesia (Jakarta, Surabaya, Bali)', en: 'Indonesian Commercial Centers', ar: 'المراكز التجارية الإندونيسية' } },
+  { id: 'middle-east-gcc', name: { id: 'Pasar Timur Tengah (Riyadh & Dubai)', en: 'Middle East Hubs (Riyadh & Dubai)', ar: 'أسواق الشرق الأوسط (الرياض ودبي)' } },
+  { id: 'global-scale', name: { id: 'Skala Global & Multi-Mata Uang', en: 'Global Cross-Border Scale', ar: 'التوسع العالمي متعدد العملات' } }
+];
+
+function generate500AuthorityTopics(): KnowledgeTopic[] {
+  const generated: KnowledgeTopic[] = [];
+
+  for (const vertical of verticals) {
+    for (const pillar of pillars) {
+      for (const market of markets) {
+        const slug = `${vertical.id}-${pillar.id}-${market.id}`;
+        
+        generated.push({
+          slug,
+          category: pillar.cat,
+          categoryLabel: vertical.label,
+          title: {
+            id: `${pillar.name.id} untuk Sektor ${vertical.label.id} di ${market.name.id}`,
+            en: `${pillar.name.en} for ${vertical.label.en} in ${market.name.en}`,
+            ar: `${pillar.name.ar} لقطاع ${vertical.label.ar} في ${market.name.ar}`
+          },
+          shortSummary: {
+            id: `Panduan implementasi teknis dan strategi konversi ${pillar.name.id.toLowerCase()} yang dirancang khusus untuk industri ${vertical.label.id} guna mendominasi pasar ${market.name.id}.`,
+            en: `Technical implementation and conversion playbook for ${pillar.name.en.toLowerCase()} tailored to the ${vertical.label.en} vertical across ${market.name.en}.`,
+            ar: `دليل تنفيذي واستراتيجي لتطبيق ${pillar.name.ar} المخصص لقطاع ${vertical.label.ar} للتفوق في ${market.name.ar}.`
+          },
+          quickAnswerSnippet: {
+            id: `Untuk sektor ${vertical.label.id} di ${market.name.id}, penerapan ${pillar.name.id.toLowerCase()} secara konsisten melipatgandakan closing rate dan visibilitas pencarian Google hingga 300%. Arsitektur Jamstack Cloudflare memastikan waktu muat di bawah 0.3 detik dengan perutean langsung ke WhatsApp tanpa kehilangan calon pembeli.`,
+            en: `In the ${vertical.label.en} vertical across ${market.name.en}, implementing ${pillar.name.en.toLowerCase()} consistently increases qualified inbound leads by up to 300%. Deploying on Cloudflare Jamstack guarantees sub-300ms response times and direct WhatsApp conversion with zero drop-off.`,
+            ar: `في قطاع ${vertical.label.ar} ضمن أسواق ${market.name.ar}، يساهم تطبيق ${pillar.name.ar} في مضاعفة استفسارات العملاء بنسبة 300% بفضل البنية المعمارية السريعة والربط المباشر مع واتساب.`
+          },
+          detailedContent: {
+            id: [
+              `Otoritas Topik Spesifik: Membangun ratusan halaman terprogram untuk ${vertical.label.id} memastikan dominasi di setiap kata kunci pencarian berniat beli tinggi di ${market.name.id}.`,
+              `Keunggulan Eksekusi Jamstack: Tanpa server database berat yang rentan lag, setiap calon pembeli mendapatkan pengalaman navigasi instan di perangkat seluler mereka.`,
+              `Konversi WhatsApp Tanpa Friksi: Mengurangi hambatan formulir kontak konvensional dan mengarahkan prospek langsung ke chat perwakilan penjualan teknis.`
+            ],
+            en: [
+              `Deep Topical Footprint: Generating high-intent dedicated pages for the ${vertical.label.en} niche establishes unbeatable organic dominance across ${market.name.en}.`,
+              `Jamstack Zero-Latency Execution: By eliminating database overhead, mobile buyers experience sub-second responsiveness resulting in minimal bounce rates.`,
+              `Frictionless WhatsApp Lead Funnel: Removing cumbersome lead forms allows prospects to initiate direct WhatsApp dialogues with technical account managers in seconds.`
+            ],
+            ar: [
+              `هيمنة محركات البحث: استهداف الكلمات البحثية بدقة لقطاع ${vertical.label.ar} يمنح الموقع مصداقية استثنائية في قوقل.`,
+              `سرعة فائقة بدون خوادم معقدة: تحميل فوري للصفحات عبر شبكات كلاود فلير السحابية العالمية.`,
+              `تحويل المبيعات الفوري عبر واتساب: تجاوز نماذج التواصل التقليدية وبدء المحادثة المباشرة مع مسؤولي المبيعات.`
+            ]
+          },
+          keyTakeaways: {
+            id: [
+              `Dominasi kata kunci spesifik sektor ${vertical.label.id}`,
+              `Infrastruktur Cloudflare tanpa biaya server bulanan`,
+              `Peluang konversi leads WhatsApp maksimal di ${market.name.id}`
+            ],
+            en: [
+              `Targeted organic domination for ${vertical.label.en}`,
+              `Zero-maintenance Cloudflare Jamstack infrastructure`,
+              `Maximum WhatsApp conversion rate across ${market.name.en}`
+            ],
+            ar: [
+              `تصدر الكلمات المفتاحية لقطاع ${vertical.label.ar}`,
+              `استضافة سريعة ومحمية عبر كلاود فلير`,
+              `معدل تحويل مباشر عبر واتساب في ${market.name.ar}`
+            ]
+          },
+          relatedKeywords: [
+            `${vertical.id} ${pillar.id}`,
+            `website ${vertical.id} ${market.id}`,
+            `${pillar.id} best practices`,
+            `b2b web architecture ${market.id}`
+          ],
+          faqs: [
+            {
+              q: {
+                id: `Berapa lama waktu implementasi ${pillar.name.id} untuk sektor ini?`,
+                en: `What is the turnaround time for implementing this architecture?`,
+                ar: `ما هي المدة الزمنية لتنفيذ هذه المعمارية؟`
+              },
+              a: {
+                id: `Melalui sistem modular WebScale Engine, implementasi penuh diselesaikan dalam 3–7 hari kerja siap tayang.`,
+                en: `Through WebScale Engine’s modular pipeline, complete deployment is achieved within 3–7 business days.`,
+                ar: `من خلال منظومتنا البرمجية المتطورة، يتم الإطلاق الفعلي خلال 3 إلى 7 أيام عمل فقط.`
+              }
+            }
+          ]
+        });
+      }
+    }
+  }
+
+  return generated;
+}
+
+export const knowledgeTopics: KnowledgeTopic[] = [
+  ...baseTopics,
+  ...generate500AuthorityTopics()
 ];

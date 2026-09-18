@@ -126,9 +126,25 @@ export default function Footer() {
                 <ShieldCheck className="w-3.5 h-3.5 text-emerald-400 shrink-0" />
                 <span>Standard HTTPS & SSL</span>
               </li>
-              <li className="flex items-center gap-1.5">
-                <Sparkles className="w-3.5 h-3.5 text-blue-400 shrink-0" />
-                <span>Struktur Schema.org JSON-LD</span>
+              <li>
+                <Link href="/components" className="hover:text-white transition-colors">
+                  Katalog Komponen UI
+                </Link>
+              </li>
+              <li>
+                <Link href="/code" className="hover:text-white transition-colors">
+                  Pustaka Contoh Kode
+                </Link>
+              </li>
+              <li className="pt-2 border-t border-slate-800">
+                <Link href="/industries/construction" className="hover:text-white transition-colors text-xs text-slate-400">
+                  Web Konstruksi & Kontraktor
+                </Link>
+              </li>
+              <li>
+                <Link href="/industries/law-firm" className="hover:text-white transition-colors text-xs text-slate-400">
+                  Web Kantor Hukum & Advokat
+                </Link>
               </li>
               <li className="pt-1">
                 <Link href="/configure" className="text-white hover:text-blue-400 font-medium">

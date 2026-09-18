@@ -29,11 +29,15 @@ import { generateWhatsAppUrl } from '@/lib/whatsapp';
 interface WebsiteConfiguratorProps {
   initialDesignId?: string;
   initialTypeId?: string;
+  initialPageCount?: number;
+  initialFeatureIds?: string[];
 }
 
 export default function WebsiteConfigurator({
   initialDesignId,
   initialTypeId,
+  initialPageCount,
+  initialFeatureIds,
 }: WebsiteConfiguratorProps) {
   const [currentStep, setCurrentStep] = useState<number>(1);
   const totalSteps = 6;
@@ -43,8 +47,11 @@ export default function WebsiteConfigurator({
   const [selection, setSelection] = useState<ConfiguratorSelection>({
     websiteTypeId: initialTypeId || WEBSITE_TYPES[0].id,
     designId: initialDesignId || DESIGN_CONCEPTS[0].id,
-    pageCount: 5,
-    featureIds: ['whatsapp', 'contact-form', 'maps', 'seo-setup', 'analytics'],
+    pageCount: initialPageCount || 5,
+    featureIds:
+      initialFeatureIds && initialFeatureIds.length > 0
+        ? initialFeatureIds
+        : ['whatsapp', 'contact-form', 'maps', 'seo-setup', 'analytics'],
     domainOption: 'include_com',
     hostingOption: 'include_cloud',
   });

@@ -6,17 +6,39 @@ export interface LocalizedString {
   ar?: string;
 }
 
+export interface FAQItem {
+  question: string;
+  answer: string;
+}
+
+export interface BreadcrumbItem {
+  name: string;
+  url: string;
+}
+
 export interface WebsiteType {
   id: string;
   slug: string;
   name: LocalizedString;
   tagline: LocalizedString;
   description: LocalizedString;
+  overview?: LocalizedString;
   recommendedPages: number;
   basePrice: number; // in IDR
   suitableIndustries: string[];
   featuresIncluded: string[]; // IDs from features catalog
   iconName: string;
+  businessGoals?: string[];
+  benefits?: string[];
+  structureRecommendations?: { pageName: string; description: string }[];
+  faqs?: FAQItem[];
+  relatedIndustries?: string[];
+  relatedComponents?: string[];
+  recommendedDesigns?: string[];
+  recommendedPackage?: string;
+  seoTitle?: string;
+  seoDescription?: string;
+  seoKeywords?: string[];
 }
 
 export interface DesignConcept {
@@ -61,6 +83,71 @@ export interface FeatureItem {
   requiresPages?: number;
 }
 
+export interface IndustryEntity {
+  id: string;
+  slug: string;
+  name: LocalizedString;
+  category: string;
+  tagline: LocalizedString;
+  description: LocalizedString;
+  marketContext: string;
+  commonWebsiteGoals: string[];
+  recommendedWebsiteType: string; // ID of WebsiteType
+  recommendedDesigns: string[]; // IDs of DesignConcepts
+  recommendedFeatures: string[]; // IDs of FeatureItems
+  recommendedPageCount: number;
+  recommendedPackage: string; // ID of WebsitePackage
+  essentialSections: { title: string; explanation: string }[];
+  conversionStrategy: string;
+  faqs: FAQItem[];
+  relatedIndustries: string[]; // slugs
+  seoTitle: string;
+  seoDescription: string;
+  seoKeywords: string[];
+}
+
+export interface ComponentEntity {
+  id: string;
+  slug: string;
+  name: string;
+  category:
+    | 'Navigation'
+    | 'Hero & Headers'
+    | 'Conversion & CTA'
+    | 'Pricing & Commerce'
+    | 'Content & Layout'
+    | 'Trust & Proof'
+    | 'Forms & Inputs'
+    | 'Footers';
+  description: string;
+  bestPractices: string[];
+  useCases: string[];
+  compatibleWebsiteTypes: string[]; // IDs
+  compatibleIndustries: string[]; // Slugs
+  relatedDesigns: string[]; // IDs
+  seoTitle: string;
+  seoDescription: string;
+  keyUXConsiderations: string;
+}
+
+export interface CodeExampleEntity {
+  id: string;
+  slug: string;
+  title: string;
+  category: string;
+  summary: string;
+  language: 'html' | 'css' | 'javascript' | 'typescript' | 'tsx';
+  code: string;
+  whatItDoes: string;
+  whereItIsUseful: string;
+  technologies: string[];
+  accessibilityConsiderations: string[];
+  responsiveConsiderations: string[];
+  relatedComponents: string[];
+  relatedWebsiteTypes: string[];
+  relatedIndustries: string[];
+}
+
 export interface PricingBreakdown {
   websiteType: WebsiteType;
   design: DesignConcept;
@@ -83,14 +170,4 @@ export interface ConfiguratorSelection {
   featureIds: string[];
   domainOption: 'existing' | 'include_com';
   hostingOption: 'existing' | 'include_cloud';
-}
-
-export interface BreadcrumbItem {
-  name: string;
-  url: string;
-}
-
-export interface FAQItem {
-  question: string;
-  answer: string;
 }

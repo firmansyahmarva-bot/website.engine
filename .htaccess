@@ -1,0 +1,31 @@
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+  RewriteBase /
+
+  # Security: Block access to git and source code
+  RewriteRule ^(\.git|\.env|node_modules|src|package\.json|package-lock\.json|tsconfig\.json|next\.config\.ts) - [F,L]
+
+  # 1. Root / -> out/index.html
+  RewriteRule ^$ out/index.html [L]
+
+  # 2. Existing files inside out/ (CSS, JS, images, sitemap.xml, robots.txt)
+  RewriteCond %{DOCUMENT_ROOT}/out/$1 -f [OR]
+  RewriteCond out/$1 -f
+  RewriteRule ^(.*)$ out/$1 [L]
+
+  # 3. Clean HTML routes (e.g. /website-packages -> out/website-packages.html)
+  RewriteCond %{DOCUMENT_ROOT}/out/$1.html -f [OR]
+  RewriteCond out/$1.html -f
+  RewriteRule ^(.*)/?$ out/$1.html [L]
+
+  # 4. Clean Directory HTML routes (e.g. /demos/modern-corporate/ -> out/demos/modern-corporate/index.html)
+  RewriteCond %{DOCUMENT_ROOT}/out/$1/index.html -f [OR]
+  RewriteCond out/$1/index.html -f
+  RewriteRule ^(.*)/?$ out/$1/index.html [L]
+</IfModule>
+
+# Custom 404 Error
+ErrorDocument 404 /out/404.html
+
+# Directory Index fallback
+DirectoryIndex index.php out/index.html index.html

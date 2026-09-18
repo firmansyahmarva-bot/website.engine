@@ -29,15 +29,24 @@
   RewriteCond out/$1 -f
   RewriteRule ^(.*)$ out/$1 [L]
 
-  # 3. Clean HTML routes (e.g. /website-packages -> out/website-packages.html)
+  # 3. Strip trailing slash (e.g. /website-packages/ -> /website-packages)
+  RewriteCond %{REQUEST_FILENAME} !-d
+  RewriteRule ^(.+)/$ /$1 [R=301,L]
+
+  # 4. Clean HTML routes (e.g. /website-packages -> out/website-packages.html)
   RewriteCond %{DOCUMENT_ROOT}/out/$1.html -f [OR]
   RewriteCond out/$1.html -f
-  RewriteRule ^(.*)/?$ out/$1.html [L]
+  RewriteRule ^(.*)$ out/$1.html [L]
 
-  # 4. Clean Directory HTML routes (e.g. /demos/modern-corporate/ -> out/demos/modern-corporate/index.html)
+  # 5. Clean Directory HTML routes (e.g. /demos/modern-corporate -> out/demos/modern-corporate/index.html)
   RewriteCond %{DOCUMENT_ROOT}/out/$1/index.html -f [OR]
   RewriteCond out/$1/index.html -f
-  RewriteRule ^(.*)/?$ out/$1/index.html [L]
+  RewriteRule ^(.*)$ out/$1/index.html [L]
+
+  # 6. Fallback to index.php
+  RewriteCond %{REQUEST_FILENAME} !-f
+  RewriteCond %{REQUEST_FILENAME} !-d
+  RewriteRule ^(.*)$ index.php [L]
 </IfModule>
 
 # Custom 404 Error

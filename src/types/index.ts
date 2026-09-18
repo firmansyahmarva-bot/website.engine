@@ -55,6 +55,9 @@ export interface DesignConcept {
   keyStrengths: string[];
   demoSlug: string;
   badge?: string;
+  imageUrl?: string;
+  industryTag?: string;
+  mockupBadge?: string;
 }
 
 export interface WebsitePackage {

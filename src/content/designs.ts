@@ -27,6 +27,9 @@ export const DESIGN_CONCEPTS: DesignConcept[] = [
     keyStrengths: ['Struktur Hierarki Jelas', 'Tampilan Kredibel B2B', 'Optimasi Waktu Muat Tinggi'],
     demoSlug: 'modern-corporate',
     badge: 'Paling Populer',
+    imageUrl: 'https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=800&q=80',
+    industryTag: 'Korporat & Holding',
+    mockupBadge: 'B2B Enterprise',
   },
   {
     id: 'premium-corporate',
@@ -53,6 +56,9 @@ export const DESIGN_CONCEPTS: DesignConcept[] = [
     targetAudience: ['Firma Hukum', 'Wealth Management', 'Pengembang Properti Mewah', 'Family Office'],
     keyStrengths: ['Wibawa Eksklusif', 'Tipografi Editorial Berkelas', 'Fokus Reputasi'],
     demoSlug: 'premium-corporate',
+    imageUrl: 'https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&w=800&q=80',
+    industryTag: 'Legal & Wealth',
+    mockupBadge: 'Executive Grade',
   },
   {
     id: 'minimal-business',
@@ -79,6 +85,9 @@ export const DESIGN_CONCEPTS: DesignConcept[] = [
     targetAudience: ['Studio Arsitektur', 'Konsultan Manajemen', 'Desainer Produk', 'Boutique Agency'],
     keyStrengths: ['Skor PageSpeed Maksimal', 'Estetika Modern Bersih', 'Kenyamanan Membaca'],
     demoSlug: 'minimal-business',
+    imageUrl: 'https://images.unsplash.com/photo-1497215728101-856f4ea42174?auto=format&fit=crop&w=800&q=80',
+    industryTag: 'Konsultan & Kreatif',
+    mockupBadge: 'Clean Minimalist',
   },
   {
     id: 'bold-creative',
@@ -105,6 +114,9 @@ export const DESIGN_CONCEPTS: DesignConcept[] = [
     targetAudience: ['Creative Agency', 'Production House', 'Talent Management', 'Digital Marketing Agency'],
     keyStrengths: ['Daya Tarik Visual Tinggi', 'Pameran Portfolio Dinamis', 'Meninggalkan Kesan Mendalam'],
     demoSlug: 'bold-creative',
+    imageUrl: 'https://images.unsplash.com/photo-1550745165-9bc0b252726f?auto=format&fit=crop&w=800&q=80',
+    industryTag: 'Digital Agency',
+    mockupBadge: 'High Contrast',
   },
   {
     id: 'professional-services',
@@ -131,6 +143,9 @@ export const DESIGN_CONCEPTS: DesignConcept[] = [
     targetAudience: ['Konsultan Pajak & Keuangan', 'Kantor Jasa Akuntan', 'Konsultan SDM', 'Auditor & Surveyor'],
     keyStrengths: ['Membangun Otoritas Ahli', 'Integrasi Jadwal Konsultasi', 'Penjelasan Jasa Terinci'],
     demoSlug: 'professional-services',
+    imageUrl: 'https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?auto=format&fit=crop&w=800&q=80',
+    industryTag: 'Jasa Profesional',
+    mockupBadge: 'Trust & Authority',
   },
   {
     id: 'industrial',
@@ -157,6 +172,9 @@ export const DESIGN_CONCEPTS: DesignConcept[] = [
     targetAudience: ['Pabrik Manufaktur', 'Kontraktor Fabrikasi Baja', 'Distributor Alat Berat', 'Penyedia Sparepart'],
     keyStrengths: ['Tabel Spesifikasi Rapi', 'Pameran Fasilitas Pabrik', 'Formulir Permintaan Penawaran Tender'],
     demoSlug: 'industrial',
+    imageUrl: 'https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&w=800&q=80',
+    industryTag: 'Pabrik & Logistik',
+    mockupBadge: 'Industrial B2B',
   },
   {
     id: 'technology',
@@ -183,6 +201,9 @@ export const DESIGN_CONCEPTS: DesignConcept[] = [
     targetAudience: ['SaaS Startup', 'Software House', 'Penyedia Solusi IoT', 'Infrastruktur Cloud'],
     keyStrengths: ['Visualisasi Fitur Produk', 'Tabel Perbandingan Paket', 'CTA Registrasi & Demo'],
     demoSlug: 'technology',
+    imageUrl: 'https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=800&q=80',
+    industryTag: 'SaaS & Cloud',
+    mockupBadge: 'Cloud Native',
   },
   {
     id: 'restaurant',
@@ -209,6 +230,9 @@ export const DESIGN_CONCEPTS: DesignConcept[] = [
     targetAudience: ['Restoran Keluarga', 'Fine Dining', 'Bistro & Specialty Cafe', 'Katering Pernikahan'],
     keyStrengths: ['Menu Interaktif Mudah Dibaca', 'Tombol Reservasi Meja Cepat', 'Integrasi Google Maps'],
     demoSlug: 'restaurant',
+    imageUrl: 'https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=800&q=80',
+    industryTag: 'Kuliner & F&B',
+    mockupBadge: 'Visual Dining',
   },
   {
     id: 'training-education',
@@ -235,6 +259,9 @@ export const DESIGN_CONCEPTS: DesignConcept[] = [
     targetAudience: ['Bootcamp Coding', 'Lembaga Kursus Bahasa', 'Lembaga Sertifikasi Profesi', 'Training Korporat'],
     keyStrengths: ['Visualisasi Silabus Belajar', 'Profil Pengajar Transparan', 'Pendaftaran Mudah'],
     demoSlug: 'training-education',
+    imageUrl: 'https://images.unsplash.com/photo-1524178232363-1fb2b075b655?auto=format&fit=crop&w=800&q=80',
+    industryTag: 'Pendidikan & Kursus',
+    mockupBadge: 'Academy & EdTech',
   },
   {
     id: 'ecommerce-retail',
@@ -261,5 +288,8 @@ export const DESIGN_CONCEPTS: DesignConcept[] = [
     targetAudience: ['Brand Fashion Lokal', 'Distributor Perlengkapan Rumah', 'Toko Gadget', 'Produsen Herbal'],
     keyStrengths: ['Tampilan Produk Terstruktur', 'Checkout WhatsApp Cepat', 'Badge Garansi & Kepercayaan'],
     demoSlug: 'ecommerce-retail',
+    imageUrl: 'https://images.unsplash.com/photo-1441986300917-64674bd600d8?auto=format&fit=crop&w=800&q=80',
+    industryTag: 'Toko Online & Ritel',
+    mockupBadge: 'High Conversion',
   },
 ];

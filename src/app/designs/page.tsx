@@ -40,39 +40,47 @@ export default function DesignsPage() {
           {DESIGN_CONCEPTS.map((design) => (
             <div
               key={design.id}
-              className="bg-white border border-slate-200 rounded-2xl overflow-hidden hover:shadow-lg transition-all flex flex-col justify-between"
+              className="bg-white border border-slate-200 rounded-2xl overflow-hidden card-hover shadow-sm flex flex-col justify-between group"
             >
               <div>
-                {/* Visual Header Banner */}
-                <div
-                  className="p-6 text-white"
-                  style={{ backgroundColor: design.primaryColor }}
-                >
-                  <div className="flex items-center justify-between text-xs opacity-80 mb-2">
-                    <span className="uppercase font-semibold tracking-wider">
-                      {design.styleCategory}
+                {/* Visual Photographic Preview */}
+                <div className="relative h-56 w-full overflow-hidden bg-slate-900">
+                  <img
+                    src={design.imageUrl || 'https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=800&q=80'}
+                    alt={design.name.id}
+                    className="w-full h-full object-cover object-center group-hover:scale-110 transition-transform duration-500"
+                    loading="lazy"
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-t from-slate-950/85 via-slate-950/25 to-transparent" />
+
+                  <div className="absolute top-3 left-3 flex items-center gap-2">
+                    <span className="px-2.5 py-1 rounded-md text-[10px] font-bold bg-slate-900/90 text-white backdrop-blur-sm border border-slate-700/60 shadow">
+                      {design.industryTag || design.styleCategory}
                     </span>
                     {design.badge && (
-                      <span className="bg-white/25 text-white px-2 py-0.5 rounded font-bold text-[10px]">
+                      <span className="px-2.5 py-1 rounded-md text-[10px] font-bold bg-amber-500 text-slate-950 shadow">
                         {design.badge}
                       </span>
                     )}
                   </div>
-                  <h2 className="text-xl font-bold tracking-tight">{design.name.id}</h2>
-                  <p className="text-xs opacity-90 mt-1 line-clamp-2">{design.tagline.id}</p>
 
-                  <div className="mt-4 flex items-center gap-2 pt-3 border-t border-white/15 text-xs">
-                    <span
-                      className="w-3.5 h-3.5 rounded-full border border-white/50"
-                      style={{ backgroundColor: design.primaryColor }}
-                    />
-                    <span
-                      className="w-3.5 h-3.5 rounded-full border border-white/50"
-                      style={{ backgroundColor: design.accentColor }}
-                    />
-                    <span className="opacity-75 text-[11px]">
-                      Tipografi: {design.fontFamily.split(',')[0]}
-                    </span>
+                  <div className="absolute bottom-3 left-3 right-3 flex items-center justify-between">
+                    <div>
+                      <h2 className="text-base font-bold text-white tracking-tight drop-shadow">{design.name.id}</h2>
+                      <span className="text-[10px] text-blue-300 font-mono">{design.mockupBadge || 'Prototype Ready'}</span>
+                    </div>
+                    <div className="flex items-center gap-1.5">
+                      <span
+                        className="w-3.5 h-3.5 rounded-full border border-white/80 shadow"
+                        style={{ backgroundColor: design.primaryColor }}
+                        title="Primary Color"
+                      />
+                      <span
+                        className="w-3.5 h-3.5 rounded-full border border-white/80 shadow"
+                        style={{ backgroundColor: design.accentColor }}
+                        title="Accent Color"
+                      />
+                    </div>
                   </div>
                 </div>
 

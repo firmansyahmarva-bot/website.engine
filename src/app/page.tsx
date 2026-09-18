@@ -1,3 +1,4 @@
+import React from 'react';
 import Link from 'next/link';
 import {
   ArrowRight,
@@ -11,12 +12,20 @@ import {
   Code2,
   ChevronRight,
   ExternalLink,
+  MessageCircle,
 } from 'lucide-react';
 import { WEBSITE_PACKAGES } from '@/content/packages';
-import { DESIGN_CONCEPTS } from '@/content/designs';
 import { WEBSITE_TYPES } from '@/content/website-types';
+import { INDUSTRIES } from '@/content/industries';
 import { formatIDR } from '@/content/pricing';
+import { generateDirectWhatsAppUrl } from '@/lib/whatsapp';
 import FAQAccordion from '@/components/ui/FAQAccordion';
+import HeroSection from '@/components/home/HeroSection';
+import TechMarquee from '@/components/home/TechMarquee';
+import DesignShowcaseSection from '@/components/home/DesignShowcaseSection';
+import PerformanceProofSection from '@/components/home/PerformanceProofSection';
+import ComparisonSection from '@/components/home/ComparisonSection';
+import SocialProofSection from '@/components/home/SocialProofSection';
 import { FAQItem } from '@/types';
 
 const HOMEPAGE_FAQS: FAQItem[] = [
@@ -48,404 +57,263 @@ const HOMEPAGE_FAQS: FAQItem[] = [
 ];
 
 export default function HomePage() {
+  const directWhatsAppUrl = generateDirectWhatsAppUrl('paket website & konsultasi langsung');
+
   return (
-    <div>
-      {/* HERO SECTION */}
-      <section className="relative overflow-hidden bg-white border-b border-slate-200 pt-16 pb-20 sm:pt-24 sm:pb-28">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="max-w-3xl mx-auto text-center space-y-6">
-            <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full text-xs font-semibold bg-blue-50 text-blue-700 border border-blue-200">
-              <Sparkles className="w-3.5 h-3.5 text-blue-600" />
-              <span>Platform Rekayasa Website Modern & Terstandarisasi</span>
-            </div>
+    <div className="bg-slate-50 min-h-screen">
+      {/* 1. HERO SECTION WITH RICH VISUALS & FLOATING MOTION */}
+      <HeroSection />
 
-            <h1 className="text-3xl sm:text-5xl lg:text-6xl font-extrabold text-slate-900 tracking-tight leading-[1.15]">
-              Kami Membangun Website Profesional untuk Bisnis Anda
-            </h1>
+      {/* 2. ENTERPRISE TECH STACK MARQUEE */}
+      <TechMarquee />
 
-            <p className="text-base sm:text-lg text-slate-600 leading-relaxed max-w-2xl mx-auto">
-              Bukan sekadar template biasa. Kami merancang website berkinerja tinggi, berkecepatan
-              muat kilat, teroptimasi SEO Google, dan direkayasa khusus untuk mengubah pengunjung
-              menjadi prospek penjualan riil.
-            </p>
+      {/* 3. DESIGN CONCEPTS SHOWCASE WITH REAL PHOTOGRAPHY & TABS */}
+      <DesignShowcaseSection />
 
-            {/* CTAs */}
-            <div className="pt-4 flex flex-col sm:flex-row items-center justify-center gap-4">
-              <Link
-                href="/configure"
-                className="w-full sm:w-auto inline-flex items-center justify-center gap-2 px-7 py-3.5 text-base font-bold text-white bg-blue-600 hover:bg-blue-700 rounded-xl shadow-md transition-all focus-visible:ring-2 focus-visible:ring-blue-500"
-              >
-                <span>Bangun Website Anda</span>
-                <ArrowRight className="w-5 h-5" />
-              </Link>
+      {/* 4. REAL PERFORMANCE PROOF (GOOGLE PAGESPEED 100/100) */}
+      <PerformanceProofSection />
 
-              <Link
-                href="/designs"
-                className="w-full sm:w-auto inline-flex items-center justify-center gap-2 px-6 py-3.5 text-base font-semibold text-slate-800 bg-slate-100 hover:bg-slate-200 rounded-xl border border-slate-200 transition-colors"
-              >
-                <span>Lihat Konsep Desain</span>
-              </Link>
-            </div>
+      {/* 5. COMPARISON MATRIX (KAMI VS AGENCY BIASA VS FREELANCER) */}
+      <ComparisonSection />
 
-            {/* Micro value props */}
-            <div className="pt-8 grid grid-cols-2 sm:grid-cols-4 gap-4 text-xs font-medium text-slate-600 border-t border-slate-100">
-              <div className="flex items-center justify-center gap-1.5">
-                <CheckCircle2 className="w-4 h-4 text-emerald-600 shrink-0" />
-                <span>100% Milik Anda</span>
-              </div>
-              <div className="flex items-center justify-center gap-1.5">
-                <CheckCircle2 className="w-4 h-4 text-emerald-600 shrink-0" />
-                <span>Tanpa Biaya Langganan Kode</span>
-              </div>
-              <div className="flex items-center justify-center gap-1.5">
-                <CheckCircle2 className="w-4 h-4 text-emerald-600 shrink-0" />
-                <span>Performa Loading Tinggi</span>
-              </div>
-              <div className="flex items-center justify-center gap-1.5">
-                <CheckCircle2 className="w-4 h-4 text-emerald-600 shrink-0" />
-                <span>Garansi Bug & Error</span>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* PACKAGES SECTION */}
+      {/* 6. INVESTMENT PACKAGES SECTION */}
       <section className="py-16 sm:py-24 bg-slate-50 border-b border-slate-200">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center max-w-3xl mx-auto mb-14">
-            <span className="text-xs font-bold text-blue-600 uppercase tracking-wider">
-              Pilihan Investasi
+            <span className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-bold bg-blue-50 text-blue-700 border border-blue-200 uppercase tracking-wider">
+              Pilihan Paket Investasi
             </span>
             <h2 className="text-2xl sm:text-4xl font-extrabold text-slate-900 mt-2 tracking-tight">
-              Paket Pembuatan Website Terstandarisasi
+              Investasi Transparan untuk Pertumbuhan Bisnis Nyata
             </h2>
-            <p className="text-slate-600 text-sm sm:text-base mt-3">
-              Rincian cakupan kerja dan biaya transparan tanpa biaya tersembunyi.
+            <p className="text-slate-600 mt-3 text-base sm:text-lg">
+              Setiap paket mencakup domain, cloud hosting cepat, optimasi SEO on-page, dan garansi pemeliharaan teknis resmi.
             </p>
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 items-stretch">
-            {WEBSITE_PACKAGES.map((pkg) => (
-              <div
-                key={pkg.id}
-                className={`bg-white rounded-2xl p-7 border-2 flex flex-col justify-between transition-all ${
-                  pkg.isPopular
-                    ? 'border-blue-600 shadow-lg relative ring-4 ring-blue-50'
-                    : 'border-slate-200 shadow-sm hover:border-slate-300'
-                }`}
-              >
-                <div>
-                  {pkg.isPopular && (
-                    <span className="absolute -top-3 left-1/2 -translate-x-1/2 px-3 py-1 bg-blue-600 text-white text-[11px] font-bold uppercase tracking-wider rounded-full shadow">
-                      Paling Direkomendasikan
-                    </span>
+            {WEBSITE_PACKAGES.map((pkg) => {
+              const isPopular = pkg.isPopular;
+              return (
+                <div
+                  key={pkg.id}
+                  className={`relative rounded-2xl bg-white border flex flex-col justify-between p-7 sm:p-8 card-hover shadow-sm ${
+                    isPopular
+                      ? 'border-blue-600 ring-2 ring-blue-600/20 shadow-lg'
+                      : 'border-slate-200 hover:border-slate-300'
+                  }`}
+                >
+                  {isPopular && (
+                    <div className="absolute -top-3.5 left-1/2 -translate-x-1/2 bg-blue-600 text-white text-xs font-bold uppercase tracking-wider px-3.5 py-1 rounded-full shadow">
+                      Paling Banyak Dipilih
+                    </div>
                   )}
 
-                  <div className="mb-4">
-                    <h3 className="text-xl font-bold text-slate-900">{pkg.name.id}</h3>
-                    <p className="text-xs text-slate-500 mt-1">{pkg.tagline.id}</p>
-                  </div>
+                  <div>
+                    <div className="mb-4">
+                      <h3 className="text-xl font-extrabold text-slate-900">{pkg.name.id}</h3>
+                      <p className="text-xs text-slate-500 mt-1">{pkg.tagline.id}</p>
+                    </div>
 
-                  <div className="mb-6 pb-6 border-b border-slate-100">
-                    <div className="text-2xl sm:text-3xl font-black text-slate-900">
-                      {formatIDR(pkg.basePrice)}
-                    </div>
-                    <div className="text-xs text-slate-500 mt-1 flex items-center gap-3">
-                      <span>Estimasi {pkg.turnaroundDays} hari kerja</span>
-                      <span>&bull;</span>
-                      <span>Hingga {pkg.maxPages} halaman</span>
-                    </div>
-                  </div>
-
-                  <div className="space-y-3 mb-8">
-                    <div className="text-xs font-bold uppercase text-slate-400 tracking-wider">
-                      Cakupan Pekerjaan:
-                    </div>
-                    {pkg.highlights.map((highlight, idx) => (
-                      <div key={idx} className="flex items-start gap-2 text-xs text-slate-700">
-                        <CheckCircle2 className="w-4 h-4 text-emerald-600 shrink-0 mt-0.5" />
-                        <span>{highlight}</span>
+                    <div className="py-4 my-4 border-y border-slate-100">
+                      <span className="text-xs text-slate-500 block">Biaya Investasi Mulai:</span>
+                      <div className="flex items-baseline gap-1 mt-1">
+                        <span className="text-2xl sm:text-3xl font-extrabold text-slate-900">
+                          {formatIDR(pkg.basePrice)}
+                        </span>
                       </div>
-                    ))}
+                      <span className="text-xs text-emerald-700 font-medium mt-1 block">
+                        Termasuk {pkg.maxPages} Halaman Utama
+                      </span>
+                    </div>
+
+                    <p className="text-xs text-slate-600 mb-6 leading-relaxed">
+                      {pkg.idealFor.id}
+                    </p>
+
+                    <div className="space-y-3 mb-8">
+                      <p className="text-xs font-bold text-slate-900 uppercase tracking-wider">
+                        Fitur Utama & Jaminan:
+                      </p>
+                      {pkg.highlights.slice(0, 5).map((deliv, dIdx) => (
+                        <div key={dIdx} className="flex items-start gap-2.5 text-xs text-slate-700">
+                          <CheckCircle2 className="w-4 h-4 text-emerald-600 shrink-0 mt-0.5" />
+                          <span>{deliv}</span>
+                        </div>
+                      ))}
+                    </div>
+                  </div>
+
+                  <div className="pt-6 border-t border-slate-100 space-y-3">
+                    <div className="flex items-center justify-between text-xs text-slate-500">
+                      <span className="flex items-center gap-1">
+                        <Clock className="w-3.5 h-3.5" />
+                        <span>Estimasi Pengerjaan:</span>
+                      </span>
+                      <span className="font-semibold text-slate-700">{pkg.turnaroundDays} Hari Kerja</span>
+                    </div>
+
+                    <Link
+                      href={`/configure?tier=${pkg.tier}`}
+                      className={`w-full inline-flex items-center justify-center gap-2 px-5 py-3 rounded-xl font-bold text-sm transition-colors ${
+                        isPopular
+                          ? 'bg-blue-600 hover:bg-blue-700 text-white shadow-md'
+                          : 'bg-slate-100 hover:bg-slate-200 text-slate-800'
+                      }`}
+                    >
+                      <span>Konfigurasikan Paket Ini</span>
+                      <ArrowRight className="w-4 h-4" />
+                    </Link>
                   </div>
                 </div>
-
-                <div className="pt-4 border-t border-slate-100">
-                  <Link
-                    href={`/configure?type=${pkg.tier === 'starter' ? 'landing-page' : 'company-profile'}`}
-                    className={`w-full py-3 px-4 rounded-xl text-center text-sm font-bold transition-all flex items-center justify-center gap-2 ${
-                      pkg.isPopular
-                        ? 'bg-blue-600 hover:bg-blue-700 text-white shadow-sm'
-                        : 'bg-slate-100 hover:bg-slate-200 text-slate-800'
-                    }`}
-                  >
-                    <span>Pilih & Konfigurasi Paket</span>
-                    <ArrowRight className="w-4 h-4" />
-                  </Link>
-                </div>
-              </div>
-            ))}
+              );
+            })}
           </div>
 
-          <div className="text-center mt-10">
+          <div className="mt-12 text-center">
             <Link
               href="/website-packages"
-              className="text-sm font-semibold text-blue-600 hover:text-blue-700 inline-flex items-center gap-1.5"
+              className="inline-flex items-center gap-2 text-sm font-semibold text-blue-600 hover:text-blue-700"
             >
-              <span>Pelajari perbandingan lengkap setiap paket</span>
+              <span>Bandingkan Detail Fitur Semua Paket</span>
               <ChevronRight className="w-4 h-4" />
             </Link>
           </div>
         </div>
       </section>
 
-      {/* 10 DESIGN CONCEPTS SHOWCASE */}
-      <section className="py-16 sm:py-24 bg-white border-b border-slate-200">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="flex flex-col md:flex-row md:items-end justify-between mb-12 gap-4">
-            <div>
-              <span className="text-xs font-bold text-blue-600 uppercase tracking-wider">
-                Sistem Desain
-              </span>
-              <h2 className="text-2xl sm:text-4xl font-extrabold text-slate-900 mt-2 tracking-tight">
-                10 Konsep Desain Orisinal Berkarakter
-              </h2>
-              <p className="text-slate-600 text-sm sm:text-base mt-2 max-w-xl">
-                Bukan tiruan template murahan. Setiap konsep dirancang dengan hierarki visual dan
-                psikologi konversi sesuai sektor industrinya.
-              </p>
+      {/* 7. INTERACTIVE CONFIGURATOR CTA BANNER */}
+      <section className="py-14 sm:py-20 bg-gradient-to-r from-blue-700 via-blue-600 to-indigo-700 text-white relative overflow-hidden">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+          <div className="max-w-3xl mx-auto text-center space-y-6">
+            <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full text-xs font-semibold bg-white/10 text-blue-100 backdrop-blur-sm border border-white/20">
+              <SlidersHorizontal className="w-3.5 h-3.5 text-white" />
+              <span>Simulasi Anggaran Instan</span>
             </div>
-            <Link
-              href="/designs"
-              className="inline-flex items-center gap-2 text-sm font-bold text-blue-600 hover:text-blue-700"
-            >
-              <span>Lihat Semua Katalog Desain</span>
-              <ArrowRight className="w-4 h-4" />
-            </Link>
-          </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-            {DESIGN_CONCEPTS.slice(0, 6).map((design) => (
-              <div
-                key={design.id}
-                className="group border border-slate-200 rounded-2xl overflow-hidden hover:border-slate-300 hover:shadow-md transition-all bg-white flex flex-col justify-between"
+            <h2 className="text-2xl sm:text-4xl font-extrabold text-white tracking-tight">
+              Kustomisasikan Website Sesuai Kebutuhan & Anggaran Anda
+            </h2>
+
+            <p className="text-blue-100 text-sm sm:text-base leading-relaxed">
+              Tentukan tipe website, jumlah halaman, konsep desain, dan fitur add-on yang Anda perlukan. Sistem kami menghitung biaya secara transparan secara real-time.
+            </p>
+
+            <div className="pt-2 flex flex-col sm:flex-row items-center justify-center gap-4">
+              <Link
+                href="/configure"
+                className="w-full sm:w-auto inline-flex items-center justify-center gap-2 px-8 py-3.5 rounded-xl font-bold text-base bg-white text-blue-700 hover:bg-blue-50 shadow-lg transition-colors"
               >
-                <div>
-                  {/* Visual Header Mockup Bar */}
-                  <div
-                    className="p-5 text-white"
-                    style={{ backgroundColor: design.primaryColor }}
-                  >
-                    <div className="flex items-center justify-between text-xs opacity-80 mb-3">
-                      <span>{design.styleCategory}</span>
-                      {design.badge && (
-                        <span className="bg-white/20 px-2 py-0.5 rounded font-bold text-[10px]">
-                          {design.badge}
-                        </span>
-                      )}
-                    </div>
-                    <h3 className="text-lg font-bold">{design.name.id}</h3>
-                    <p className="text-xs opacity-90 mt-1 line-clamp-1">{design.tagline.id}</p>
-                  </div>
+                <span>Buka Kalkulator Estimasi</span>
+                <ArrowRight className="w-5 h-5 text-blue-700" />
+              </Link>
 
-                  <div className="p-5 space-y-3">
-                    <p className="text-xs text-slate-600 line-clamp-2 leading-relaxed">
-                      {design.description.id}
-                    </p>
-
-                    <div className="pt-2 flex flex-wrap gap-1.5">
-                      {design.targetAudience.slice(0, 3).map((aud, i) => (
-                        <span
-                          key={i}
-                          className="text-[11px] font-medium bg-slate-100 text-slate-700 px-2 py-0.5 rounded-md"
-                        >
-                          {aud}
-                        </span>
-                      ))}
-                    </div>
-                  </div>
-                </div>
-
-                <div className="p-5 pt-0 flex items-center justify-between gap-2 border-t border-slate-100 mt-2">
-                  <Link
-                    href={`/demos/${design.slug}`}
-                    className="inline-flex items-center gap-1.5 text-xs font-bold text-slate-700 hover:text-blue-600 transition-colors"
-                  >
-                    <span>Uji Coba Live Demo</span>
-                    <ExternalLink className="w-3.5 h-3.5" />
-                  </Link>
-
-                  <Link
-                    href={`/configure?design=${design.id}`}
-                    className="inline-flex items-center gap-1 text-xs font-semibold text-blue-600 hover:text-blue-700"
-                  >
-                    <span>Gunakan Desain</span>
-                    <ArrowRight className="w-3.5 h-3.5" />
-                  </Link>
-                </div>
-              </div>
-            ))}
+              <a
+                href={directWhatsAppUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="w-full sm:w-auto inline-flex items-center justify-center gap-2 px-6 py-3.5 rounded-xl font-semibold text-sm bg-blue-800/60 hover:bg-blue-800 text-white border border-white/20 transition-colors"
+              >
+                <MessageCircle className="w-4 h-4" />
+                <span>Konsultasi Langsung via WA</span>
+              </a>
+            </div>
           </div>
         </div>
       </section>
 
-      {/* CATEGORIES / WEBSITE TYPES */}
-      <section className="py-16 sm:py-24 bg-slate-50 border-b border-slate-200">
+      {/* 8. INDUSTRY SECTORS EXPLORER (PROGRAMMATIC SEO) */}
+      <section className="py-16 sm:py-24 bg-white border-b border-slate-200">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center max-w-3xl mx-auto mb-14">
             <span className="text-xs font-bold text-blue-600 uppercase tracking-wider">
-              Solusi Industri
+              Solusi Industri Spesifik
             </span>
             <h2 className="text-2xl sm:text-4xl font-extrabold text-slate-900 mt-2 tracking-tight">
-              Kategori & Model Website Siap Bangun
+              Arsitektur Website Disesuaikan untuk 40+ Sektor Usaha
             </h2>
-            <p className="text-slate-600 text-sm sm:text-base mt-2">
-              Setiap model bisnis membutuhkan arsitektur informasi yang spesifik.
+            <p className="text-slate-600 mt-3 text-base sm:text-lg">
+              Website kontraktor membutuhkan alur tender B2B, sementara klinik membutuhkan alur jadwal temu. Kami memiliki rancangan spesifik untuk industri Anda.
             </p>
           </div>
 
-          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
-            {WEBSITE_TYPES.map((type) => (
+          <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-4">
+            {INDUSTRIES.slice(0, 12).map((ind) => (
               <Link
-                key={type.id}
-                href={`/configure?type=${type.id}`}
-                className="p-5 bg-white rounded-xl border border-slate-200 hover:border-blue-400 hover:shadow-sm transition-all group"
+                key={ind.id}
+                href={`/industries/${ind.slug}`}
+                className="p-4 rounded-xl bg-slate-50 border border-slate-200 hover:border-blue-500 hover:bg-blue-50/50 transition-all text-center group card-hover"
               >
-                <div className="font-bold text-slate-900 text-sm group-hover:text-blue-600 transition-colors flex items-center justify-between">
-                  <span>{type.name.id}</span>
-                  <ArrowRight className="w-4 h-4 text-slate-400 group-hover:text-blue-600 transition-transform group-hover:translate-x-0.5" />
-                </div>
-                <p className="text-xs text-slate-500 mt-1 line-clamp-2">{type.tagline.id}</p>
-                <div className="mt-3 text-[11px] font-semibold text-slate-400">
-                  Mulai {formatIDR(type.basePrice)}
-                </div>
+                <span className="block text-xs font-bold text-slate-800 group-hover:text-blue-700 transition-colors">
+                  {ind.name.id}
+                </span>
+                <span className="text-[10px] text-slate-500 mt-1 block group-hover:text-blue-600">
+                  Lihat Rekomendasi &rarr;
+                </span>
               </Link>
             ))}
           </div>
+
+          <div className="mt-10 text-center">
+            <p className="text-xs text-slate-500">
+              Menyediakan solusi website untuk Konstruksi, Manufaktur, Konsultan, Hospitality, F&amp;B, Retail, Otomotif, hingga Organisasi Nirlaba.
+            </p>
+          </div>
         </div>
       </section>
 
-      {/* HOW IT WORKS / 4-STEP PROCESS */}
+      {/* 9. SOCIAL PROOF & QUANTIFIABLE CASE STUDIES */}
+      <SocialProofSection />
+
+      {/* 10. HOMEPAGE FAQS WITH SCHEMA.ORG JSON-LD */}
       <section className="py-16 sm:py-24 bg-white border-b border-slate-200">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center max-w-2xl mx-auto mb-16">
+        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-12">
             <span className="text-xs font-bold text-blue-600 uppercase tracking-wider">
-              Alur Transparan
+              Tanya Jawab
             </span>
-            <h2 className="text-2xl sm:text-4xl font-extrabold text-slate-900 mt-2 tracking-tight">
-              4 Langkah Mudah Mewujudkan Website Anda
+            <h2 className="text-2xl sm:text-3xl font-extrabold text-slate-900 mt-2">
+              Pertanyaan yang Sering Diajukan
             </h2>
-            <p className="text-slate-600 text-sm sm:text-base mt-2">
-              Proses kerja terstruktur tanpa birokrasi berbelit.
+            <p className="text-slate-600 text-sm mt-2">
+              Jawaban transparan seputar proses pengerjaan, kepemilikan aset, dan jaminan kualitas.
             </p>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
-            <div className="space-y-3">
-              <div className="w-12 h-12 rounded-xl bg-blue-50 text-blue-600 border border-blue-200 flex items-center justify-center font-black text-lg">
-                1
-              </div>
-              <h3 className="font-bold text-slate-900 text-base">Konfigurasi Kebutuhan</h3>
-              <p className="text-xs text-slate-600 leading-relaxed">
-                Pilih model website, konsep desain, jumlah halaman, dan modul fitur melalui
-                kalkulator interaktif kami.
-              </p>
-            </div>
-
-            <div className="space-y-3">
-              <div className="w-12 h-12 rounded-xl bg-blue-50 text-blue-600 border border-blue-200 flex items-center justify-center font-black text-lg">
-                2
-              </div>
-              <h3 className="font-bold text-slate-900 text-base">Konsultasi & Penawaran</h3>
-              <p className="text-xs text-slate-600 leading-relaxed">
-                Rincian konfigurasi terkirim langsung ke WhatsApp. Tim teknis mengonfirmasi jadwal,
-                materi teks, dan penawaran resmi.
-              </p>
-            </div>
-
-            <div className="space-y-3">
-              <div className="w-12 h-12 rounded-xl bg-blue-50 text-blue-600 border border-blue-200 flex items-center justify-center font-black text-lg">
-                3
-              </div>
-              <h3 className="font-bold text-slate-900 text-base">Proses Pembuatan & Review</h3>
-              <p className="text-xs text-slate-600 leading-relaxed">
-                Website direkayasa sesuai standar teknis. Anda diberikan tautan staging pribadi untuk
-                meninjau dan mengajukan revisi.
-              </p>
-            </div>
-
-            <div className="space-y-3">
-              <div className="w-12 h-12 rounded-xl bg-blue-50 text-blue-600 border border-blue-200 flex items-center justify-center font-black text-lg">
-                4
-              </div>
-              <h3 className="font-bold text-slate-900 text-base">Peluncuran & Serah Terima</h3>
-              <p className="text-xs text-slate-600 leading-relaxed">
-                Website resmi dihubungkan ke domain utama Anda, didaftarkan ke Google Search Console,
-                dan dijamin garansi pemeliharaan.
-              </p>
-            </div>
-          </div>
+          <FAQAccordion items={HOMEPAGE_FAQS} />
         </div>
       </section>
 
-      {/* CONFIGURATOR CTA BANNER */}
-      <section className="py-16 bg-slate-900 text-white">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="bg-gradient-to-r from-blue-900 to-slate-900 rounded-3xl p-8 sm:p-12 border border-blue-800/60 shadow-xl flex flex-col lg:flex-row items-center justify-between gap-8">
-            <div className="max-w-2xl space-y-3 text-center lg:text-left">
-              <span className="text-xs font-bold uppercase tracking-wider text-blue-400">
-                Simulasi Instan
-              </span>
-              <h2 className="text-2xl sm:text-4xl font-black tracking-tight text-white">
-                Hitung Estimasi Biaya Pembuatan Website Anda Sekarang
-              </h2>
-              <p className="text-sm text-slate-300 leading-relaxed">
-                Gunakan konfigurator interaktif kami untuk memilih modul sesuai budget bisnis Anda.
-                Transparan, akurat, dan tanpa keharusan langsung membayar.
-              </p>
-            </div>
+      {/* 11. CLOSING HIGH-CONVERSION CTA */}
+      <section className="py-16 sm:py-20 bg-slate-900 text-white relative overflow-hidden">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 text-center">
+          <div className="max-w-2xl mx-auto space-y-6">
+            <h2 className="text-2xl sm:text-4xl font-extrabold text-white tracking-tight">
+              Siap Memiliki Website Profesional yang Menghasilkan Penjualan?
+            </h2>
+            <p className="text-slate-300 text-sm sm:text-base leading-relaxed">
+              Mulai dengan memilih konsep desain dan estimasikan anggaran Anda dalam 2 menit, atau konsultasikan langsung kebutuhan Anda dengan tim arsitek kami via WhatsApp.
+            </p>
 
-            <div className="flex flex-col sm:flex-row items-center gap-4 shrink-0 w-full lg:w-auto">
+            <div className="pt-2 flex flex-col sm:flex-row items-center justify-center gap-4">
               <Link
                 href="/configure"
-                className="w-full sm:w-auto inline-flex items-center justify-center gap-2 px-8 py-4 text-base font-bold text-slate-900 bg-white hover:bg-slate-100 rounded-xl shadow-lg transition-colors"
+                className="w-full sm:w-auto inline-flex items-center justify-center gap-2 px-8 py-3.5 rounded-xl font-bold text-slate-950 bg-emerald-400 hover:bg-emerald-300 shadow-lg shadow-emerald-950/40 transition-all"
               >
-                <SlidersHorizontal className="w-5 h-5 text-blue-600" />
-                <span>Buka Konfigurator Interaktif</span>
+                <span>Estimasi Biaya Website</span>
+                <ArrowRight className="w-5 h-5 text-slate-950" />
               </Link>
+
+              <a
+                href={directWhatsAppUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="w-full sm:w-auto inline-flex items-center justify-center gap-2 px-7 py-3.5 rounded-xl font-semibold text-white bg-slate-800 hover:bg-slate-700 border border-slate-700 transition-colors"
+              >
+                <MessageCircle className="w-4 h-4 text-emerald-400" />
+                <span>Diskusi Langsung via WhatsApp</span>
+              </a>
             </div>
-          </div>
-        </div>
-      </section>
-
-      {/* FAQ SECTION */}
-      <FAQAccordion items={HOMEPAGE_FAQS} />
-
-      {/* FINAL CONVERSION CTA */}
-      <section className="py-16 sm:py-20 bg-white border-t border-slate-200 text-center">
-        <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 space-y-5">
-          <h2 className="text-2xl sm:text-4xl font-extrabold text-slate-900 tracking-tight">
-            Siap Membangun Kehadiran Digital Bisnis Anda?
-          </h2>
-          <p className="text-slate-600 text-sm sm:text-base leading-relaxed">
-            Mulai dengan memilih konsep desain dan spesifikasi website. Tim teknis kami siap membantu
-            merealisasikannya menjadi aset digital yang menghasilkan prospek.
-          </p>
-          <div className="pt-2 flex flex-wrap justify-center gap-4">
-            <Link
-              href="/configure"
-              className="inline-flex items-center gap-2 px-8 py-3.5 text-base font-bold text-white bg-blue-600 hover:bg-blue-700 rounded-xl shadow transition-colors"
-            >
-              <span>Bangun Website Anda Sekarang</span>
-              <ArrowRight className="w-5 h-5" />
-            </Link>
-            <Link
-              href="/pricing"
-              className="inline-flex items-center gap-2 px-6 py-3.5 text-base font-semibold text-slate-700 bg-slate-100 hover:bg-slate-200 rounded-xl transition-colors"
-            >
-              <span>Lihat Rincian Biaya</span>
-            </Link>
           </div>
         </div>
       </section>

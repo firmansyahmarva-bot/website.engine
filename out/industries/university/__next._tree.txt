@@ -1,2 +1,2 @@
-:HL["/_next/static/css/1e6c2d7124cfa13e.css","style"]
-0:{"tree":{"name":"","param":null,"prefetchHints":4112,"slots":{"children":{"name":"industries","param":null,"prefetchHints":4160,"slots":{"children":{"name":"slug","param":{"type":"d","key":"university","siblings":[]},"prefetchHints":4192,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":4256,"slots":null}}}}}}},"staleTime":300,"buildId":"ylxXoBcHUCZqBovlWgBxW"}
+:HL["/_next/static/css/3dea89f0538f286a.css","style"]
+0:{"tree":{"name":"","param":null,"prefetchHints":4112,"slots":{"children":{"name":"industries","param":null,"prefetchHints":4160,"slots":{"children":{"name":"slug","param":{"type":"d","key":"university","siblings":[]},"prefetchHints":4192,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":4256,"slots":null}}}}}}},"staleTime":300,"buildId":"j8_0nyh3W3W6i9z1ME4sK"}

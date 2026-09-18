@@ -9,8 +9,26 @@ $requestPath = rawurldecode($requestPath);
 $baseDir = __DIR__ . '/out';
 
 // 0. 301 Permanent Redirects
-if ($requestPath === '/panduan/cannibalization-keyword' || $requestPath === '/panduan/cannibalization-keyword/') {
-    header('Location: /panduan/kanibalisasi-keyword', true, 301);
+$redirects = [
+    '/panduan/cannibalization-keyword' => '/panduan/kanibalisasi-keyword',
+    '/panduan/schema-markup'           => '/panduan/structured-data-ai',
+    '/panduan/conversion-rate'         => '/panduan/tingkat-konversi-cvr',
+    '/panduan/static-site-generation'  => '/panduan/ssg-ssr-csr',
+    '/jasa-pembuatan-website-jakarta-selatan' => '/jasa-pembuatan-website-jakarta',
+    '/industries/hospitality'          => '/industries/hotel',
+    '/industries/culinary'             => '/industries/restaurant',
+    '/industries/education'            => '/industries/school',
+    '/industries/fishery'              => '/industries/agriculture',
+    '/industries/textile'              => '/industries/fashion',
+    '/industries/furniture'            => '/industries/interior-design',
+    '/industries/footwear'             => '/industries/manufacturing',
+    '/industries/mining'               => '/industries/engineering',
+    '/industries/maritime'             => '/industries/logistics',
+];
+
+$cleanReq = rtrim($requestPath, '/');
+if (isset($redirects[$cleanReq])) {
+    header('Location: ' . $redirects[$cleanReq], true, 301);
     exit;
 }
 

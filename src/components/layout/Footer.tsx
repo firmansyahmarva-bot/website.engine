@@ -24,7 +24,7 @@ export default function Footer() {
                 <LayoutTemplate className="w-4 h-4" />
               </div>
               <span>
-                Website<span className="text-blue-500">Platform</span>
+                Jasa<span className="text-blue-500">Website</span>
               </span>
             </Link>
             <p className="text-xs text-slate-400 leading-relaxed">
@@ -134,12 +134,12 @@ export default function Footer() {
             <ul className="space-y-2 text-xs">
               <li>
                 <Link href="/panduan" className="hover:text-white transition-colors font-medium text-slate-200">
-                  {isEn ? '93 Technical Glossary' : 'Ensiklopedia 93 Glosarium'}
+                  {isEn ? '150 Technical Guides' : 'Ensiklopedia 150 Glosarium'}
                 </Link>
               </li>
               <li>
                 <Link href="/perbandingan" className="hover:text-white transition-colors text-blue-400 font-medium">
-                  {isEn ? '18 Tech Comparisons \u2192' : '18 Perbandingan Web & Tech \u2192'}
+                  {isEn ? '18 Tech Comparisons →' : '18 Perbandingan Web & Tech →'}
                 </Link>
               </li>
               <li>
@@ -148,17 +148,17 @@ export default function Footer() {
                 </Link>
               </li>
               <li>
-                <Link href="/panduan/static-site-generation" className="hover:text-white transition-colors">
+                <Link href="/panduan/ssg-ssr-csr" className="hover:text-white transition-colors">
                   Static Site Generation (SSG)
                 </Link>
               </li>
               <li>
-                <Link href="/panduan/schema-markup" className="hover:text-white transition-colors">
+                <Link href="/panduan/structured-data-ai" className="hover:text-white transition-colors">
                   Schema Markup & JSON-LD
                 </Link>
               </li>
               <li>
-                <Link href="/panduan/conversion-rate" className="hover:text-white transition-colors">
+                <Link href="/panduan/tingkat-konversi-cvr" className="hover:text-white transition-colors">
                   {isEn ? 'Conversion Rate Optimization' : 'Optimasi Konversi (CRO)'}
                 </Link>
               </li>
@@ -173,8 +173,8 @@ export default function Footer() {
             </h3>
             <ul className="space-y-2 text-xs text-slate-400">
               <li>
-                <Link href="/jasa-pembuatan-website-jakarta-selatan" className="hover:text-white transition-colors">
-                  Jakarta Tech Corridor
+                <Link href="/jasa-pembuatan-website-jakarta" className="hover:text-white transition-colors">
+                  Jakarta Corporate & B2B
                 </Link>
               </li>
               <li>

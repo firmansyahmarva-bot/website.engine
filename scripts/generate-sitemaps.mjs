@@ -106,7 +106,9 @@ async function run() {
   fs.writeFileSync(path.join(publicDir, 'sitemap-showcase.xml'), buildUrlSet(showcaseUrls), 'utf8');
 
   // 5. Industri & Website Types
-  const industriUrls = [];
+  const industriUrls = [
+    { loc: `${SITE_URL}/industries`, priority: '0.95', changefreq: 'weekly' }
+  ];
   const indPath = path.join(__dirname, '../src/content/industries.ts');
   if (fs.existsSync(indPath)) {
     const content = fs.readFileSync(indPath, 'utf8');

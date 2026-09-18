@@ -61,7 +61,7 @@ export default function Navbar() {
                 <LayoutTemplate className="w-5 h-5" />
               </div>
               <span className="flex items-center">
-                Website<span className="text-blue-600">Platform</span>
+                Jasa<span className="text-blue-600">Website</span>
               </span>
             </Link>
           </div>

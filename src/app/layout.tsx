@@ -14,9 +14,18 @@ export const metadata: Metadata = {
   },
   description:
     'Layanan pembuatan website profesional terstandarisasi untuk korporat, UMKM, dan bisnis. Desain modern, loading cepat, SEO-friendly, dan siap mendatangkan prospek penjualan.',
-  verification: process.env.NEXT_PUBLIC_GSC_VERIFICATION
-    ? { google: process.env.NEXT_PUBLIC_GSC_VERIFICATION }
-    : undefined,
+  verification: {
+    google: 'aPVF1n3Ri2Y3pc6ej2PKGWuALhGtPnmsAGLUsHoELNI',
+  },
+  icons: {
+    icon: [
+      { url: '/favicon.ico', sizes: '32x32' },
+      { url: '/favicon.svg', type: 'image/svg+xml' },
+    ],
+    apple: [
+      { url: '/apple-touch-icon.png', sizes: '180x180', type: 'image/png' },
+    ],
+  },
   alternates: {
     canonical: SITE_URL,
     languages: {

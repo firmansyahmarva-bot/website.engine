@@ -4,9 +4,10 @@
   "private": true,
   "scripts": {
     "dev": "next dev --webpack",
+    "favicons": "node scripts/generate-favicons.mjs",
     "og": "node scripts/generate-og.mjs",
     "sitemaps": "node scripts/generate-sitemaps.mjs",
-    "build": "npm run og && npm run sitemaps && next build --webpack",
+    "build": "npm run favicons && npm run og && npm run sitemaps && next build --webpack",
     "start": "next start"
   },
   "dependencies": {

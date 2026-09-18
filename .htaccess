@@ -4,6 +4,19 @@
 
   # 301 Permanent Redirects
   RewriteRule ^panduan/cannibalization-keyword/?$ /panduan/kanibalisasi-keyword [R=301,L]
+  RewriteRule ^panduan/schema-markup/?$ /panduan/structured-data-ai [R=301,L]
+  RewriteRule ^panduan/conversion-rate/?$ /panduan/tingkat-konversi-cvr [R=301,L]
+  RewriteRule ^panduan/static-site-generation/?$ /panduan/ssg-ssr-csr [R=301,L]
+  RewriteRule ^jasa-pembuatan-website-jakarta-selatan/?$ /jasa-pembuatan-website-jakarta [R=301,L]
+  RewriteRule ^industries/hospitality/?$ /industries/hotel [R=301,L]
+  RewriteRule ^industries/culinary/?$ /industries/restaurant [R=301,L]
+  RewriteRule ^industries/education/?$ /industries/school [R=301,L]
+  RewriteRule ^industries/fishery/?$ /industries/agriculture [R=301,L]
+  RewriteRule ^industries/textile/?$ /industries/fashion [R=301,L]
+  RewriteRule ^industries/furniture/?$ /industries/interior-design [R=301,L]
+  RewriteRule ^industries/footwear/?$ /industries/manufacturing [R=301,L]
+  RewriteRule ^industries/mining/?$ /industries/engineering [R=301,L]
+  RewriteRule ^industries/maritime/?$ /industries/logistics [R=301,L]
 
   # Security: Block access to git and source code
   RewriteRule ^(\.git|\.env|node_modules|src|package\.json|package-lock\.json|tsconfig\.json|next\.config\.ts) - [F,L]

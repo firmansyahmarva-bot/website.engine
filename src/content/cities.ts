@@ -889,7 +889,7 @@ export const CITIES: CityEntity[] = [
     "connectivityProfile": "Kota Depok memiliki penetrasi internet broadband fiber optik rumah tangga (IndiHome, First Media, MyRepublic, Biznet) yang sangat tinggi serta jaringan seluler 4G/5G yang merata. Namun penggunaan perangkat didominasi oleh ponsel cerdas kelas menengah yang sensitif terhadap bobot data, menuntut website yang dirancang dengan kompresi gambar optimal dan arsitektur kode bersih tanpa skrip pelacak yang memberatkan gawai pengunjung.",
     "industryDeepDive": [
       {
-        "industrySlug": "education",
+        "industrySlug": "school",
         "localAngle": "Lembaga bimbingan belajar masuk PTN favorit, akademi pelatihan kedinasan, dan sekolah Islam terpadu di kawasan Beji dan Margonda membutuhkan portal informasi pendaftaran daring terstruktur, fitur unduh silabus pelajaran, serta integrasi jadwal simulasi tryout interaktif."
       },
       {
@@ -2588,7 +2588,7 @@ export const CITIES: CityEntity[] = [
         "localAngle": "Pertokoan di sepanjang Jalan HZ Mustofa dan pusat grosir Pasar Cikurubuk menghadapi persaingan ketat dengan produk impor murah di media sosial. Toko ritel Tasikmalaya membutuhkan website berkonsep etalase modern dengan integrasi inventaris lokal, lokasi cabang Google Maps terverifikasi, dan program loyalitas pelanggan untuk mengunci pasar belanja keluarga Priangan Timur."
       },
       {
-        "industrySlug": "culinary",
+        "industrySlug": "restaurant",
         "localAngle": "Industri kuliner legendaris Priangan seperti tutug oncom instan, rengginang, keripik sukun, dan olahan makaroni pedas di Tasikmalaya tengah bertransformasi menjadi oleh-oleh premium berskala nasional. Website kuliner lokal membutuhkan landing page yang menonjolkan sertifikasi Halal, izin PIRT/BPOM, serta kemudahan pemesanan paket reseller lintas pulau dengan integrasi ekspedisi kargo."
       }
     ],
@@ -2742,7 +2742,7 @@ export const CITIES: CityEntity[] = [
     "connectivityProfile": "Jaringan 4G LTE telah mencakup seluruh area perkotaan Banyumas, namun sinyal seluler dapat berfluktuasi saat memasuki daerah perbukitan Baturraden dan lereng pegunungan. Oleh karena itu, arsitektur website wajib menerapkan teknik caching lokal dan bobot payload minimal agar tetap responsif dibuka oleh wisatawan yang sedang berada di area wisata.",
     "industryDeepDive": [
       {
-        "industrySlug": "education",
+        "industrySlug": "school",
         "localAngle": "Sebagai sentra perguruan tinggi eks-Karesidenan Banyumas yang dipimpin Unsoed, UMP, dan Telkom University Purwokerto, ekosistem pendidikan membutuhkan website yang memadukan profil akademik, portal informasi pendaftaran mahasiswa baru (PMB), dan direktori asrama/kost modern yang terintegrasi WhatsApp admin."
       },
       {
@@ -2827,7 +2827,7 @@ export const CITIES: CityEntity[] = [
         "localAngle": "Sentra pengecoran logam Adiwerna dan Talang memproduksi komponen presisi otomotif, suku cadang kapal, pompa air, dan mesin industri pertanian. Website manufaktur logam Tegal harus menampilkan spesifikasi teknis material (besi cor FC/FCD, kuningan, aluminium), kapasitas produksi bulanan, dokumentasi mesin bubut CNC, serta sertifikasi uji laboratorium kekuatan bahan."
       },
       {
-        "industrySlug": "fishery",
+        "industrySlug": "agriculture",
         "localAngle": "Pelabuhan Tegalsari dan kawasan Muarareja menampung ratusan kapal penangkap ikan laut dalam dan industri pengolahan cumi beku, ikan teri nasi, serta tepung ikan. Website perikanan Tegal memerlukan katalog B2B cold-storage dengan informasi sertifikat HACCP, suhu penyimpanan beku terkontrol, dan kesiapan pasokan kontainer berpendingin ke pelabuhan ekspor."
       },
       {
@@ -2908,11 +2908,11 @@ export const CITIES: CityEntity[] = [
         "localAngle": "Sebagai Kota Kreatif Dunia UNESCO kategori Crafts and Folk Art, ratusan pengrajin batik tulis encim, pesisiran, serta konveksi daster rumahan di Buaran membutuhkan website yang menampilkan estetika filosofi motif, galeri foto detail warna otentik, dan katalog grosir berpassword untuk distributor khusus."
       },
       {
-        "industrySlug": "textile",
+        "industrySlug": "fashion",
         "localAngle": "Industri penenunan kain mori, printing tekstil sarung palekat, dan proses pencelupan warna di Pekalongan memasok pasar tekstil hingga ke Timur Tengah dan Afrika. Website pabrik tekstil membutuhkan halaman profil kapasitas produksi mesin tenun rapier/air-jet, laboratorium formulasi warna, dan pemenuhan sertifikasi Oeko-Tex ramah lingkungan."
       },
       {
-        "industrySlug": "fishery",
+        "industrySlug": "agriculture",
         "localAngle": "Pelabuhan Perikanan Nusantara Pekalongan (PPNP) di Pekalongan Utara menjadi sentra tangkapan ikan laut dan pengolahan industri pindang serta terasi bermutu tinggi. Website perikanan membutuhkan halaman profil kapasitas cold-storage, jaminan rantai pasok rantai dingin (cold chain), dan sertifikasi uji mutu karantina ikan."
       }
     ],
@@ -2993,7 +2993,7 @@ export const CITIES: CityEntity[] = [
         "localAngle": "Sentra bordir icik khas Kudus di Padurenan Gebog menghasilkan busana muslim, kerudung, dan mukena dengan ketelitian teknik sulam tangan dan komputer yang bernilai tinggi. Website fashion Kudus harus berfungsi sebagai lookbook visual eksklusif yang mampu menarik butik premium nasional dan pasar ekspor busana muslim dunia."
       },
       {
-        "industrySlug": "culinary",
+        "industrySlug": "restaurant",
         "localAngle": "Industri jenang Kudus, kopi Muria, dan olahan kuliner khas memerlukan platform representasi komersial modern yang memuat sertifikat Halal BPJPH, izin edar BPOM, profil fasilitas produksi higienis, serta kemudahan kerja sama keagenan bagi jaringan supermarket ritel nasional."
       }
     ],
@@ -3066,7 +3066,7 @@ export const CITIES: CityEntity[] = [
     "connectivityProfile": "Konektivitas serat optik sangat baik di kawasan pusat kota Magelang dan koridor Mertoyudan. Namun, wisatawan yang mengeksplorasi desa wisata di perbukitan Menoreh atau tepian Sungai Elo kerap mengalami penurunan sinyal seluler, sehingga website wisata wajib ringan dibuka tanpa membebani browser ponsel.",
     "industryDeepDive": [
       {
-        "industrySlug": "hospitality",
+        "industrySlug": "hotel",
         "localAngle": "Boutique hotel, resort privat di Menoreh, dan glamping di sekitar Borobudur membutuhkan website dengan visual storytelling memukau, kalender ketersediaan kamar real-time, dan sistem direct booking yang terintegrasi pembayaran instan guna memangkas komisi 15-20% ke agen perjalanan online (OTA)."
       },
       {
@@ -3147,11 +3147,11 @@ export const CITIES: CityEntity[] = [
     "connectivityProfile": "Infrastruktur telekomunikasi berkembang sangat pesat seiring hadirnya Bandara Dhoho, didukung jaringan 4G/5G seluler yang kencang di area perkotaan. Calon siswa kursus Pare dan tamu bandara mengakses web mayoritas melalui ponsel pintar, menuntut tampilan website yang responsif dan ringan diakses.",
     "industryDeepDive": [
       {
-        "industrySlug": "education",
+        "industrySlug": "school",
         "localAngle": "Ratusan institusi kursus bahasa asing di Kampung Inggris Pare membutuhkan landing page generasi baru dengan konversi tinggi, video testimoni alumni, fitur kalkulator biaya paket camp/asrama, serta sistem pendaftaran formulir online yang langsung mengalirkan data calon siswa ke WhatsApp admin penasihat kursus."
       },
       {
-        "industrySlug": "hospitality",
+        "industrySlug": "hotel",
         "localAngle": "Hotel transit, penginapan syariah, dan armada rental mobil di koridor Bandara Dhoho Kediri memerlukan situs web representatif untuk melayani pemesanan langsung dari penumpang maskapai, pebisnis korporat luar pulau, dan keluarga jamaah umrah dengan kemudahan pemesanan cepat."
       },
       {
@@ -3395,7 +3395,7 @@ export const CITIES: CityEntity[] = [
         "localAngle": "Jember adalah produsen daun tembakau cerutu pembungkus (dekblad) nomor satu di dunia dan pengekspor edamame serta kopi robusta lereng Pegunungan Argopuro. Perusahaan agro-industri Jember membutuhkan website profil B2B multibahasa (Indonesia-Inggris) yang menampilkan sertifikasi GAP (Good Agricultural Practices), kapasitas gudang pendingin (cold storage), dan spesifikasi daun cerutu ekspor."
       },
       {
-        "industrySlug": "education",
+        "industrySlug": "school",
         "localAngle": "Dengan populasi lebih dari 60.000 mahasiswa aktif di Unej, Politeknik Negeri Jember (Polije), dan UIN KHAS Jember, ekosistem lembaga kursus keahlian, bimbingan tes masuk kedokteran, dan asrama hunian modern membutuhkan website landing page dengan sistem pendaftaran daring terintegrasi notifikasi otomatis WhatsApp."
       },
       {
@@ -3476,11 +3476,11 @@ export const CITIES: CityEntity[] = [
         "localAngle": "Sebagai magnet wisata bertaraf internasional (Kawah Ijen, Pulau Merah, G-Land, Baluran), operator wisata lokal membutuhkan website dwibahasa responsif dengan panduan rute perjalanan rinci, galeri visual memukau, dan formulir booking open trip langsung via WhatsApp tanpa jeda."
       },
       {
-        "industrySlug": "fishery",
+        "industrySlug": "agriculture",
         "localAngle": "Pelabuhan Muncar adalah sentra industri pengalengan ikan sarden, tepung ikan, dan cold storage udang skala ekspor. Website korporat perikanan Banyuwangi memerlukan pembuktian kepatuhan sertifikasi BPOM, Halal, HACCP, serta standar ekspor ke pasar Jepang, Uni Eropa, dan Amerika Serikat."
       },
       {
-        "industrySlug": "hospitality",
+        "industrySlug": "hotel",
         "localAngle": "Eco-resort, villa bambu privat di Licin, dan hotel transit di sekitar Pelabuhan Ketapang membutuhkan platform pemesanan langsung (direct booking) resmi untuk membebaskan pemilik usaha dari beban potongan komisi agen perjalanan online (OTA) yang mencapai 15-20% per malam."
       }
     ],
@@ -3560,7 +3560,7 @@ export const CITIES: CityEntity[] = [
         "localAngle": "Sebagai simpul transit menuju Kawasan Ekonomi Khusus (KEK) Mandalika, Gunung Rinjani, dan Tiga Gili, biro perjalanan wisata di Mataram membutuhkan landing page berkecepatan tinggi dengan fitur pemesanan paket open trip, sewa mobil lepas kunci, dan ulasan pelanggan terverifikasi."
       },
       {
-        "industrySlug": "hospitality",
+        "industrySlug": "hotel",
         "localAngle": "Hotel bisnis di pusat kota Mataram dan homestay syariah di koridor Islamic Center memerlukan platform reservasi kamar langsung yang memadukan fasilitas ballroom pertemuan korporat, paket wisata halal (halal tourism), dan pemesanan kamar instan tanpa potongan komisi pihak ketiga."
       }
     ],
@@ -3632,7 +3632,7 @@ export const CITIES: CityEntity[] = [
     "connectivityProfile": "Jaringan internet serat optik dan 4G seluler telah mencakup area perkotaan Kupang, namun koneksi dapat melambat saat memasuki kawasan pinggiran atau kepulauan sekitar. Halaman website wajib dioptimasi seringan mungkin, bebas dari beban script animasi berat, agar dapat diakses seketika di seluruh pelosok Nusa Tenggara Timur.",
     "industryDeepDive": [
       {
-        "industrySlug": "culinary",
+        "industrySlug": "restaurant",
         "localAngle": "Kuliner Sei Sapi asap tradisional khas Kupang memiliki pasar konsumen fanatik di seluruh Indonesia. Website produsen daging sei Kupang membutuhkan toko online terpadu dengan informasi kemasan beku vakum tahan lama, sertifikasi Halal/BPOM, serta kalkulator ongkos kirim kargo udara otomatis ke berbagai kota besar nusantara."
       },
       {
@@ -3717,11 +3717,11 @@ export const CITIES: CityEntity[] = [
         "localAngle": "Sebagai surga keanekaragaman hayati laut dunia di Taman Nasional Bunaken dan Selat Lembeh, operator diving center dan resort selam di Manado membutuhkan website kelas dunia multibahasa (Inggris, Mandarin, Indonesia) dengan kalender reservasi langsung, profil instruktur berlisensi PADI, dan galeri bawah laut definisi tinggi."
       },
       {
-        "industrySlug": "fishery",
+        "industrySlug": "agriculture",
         "localAngle": "Manado dan Pelabuhan Perikanan Samudera Bitung adalah poros ekspor ikan tuna sirip kuning (yellowfin tuna) dan cakalang segar ke pasar Jepang dan Amerika. Website industri perikanan Manado membutuhkan profil korporat rantai dingin (cold chain) dengan bukti pemenuhan sertifikasi HACCP dan karantina ekspor kargo udara."
       },
       {
-        "industrySlug": "hospitality",
+        "industrySlug": "hotel",
         "localAngle": "Hotel bintang dan resort pantai di sepanjang koridor Megamas dan pesisir Malalayang memerlukan website representatif yang menyajikan panorama matahari terbenam Teluk Manado, direktori ballroom konferensi internasional MICE, serta mesin pemesanan kamar langsung tanpa biaya komisi perantara."
       }
     ],
@@ -3798,7 +3798,7 @@ export const CITIES: CityEntity[] = [
         "localAngle": "Kawasan Ekonomi Khusus (KEK) Palu menampung industri pengolahan getah pinus, aspal buton, dan hilirisasi mineral tambang nikel. Perusahaan manufaktur di KEK Palu memerlukan website profil B2B yang menampilkan izin operasional kawasan berikat, fasilitas dermaga curah, dan standar keselamatan lingkungan hidup."
       },
       {
-        "industrySlug": "culinary",
+        "industrySlug": "restaurant",
         "localAngle": "Bawang Goreng Palu (berbahan dasar bawang batu lokal) memiliki tekstur renyah alami dan aroma khas yang sangat diburu konsumen nusantara. Website produsen bawang goreng membutuhkan katalog e-commerce modern dengan kemasan toples premium, sertifikasi Halal/PIRT, dan fitur pesanan grosir ke agen oleh-oleh nasional."
       },
       {
@@ -3962,7 +3962,7 @@ export const CITIES: CityEntity[] = [
         "localAngle": "Sebagai pintu gerbang eksplorasi surga bahari Banda Neira, Pantai Ora di Seram, dan spot muck-diving Teluk Ambon, biro perjalanan wisata di Ambon membutuhkan website dengan kalender open trip, galeri foto terumbu karang definisi tinggi, dan integrasi pemesanan tiket kapal cepat/pesawat perintis."
       },
       {
-        "industrySlug": "fishery",
+        "industrySlug": "agriculture",
         "localAngle": "Wilayah Pengelolaan Perikanan (WPP) Laut Banda di sekitar Ambon merupakan lumbung ikan nasional penghasil tuna sirip kuning dan kerapu hidup. Perusahaan perikanan tangkap dan pengolahan ikan beku di Ambon butuh website korporat resmi untuk memenuhi uji kelayakan sanitasi HACCP pembeli luar negeri."
       }
     ],
@@ -4203,7 +4203,7 @@ export const CITIES: CityEntity[] = [
         "localAngle": "Pelabuhan Tanjung Intan adalah satu-satunya pelabuhan samudra laut dalam di pantai selatan Jawa yang melayani kargo batu bara PLTU, clinker semen, dan klinker gipsum. Perusahaan keagenan kapal laut (shipping agency) dan jasa bongkar muat butuh portal informasi kedalaman dermaga, fasilitas tugboat, dan izin operasional perhubungan laut."
       },
       {
-        "industrySlug": "fishery",
+        "industrySlug": "agriculture",
         "localAngle": "Kawasan perairan Teluk Penyu dan Samudra Hindia di selatan Cilacap menghasilkan komoditas ekspor udang jerbung, ikan layur, tuna, dan ubur-ubur asin. Eksportir perikanan Cilacap memerlukan etalase B2B resmi dengan sertifikat Hazard Analysis Critical Control Point (HACCP) untuk melayani pembeli industri pengolahan Jepang dan Taiwan."
       }
     ],
@@ -4279,11 +4279,11 @@ export const CITIES: CityEntity[] = [
         "localAngle": "Ratusan industri kecil dan menengah (IKM) logam rekanan PT INKA yang memproduksi komponen interior kereta, permesinan presisi, dan fabrikasi baja di Madiun membutuhkan website profil vendor berstandar ISO 9001 untuk memenuhi kualifikasi audit rantai pasok industri kereta api nasional dan ekspor."
       },
       {
-        "industrySlug": "culinary",
+        "industrySlug": "restaurant",
         "localAngle": "Industri pengolahan sambal pecel sangrai khas Madiun, brem tradisional, dan madu mongso memerlukan platform toko online terpadu dengan integrasi perhitungan ongkos kirim kargo, izin edar BPOM, dan sertifikasi Halal untuk melayani pesanan reseller dan konsumen nusantara."
       },
       {
-        "industrySlug": "education",
+        "industrySlug": "school",
         "localAngle": "Sebagai lokasi berdirinya Politeknik Perkeretaapian Indonesia (PPI Madiun), Universitas PGRI Madiun, dan berbagai akademi kejuruan, institusi pendidikan di Madiun membutuhkan website resmi dengan portal penerimaan mahasiswa baru (PMB), direktori riset vokasi, dan integrasi pendaftaran online."
       }
     ],
@@ -4359,7 +4359,7 @@ export const CITIES: CityEntity[] = [
         "localAngle": "Sebagai gerbang utama wisata internasional Taman Nasional Bromo Tengger Semeru via Sukapura, operator jeep 4x4, paket trekking sunrise, dan agen open trip membutuhkan website dwibahasa (Inggris-Indonesia) dengan fitur kalender booking langsung, rincian fasilitas tur, dan integrasi WhatsApp reservasi."
       },
       {
-        "industrySlug": "fishery",
+        "industrySlug": "agriculture",
         "localAngle": "Pelabuhan Perikanan Mayangan menampung industri pengolahan udang vaname, ikan layang, dan cold storage berkapasitas ribuan ton. Perusahaan perikanan Probolinggo membutuhkan website profil B2B yang memuat sertifikat HACCP, nomor kelayakan pengolahan (SKP), dan kesiapan pasokan ekspor."
       },
       {
@@ -4440,7 +4440,7 @@ export const CITIES: CityEntity[] = [
         "localAngle": "Ratusan pabrik makanan olahan, kimia industri, kemasan logam, dan komponen otomotif di kawasan PIER Rembang dan Beji membutuhkan website profil korporat berstandar internasional yang mendokumentasikan sertifikasi ISO 9001, ISO 22000, sertifikat Halal, dan komitmen keberlanjutan lingkungan hidup."
       },
       {
-        "industrySlug": "furniture",
+        "industrySlug": "interior-design",
         "localAngle": "Sentra mebel kayu Bukir yang mempekerjakan ribuan tukang ukir dan pertukangan kayu jati/mahoni membutuhkan website portofolio digital berkelas yang menampilkan katalog set kamar tidur, meja rapat kantor, interior custom hotel, serta jaminan kualitas kayu oven kering."
       },
       {
@@ -4520,7 +4520,7 @@ export const CITIES: CityEntity[] = [
         "localAngle": "Puluhan industri manufaktur keramik, pengolahan makanan, kabel, dan kimia industri di Ngoro Industrial Park (NIP) membutuhkan website profil korporat berstandar global yang menampilkan kapasitas fasilitas pabrik, sertifikasi sistem mutu ISO 9001/14001, dan kepatuhan standar keselamatan kerja."
       },
       {
-        "industrySlug": "footwear",
+        "industrySlug": "manufacturing",
         "localAngle": "Ratusan perajin dan pabrik sepatu di Prajurit Kulon membutuhkan website katalog B2B untuk melayani pesanan maklon alas kaki dinas instansi pemerintah (TNI/Polri/ASN), sepatu safety industri bersertifikat SNI, serta brand sepatu lokal yang membutuhkan mitra produksi massal."
       },
       {
@@ -4600,7 +4600,7 @@ export const CITIES: CityEntity[] = [
         "localAngle": "Blitar adalah lumbung telur ayam ras terbesar di Indonesia yang memasok lebih dari 30% kebutuhan telur nasional. Peternak ayam layer dan koperasi peternakan Blitar membutuhkan platform web B2B informasi kapasitas produksi harian, standar pakan bio-security, dan formulir kontrak pasokan rutin ke jaringan pasar modern dan industri makanan."
       },
       {
-        "industrySlug": "fishery",
+        "industrySlug": "agriculture",
         "localAngle": "Pembudidaya dan farm pemuliaan ikan koi Blitar kelas kontes (Kohaku, Taisho Sanke, Showa Sanshoku) membutuhkan website galeri video definisi tinggi yang dilengkapi nomor silsilah sertifikat koi, ukuran sentimeter, dan sistem lelang online terpercaya untuk menjangkau kolektor nusantara dan ekspor."
       },
       {
@@ -4676,7 +4676,7 @@ export const CITIES: CityEntity[] = [
     "connectivityProfile": "Konektivitas serat optik sangat baik di kawasan pusat kota Batu. Namun, wisatawan yang mengeksplorasi villa di perbukitan Bumiaji atau lereng Songgoriti kerap menghadapi sinyal seluler fluktuatif saat jaringan padat, mewajibkan website villa dirancang ringan dan responsif agar proses pemesanan kamar berjalan mulus.",
     "industryDeepDive": [
       {
-        "industrySlug": "hospitality",
+        "industrySlug": "hotel",
         "localAngle": "Ratusan villa privat keluarga dengan kolam renang, glamping mewah, dan resort butik di Kota Batu membutuhkan website dengan sistem direct booking resmi yang menampilkan kalender ketersediaan kamar real-time, foto fasilitas berformat WebP tajam, dan pemesanan instan tanpa terpotong komisi OTA 15-20%."
       },
       {
@@ -4684,7 +4684,7 @@ export const CITIES: CityEntity[] = [
         "localAngle": "Pengelola wahana wisata petik apel Bumiaji, wisata petualangan rafting Coban Rondo, outbound korporat, dan persewaan mobil wisata membutuhkan landing page konversi tinggi yang memuat paket harga transparan dan integrasi tombol reservasi WhatsApp instan."
       },
       {
-        "industrySlug": "culinary",
+        "industrySlug": "restaurant",
         "localAngle": "Kafe berpanorama pegunungan dan industri oleh-oleh olahan apel (keripik buah apel, sari apel, pai apel) membutuhkan website toko online terpadu untuk melayani pesanan cinderamata bagi wisatawan yang ingin mengulang cita rasa liburan Batu dari rumah mereka."
       }
     ],
@@ -4756,15 +4756,15 @@ export const CITIES: CityEntity[] = [
     "connectivityProfile": "Kota Salatiga memiliki konektivitas serat optik yang sangat andal didukung infrastruktur kampus dan jalur backbone Trans Jawa. Pengguna gawai mayoritas adalah kalangan akademisi dan profesional muda yang menuntut desain antarmuka bersih, modern, dan waktu muat cepat di ponsel pintar.",
     "industryDeepDive": [
       {
-        "industrySlug": "education",
+        "industrySlug": "school",
         "localAngle": "Sebagai kota pendidikan yang menaungi UKSW, IAIN Salatiga (UIN Salatiga), dan berbagai sekolah berasrama internasional, institusi pendidikan dan lembaga bimbingan bahasa di Salatiga membutuhkan website resmi dengan sistem penerimaan murid online, portal informasi beasiswa, dan integrasi WhatsApp pendaftaran."
       },
       {
-        "industrySlug": "culinary",
+        "industrySlug": "restaurant",
         "localAngle": "Industri oleh-oleh khas enting-enting gepuk kacang tanah cap Klenteng, ting-ting jahe, dan kuliner legendaris sate sapi suruh membutuhkan website toko online modern untuk melayani pesanan pengiriman kemasan oleh-oleh tahan lama ke seluruh Indonesia."
       },
       {
-        "industrySlug": "textile",
+        "industrySlug": "fashion",
         "localAngle": "Kawasan industri Argomulyo menampung pabrik-pabrik garmen dan pakaian jadi berskala ekspor yang melayani merk fashion global. Perusahaan tekstil dan konveksi di Salatiga membutuhkan website profil korporat berstandar audit ketenagakerjaan internasional (SMETA/WRAP) dan kepatuhan K3."
       }
     ],
@@ -4835,7 +4835,7 @@ export const CITIES: CityEntity[] = [
     "connectivityProfile": "Jaringan 4G seluler telah mencakup seluruh area perkotaan Tarakan dan pelabuhan Malundung. Namun, pemilik tambak dan staf cold storage di kawasan Juata Laut kerap mengakses internet dengan sinyal seluler terbatas, mewajibkan arsitektur halaman website yang ringan dan bebas script berat.",
     "industryDeepDive": [
       {
-        "industrySlug": "fishery",
+        "industrySlug": "agriculture",
         "localAngle": "Tarakan adalah produsen udang windu hitam (black tiger shrimp) dan kepiting bakau kualitas ekspor premium. Eksportir hasil laut Tarakan membutuhkan website B2B ekspor dwibahasa (Inggris-Indonesia) yang menampilkan sertifikasi HACCP, fasilitas pembekuan cepat (IQF/Air Blast Freezer), dan kesiapan pengiriman kargo udara internasional."
       },
       {
@@ -5004,7 +5004,7 @@ export const CITIES: CityEntity[] = [
         "localAngle": "Sebagai gerbang eksplorasi wisata pantai batu granit raksasa di Pulau Bangka, biro perjalanan wisata di Pangkalpinang membutuhkan landing page konversi tinggi dengan pilihan paket tur pantai, sewa mobil bandara Depati Amir, dan tombol pemesanan paket wisata via WhatsApp."
       },
       {
-        "industrySlug": "mining",
+        "industrySlug": "engineering",
         "localAngle": "Sebagai pusat operasional PT Timah Tbk dan peleburan timah (smelter), kontraktor penunjang pertambangan timah darat/laut, penyedia suku cadang kapal keruk, dan konsultan reklamasi lingkungan membutuhkan website profil perusahaan yang memenuhi standar kualifikasi rekanan korporasi pertambangan."
       }
     ],
@@ -5075,7 +5075,7 @@ export const CITIES: CityEntity[] = [
     "connectivityProfile": "Konektivitas serat optik sangat baik di kawasan pusat pemerintahan Dompak dan pelabuhan Sri Bintan Pura. Mengingat sebagian besar calon tamu resort mengakses website dari Singapura dan Malaysia, situs web wajib terhubung dengan CDN global dan arsitektur statis Next.js agar dapat dimuat dalam sekejap tanpa delay koneksi lintas negara.",
     "industryDeepDive": [
       {
-        "industrySlug": "hospitality",
+        "industrySlug": "hotel",
         "localAngle": "Resort tepi pantai di Pantai Trikora, villa privat pulau, dan hotel butik di Tanjung Pinang membutuhkan website direct booking dwibahasa (Inggris-Indonesia) yang mendukung tampilan konversi mata uang SGD dan IDR guna mengamankan reservasi langsung wisatawan Singapura tanpa potongan komisi OTA."
       },
       {
@@ -5083,7 +5083,7 @@ export const CITIES: CityEntity[] = [
         "localAngle": "Biro perjalanan wisata budaya Pulau Penyengat, tur kelenteng kuno Senggarang, dan penyedia rental mobil Bintan membutuhkan landing page konversi tinggi dengan dokumentasi cagar budaya yang elegan dan integrasi tombol pemesanan instan via WhatsApp concierge."
       },
       {
-        "industrySlug": "maritime",
+        "industrySlug": "logistics",
         "localAngle": "Sebagai simpul transportasi laut kepulauan, perusahaan keagenan kapal ferry cepat, logistik sembako antar-pulau di Kepri, dan industri perikanan tangkap ekspor di Tanjung Pinang membutuhkan website resmi untuk menampilkan izin trayek berlayar dan spesifikasi armada kapal."
       }
     ],

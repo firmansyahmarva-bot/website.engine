@@ -1,2 +1,2 @@
-:HL["/_next/static/css/d42309d53c9e3436.css","style"]
-0:{"tree":{"name":"","param":null,"prefetchHints":4176,"slots":{"children":{"name":"website-types","param":null,"prefetchHints":4192,"slots":{"children":{"name":"slug","param":{"type":"d","key":"company-profile","siblings":[]},"prefetchHints":4192,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":4256,"slots":null}}}}}}},"staleTime":300,"buildId":"oovIesQZz-SNm4PcOGenQ"}
+:HL["/_next/static/css/977a3f1b26e9add5.css","style"]
+0:{"tree":{"name":"","param":null,"prefetchHints":4176,"slots":{"children":{"name":"website-types","param":null,"prefetchHints":4192,"slots":{"children":{"name":"slug","param":{"type":"d","key":"company-profile","siblings":[]},"prefetchHints":4192,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":4256,"slots":null}}}}}}},"staleTime":300,"buildId":"9Oa_1wkoG35E8MiUcr-4L"}

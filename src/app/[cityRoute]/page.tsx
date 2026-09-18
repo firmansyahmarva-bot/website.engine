@@ -224,12 +224,14 @@ export default async function CityLandingPage({ params }: Props) {
                           <h3 className="text-base font-bold text-slate-900">
                             Sektor: <span className="capitalize">{dive.industrySlug.replace('-', ' ')}</span> di {city.name}
                           </h3>
-                          <Link
-                            href={`/industries/${dive.industrySlug}`}
-                            className="text-xs font-semibold text-blue-600 hover:underline"
-                          >
-                            Standar Industri →
-                          </Link>
+                          {getIndustryBySlug(dive.industrySlug) && (
+                            <Link
+                              href={`/industries/${dive.industrySlug}`}
+                              className="text-xs font-semibold text-blue-600 hover:underline"
+                            >
+                              Standar Industri →
+                            </Link>
+                          )}
                         </div>
                         <p className="text-sm text-slate-600 leading-relaxed">
                           {dive.localAngle}
@@ -335,12 +337,14 @@ export default async function CityLandingPage({ params }: Props) {
                           <h3 className="text-base font-bold text-slate-900">
                             Bidang {dive.industrySlug.replace('-', ' ')} di {city.name}
                           </h3>
-                          <Link
-                            href={`/industries/${dive.industrySlug}`}
-                            className="text-xs font-semibold text-blue-600 hover:underline"
-                          >
-                            Lihat Modul →
-                          </Link>
+                          {getIndustryBySlug(dive.industrySlug) && (
+                            <Link
+                              href={`/industries/${dive.industrySlug}`}
+                              className="text-xs font-semibold text-blue-600 hover:underline"
+                            >
+                              Lihat Modul →
+                            </Link>
+                          )}
                         </div>
                         <p className="text-sm text-slate-600 leading-relaxed">
                           {dive.localAngle}
@@ -412,12 +416,14 @@ export default async function CityLandingPage({ params }: Props) {
                           <h3 className="text-base font-bold text-slate-900 capitalize">
                             Pengembangan Sektor {dive.industrySlug.replace('-', ' ')}
                           </h3>
-                          <Link
-                            href={`/industries/${dive.industrySlug}`}
-                            className="text-xs font-semibold text-blue-600 hover:underline"
-                          >
-                            Format Web →
-                          </Link>
+                          {getIndustryBySlug(dive.industrySlug) && (
+                            <Link
+                              href={`/industries/${dive.industrySlug}`}
+                              className="text-xs font-semibold text-blue-600 hover:underline"
+                            >
+                              Format Web →
+                            </Link>
+                          )}
                         </div>
                         <p className="text-sm text-slate-600 leading-relaxed">
                           {dive.localAngle}

@@ -1,5 +1,17 @@
 User-Agent: *
 Allow: /
 Disallow: /api/
+Disallow: /_next/private/
+Disallow: /contact.php
 
+User-Agent: GPTBot
+User-Agent: PerplexityBot
+User-Agent: ClaudeBot
+User-Agent: Google-Extended
+User-Agent: Amazonbot
+User-Agent: Bytespider
+User-Agent: Applebot
+Allow: /
+
+Host: https://websiteplatform.id
 Sitemap: https://websiteplatform.id/sitemap.xml

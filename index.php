@@ -18,6 +18,12 @@ if ($requestPath === '/' || $requestPath === '') {
     }
 }
 
+// 1.5 PHP Scripts (e.g. /contact.php lead logger)
+if (substr($requestPath, -4) === '.php' && is_file($baseDir . $requestPath)) {
+    require $baseDir . $requestPath;
+    exit;
+}
+
 // 2. Direct Static Asset in out/ (CSS, JS, Images, Sitemap XML, Robots TXT)
 $directFile = $baseDir . $requestPath;
 if (is_file($directFile)) {
@@ -67,8 +73,11 @@ if (is_file($trimmed . '/index.html')) {
 
 // 5. 404 Fallback
 http_response_code(404);
-$notFoundPath = $baseDir . '/404.html';
-if (file_exists($notFoundPath)) {
+$notFoundPath = file_exists($baseDir . '/_not-found.html') 
+    ? $baseDir . '/_not-found.html' 
+    : (file_exists($baseDir . '/404.html') ? $baseDir . '/404.html' : null);
+
+if ($notFoundPath) {
     header('Content-Type: text/html; charset=UTF-8');
     readfile($notFoundPath);
 } else {

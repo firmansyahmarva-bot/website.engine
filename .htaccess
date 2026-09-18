@@ -25,7 +25,7 @@
 </IfModule>
 
 # Custom 404 Error
-ErrorDocument 404 /out/404.html
+ErrorDocument 404 /out/_not-found.html
 
 # Directory Index fallback
 DirectoryIndex index.php out/index.html index.html

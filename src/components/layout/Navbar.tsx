@@ -9,10 +9,9 @@ export default function Navbar() {
 
   const navLinks = [
     { label: 'Paket Website', href: '/website-packages' },
+    { label: 'Showcase UI', href: '/showcase' },
     { label: 'Katalog Desain', href: '/designs' },
-    { label: 'Komponen UI', href: '/components' },
-    { label: 'Contoh Kode', href: '/code' },
-    { label: 'Live Demo', href: '/demos/modern-corporate' },
+    { label: 'Panduan & Glosarium', href: '/panduan' },
     { label: 'Kalkulator Harga', href: '/pricing' },
   ];
 

@@ -174,3 +174,53 @@ export interface ConfiguratorSelection {
   domainOption: 'existing' | 'include_com';
   hostingOption: 'existing' | 'include_cloud';
 }
+
+export type GlossaryCategory =
+  | 'seo'
+  | 'geo-aeo'
+  | 'analytics'
+  | 'performance'
+  | 'technical'
+  | 'design-ux'
+  | 'conversion'
+  | 'hosting-domain'
+  | 'ecommerce';
+
+export interface GlossaryEntry {
+  slug: string; // e.g. 'apa-itu-google-search-console'
+  term: string; // 'Google Search Console (GSC)'
+  aliases: string[]; // ['GSC', 'Search Console', 'Webmaster Tools']
+  category: GlossaryCategory;
+  shortDefinition: string; // 40-55 words, answer-first, plain Indonesian
+  longExplanation: string[]; // 4-7 paragraphs
+  whyItMatters: string; // tied to a business outcome, not theory
+  howToUse?: { step: string; detail: string }[];
+  comparisonTable?: {
+    header: string[];
+    rows: { feature: string; itemA: string; itemB: string; itemC?: string }[];
+  };
+  commonMistakes: string[];
+  faqs: { question: string; answer: string }[]; // 4-6 per page
+  relatedTerms: string[]; // slugs, 4-6
+  relatedIndustries?: string[];
+  seoTitle: string;
+  seoDescription: string;
+  seoKeywords: string[];
+  datePublished?: string;
+  dateModified?: string;
+}
+
+export interface CityEntity {
+  name: string;
+  slug: string;
+  province: string;
+  dominantIndustries: string[];
+  economicProfile: string;
+  typicalPriceExpectation: string;
+  localFaqs: FAQItem[];
+  nearbyCitySlugs: string[];
+  relevantIndustrySlugs: string[];
+  seoTitle: string;
+  seoDescription: string;
+  seoKeywords: string[];
+}

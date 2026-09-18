@@ -5,6 +5,7 @@ import { WEBSITE_PACKAGES } from '@/content/packages';
 import { FEATURES_CATALOG } from '@/content/features';
 import { COMPONENTS_CATALOG } from '@/content/components';
 import { CODE_EXAMPLES } from '@/content/code-examples';
+import { GLOSSARY } from '@/content/glossary';
 import {
   IndustryEntity,
   WebsiteType,
@@ -13,6 +14,8 @@ import {
   FeatureItem,
   ComponentEntity,
   CodeExampleEntity,
+  GlossaryEntry,
+  GlossaryCategory,
 } from '@/types';
 
 // INDUSTRY RELATIONSHIPS
@@ -110,3 +113,25 @@ export function buildConfiguratorUrl(params: {
   const queryString = query.toString();
   return queryString ? `/configure?${queryString}` : '/configure';
 }
+
+// GLOSSARY RELATIONSHIPS
+export function getGlossaryEntryBySlug(slug: string): GlossaryEntry | undefined {
+  return GLOSSARY.find((item) => item.slug === slug);
+}
+
+export function getGlossaryEntriesByCategory(category: GlossaryCategory): GlossaryEntry[] {
+  return GLOSSARY.filter((item) => item.category === category);
+}
+
+export function getRelatedGlossaryEntries(entry: GlossaryEntry, limit = 6): GlossaryEntry[] {
+  return GLOSSARY.filter(
+    (item) => entry.relatedTerms.includes(item.slug) && item.slug !== entry.slug
+  ).slice(0, limit);
+}
+
+export function getGlossaryForIndustry(industrySlug: string, limit = 4): GlossaryEntry[] {
+  return GLOSSARY.filter(
+    (item) => item.relatedIndustries && item.relatedIndustries.includes(industrySlug)
+  ).slice(0, limit);
+}
+

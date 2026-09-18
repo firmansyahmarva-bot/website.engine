@@ -10,6 +10,7 @@ export interface MetadataProps {
   path?: string;
   keywords?: string[];
   ogType?: 'website' | 'article';
+  image?: string;
 }
 
 export function constructMetadata({
@@ -18,8 +19,12 @@ export function constructMetadata({
   path = '',
   keywords = [],
   ogType = 'website',
+  image,
 }: MetadataProps): Metadata {
   const url = `${SITE_URL}${path.startsWith('/') ? path : `/${path}`}`;
+  const ogImageUrl = image
+    ? (image.startsWith('http') ? image : `${SITE_URL}${image.startsWith('/') ? image : `/${image}`}`)
+    : `${SITE_URL}/images/og-default.svg`;
 
   return {
     title: `${title} | ${SITE_NAME}`,
@@ -46,11 +51,20 @@ export function constructMetadata({
       siteName: SITE_NAME,
       locale: 'id_ID',
       type: ogType,
+      images: [
+        {
+          url: ogImageUrl,
+          width: 1200,
+          height: 630,
+          alt: title,
+        },
+      ],
     },
     twitter: {
       card: 'summary_large_image',
       title: `${title} | ${SITE_NAME}`,
       description,
+      images: [ogImageUrl],
     },
     robots: {
       index: true,
@@ -133,3 +147,105 @@ export function generateServiceSchema(name: string, description: string, price: 
     },
   };
 }
+
+export function generateDefinedTermSchema(term: string, description: string, path: string) {
+  const url = `${SITE_URL}${path.startsWith('/') ? path : `/${path}`}`;
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'DefinedTerm',
+    name: term,
+    description,
+    url,
+    inDefinedTermSet: {
+      '@type': 'DefinedTermSet',
+      name: `Glosarium & Panduan Web Bisnis ${SITE_NAME}`,
+      url: `${SITE_URL}/panduan`,
+    },
+  };
+}
+
+export function generateHowToSchema(title: string, steps: { step: string; detail: string }[]) {
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'HowTo',
+    name: title,
+    step: steps.map((s, idx) => ({
+      '@type': 'HowToStep',
+      position: idx + 1,
+      name: s.step,
+      text: s.detail,
+    })),
+  };
+}
+
+export function generateArticleSchema({
+  title,
+  description,
+  path,
+  datePublished = '2026-01-15',
+  dateModified = '2026-03-12',
+}: {
+  title: string;
+  description: string;
+  path: string;
+  datePublished?: string;
+  dateModified?: string;
+}) {
+  const url = `${SITE_URL}${path.startsWith('/') ? path : `/${path}`}`;
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'TechArticle',
+    headline: title,
+    description,
+    url,
+    datePublished,
+    dateModified,
+    author: {
+      '@type': 'Organization',
+      name: SITE_NAME,
+      url: SITE_URL,
+    },
+    publisher: {
+      '@type': 'Organization',
+      name: SITE_NAME,
+      url: SITE_URL,
+      logo: {
+        '@type': 'ImageObject',
+        url: `${SITE_URL}/logo.png`,
+      },
+    },
+  };
+}
+
+export function generateLocalBusinessSchema({
+  cityName,
+  serviceName,
+  description,
+  path,
+}: {
+  cityName: string;
+  serviceName: string;
+  description: string;
+  path: string;
+}) {
+  const url = `${SITE_URL}${path.startsWith('/') ? path : `/${path}`}`;
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'ProfessionalService',
+    name: `${serviceName} di ${cityName}`,
+    description,
+    url,
+    telephone: '+62-812-3456-7890',
+    priceRange: 'Rp 1.500.000 - Rp 15.000.000',
+    areaServed: {
+      '@type': 'City',
+      name: cityName,
+    },
+    address: {
+      '@type': 'PostalAddress',
+      addressCountry: 'ID',
+      addressRegion: cityName,
+    },
+  };
+}
+

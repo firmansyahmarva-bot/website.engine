@@ -8,6 +8,12 @@ $requestPath = parse_url($_SERVER['REQUEST_URI'] ?? '/', PHP_URL_PATH);
 $requestPath = rawurldecode($requestPath);
 $baseDir = __DIR__ . '/out';
 
+// 0. 301 Permanent Redirects
+if ($requestPath === '/panduan/cannibalization-keyword' || $requestPath === '/panduan/cannibalization-keyword/') {
+    header('Location: /panduan/kanibalisasi-keyword', true, 301);
+    exit;
+}
+
 // 1. Root Homepage
 if ($requestPath === '/' || $requestPath === '') {
     $indexPath = $baseDir . '/index.html';
@@ -51,6 +57,10 @@ if (is_file($directFile)) {
     } else {
         $mime = mime_content_type($directFile);
         if ($mime) header('Content-Type: ' . $mime);
+    }
+
+    if ($ext === 'txt' && !in_array(basename($directFile), ['llms.txt', 'llms-full.txt'], true)) {
+        header('X-Robots-Tag: noindex, nofollow');
     }
     readfile($directFile);
     exit;

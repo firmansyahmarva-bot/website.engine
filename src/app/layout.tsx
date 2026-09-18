@@ -3,6 +3,7 @@ import './globals.css';
 import Navbar from '@/components/layout/Navbar';
 import Footer from '@/components/layout/Footer';
 import FloatingWhatsApp from '@/components/ui/FloatingWhatsApp';
+import { Analytics } from '@/components/analytics/Analytics';
 import { generateOrganizationSchema, SITE_NAME, SITE_URL } from '@/lib/seo';
 
 export const metadata: Metadata = {
@@ -13,6 +14,9 @@ export const metadata: Metadata = {
   },
   description:
     'Layanan pembuatan website profesional terstandarisasi untuk korporat, UMKM, dan bisnis. Desain modern, loading cepat, SEO-friendly, dan siap mendatangkan prospek penjualan.',
+  verification: process.env.NEXT_PUBLIC_GSC_VERIFICATION
+    ? { google: process.env.NEXT_PUBLIC_GSC_VERIFICATION }
+    : undefined,
   alternates: {
     canonical: SITE_URL,
     languages: {
@@ -61,6 +65,7 @@ export default function RootLayout({
           Lewati ke konten utama
         </a>
 
+        <Analytics />
         <Navbar />
         <main id="main-content" className="flex-1">
           {children}

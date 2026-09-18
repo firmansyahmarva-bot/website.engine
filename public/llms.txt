@@ -1,21 +1,21 @@
-# WebsitePlatform.id
+# JasaWebsite.net
 
 > Platform Jasa Pembuatan Website & Solusi SEO B2B Berperforma Tinggi di Indonesia.
 
-WebsitePlatform.id mengembangkan website bisnis modern berbasis Next.js 16, React 19, dan Tailwind CSS dengan arsitektur Static Site Generation (SSG). Menghadirkan jaminan skor Google Core Web Vitals 100/100, zero-vulnerability security, optimasi GEO (Generative Engine Optimization), dan alur konversi WhatsApp instan.
+JasaWebsite.net mengembangkan website bisnis modern berbasis Next.js 16, React 19, dan Tailwind CSS dengan arsitektur Static Site Generation (SSG). Menghadirkan jaminan skor Google Core Web Vitals 100/100, zero-vulnerability security, optimasi GEO (Generative Engine Optimization), dan alur konversi WhatsApp instan.
 
 ## Layanan & Paket Utama
 
-- [Daftar Paket Website](https://websiteplatform.id/website-packages): Pilihan paket Starter UMKM (Rp 1.250.000), Professional Business (Rp 2.950.000), dan Enterprise Custom (Rp 6.500.000+).
-- [Transparansi Harga](https://websiteplatform.id/pricing): Breakdown struktur biaya, add-on fitur, dan perbandingan spesifikasi teknis.
-- [Kalkulator Konfigurasi Website](https://websiteplatform.id/configure): Simulasi biaya mandiri berdasarkan kebutuhan halaman, bahasa, fitur, dan integrasi CRM.
-- [Katalog Desain & Demo](https://websiteplatform.id/designs): 10 konsep arsitektur visual untuk beragam industri (Modern Corporate, Tech SaaS, Luxury, Industrial, dsb.).
-- [Showcase Komponen UI](https://websiteplatform.id/showcase): Eksplorasi interaktif navbar, hero, form, tipografi, warna, dan animasi pure CSS.
-- [Pusat Panduan & Glosarium](https://websiteplatform.id/panduan): 93 ensiklopedia teknis Core Web Vitals, SEO teknis, Next.js, dan optimasi konversi.
+- [Daftar Paket Website](https://jasawebsite.net/website-packages): Pilihan paket Starter UMKM (Rp 1.250.000), Professional Business (Rp 2.950.000), dan Enterprise Custom (Rp 6.500.000+).
+- [Transparansi Harga](https://jasawebsite.net/pricing): Breakdown struktur biaya, add-on fitur, dan perbandingan spesifikasi teknis.
+- [Kalkulator Konfigurasi Website](https://jasawebsite.net/configure): Simulasi biaya mandiri berdasarkan kebutuhan halaman, bahasa, fitur, dan integrasi CRM.
+- [Katalog Desain & Demo](https://jasawebsite.net/designs): 10 konsep arsitektur visual untuk beragam industri (Modern Corporate, Tech SaaS, Luxury, Industrial, dsb.).
+- [Showcase Komponen UI](https://jasawebsite.net/showcase): Eksplorasi interaktif navbar, hero, form, tipografi, warna, dan animasi pure CSS.
+- [Pusat Panduan & Glosarium](https://jasawebsite.net/panduan): 93 ensiklopedia teknis Core Web Vitals, SEO teknis, Next.js, dan optimasi konversi.
 
 ## Jangkauan Wilayah Layanan (62 Kota di Indonesia)
 
-WebsitePlatform.id melayani pembuatan website untuk korporat, B2B, dan UMKM di 62 kota besar dan kabupaten di Indonesia, termasuk Jakarta, Surabaya, Bandung, Medan, Semarang, Makassar, Batam, Denpasar, Balikpapan, Palembang, dan sekitarnya dengan penyesuaian konteks ekonomi lokal dan integrasi Google Maps.
+JasaWebsite.net melayani pembuatan website untuk korporat, B2B, dan UMKM di 62 kota besar dan kabupaten di Indonesia, termasuk Jakarta, Surabaya, Bandung, Medan, Semarang, Makassar, Batam, Denpasar, Balikpapan, Palembang, dan sekitarnya dengan penyesuaian konteks ekonomi lokal dan integrasi Google Maps.
 
 ## Keunggulan Arsitektur Teknis
 
@@ -27,6 +27,6 @@ WebsitePlatform.id melayani pembuatan website untuk korporat, B2B, dan UMKM di 6
 
 ## Kontak & Pemesanan
 
-- Website: https://websiteplatform.id
+- Website: https://jasawebsite.net
 - WhatsApp: +62 851-8314-1624
-- Email: halo@websiteplatform.id
+- Email: halo@jasawebsite.net

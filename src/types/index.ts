@@ -210,16 +210,161 @@ export interface GlossaryEntry {
   dateModified?: string;
 }
 
+export interface CityIndustryDeepDive {
+  industrySlug: string;
+  localAngle: string; // 3-4 sentences specific to this industry IN this city
+}
+
 export interface CityEntity {
   name: string;
   slug: string;
   province: string;
-  dominantIndustries: string[];
-  economicProfile: string;
-  typicalPriceExpectation: string;
-  localFaqs: FAQItem[];
+  tier?: 'metro' | 'large' | 'mid';
+  districts: string[]; // 5-8 real business districts / kecamatan
+  landmarkContext: string; // 2-3 sentences naming real local landmarks/areas where businesses cluster
+  localBusinessCulture: string; // 3-4 sentences — how buyers here actually decide and buy
+  dominantPlatformHabit: string; // what locals currently use: Instagram-only, marketplace-only, WhatsApp catalog, etc.
+  competitorLandscape: string; // what local web vendors typically offer and charge, and where they fall short
+  localSearchBehavior: string; // how people in this city actually search for this service
+  seasonalFactor: string; // local business cycles — harvest, tourism season, ramadan retail, campus intake
+  connectivityProfile: string; // typical device and network conditions, and why that changes the build
+  industryDeepDive: CityIndustryDeepDive[]; // 3 industries, city-specific, not generic
+  localFaqs: FAQItem[]; // minimum 5, all city-specific
   nearbyCitySlugs: string[];
   relevantIndustrySlugs: string[];
+  typicalPriceExpectation: string;
+  economicProfile: string;
+  seoTitle: string;
+  seoDescription: string;
+  seoKeywords: string[];
+}
+
+export interface ComparisonItemDetail {
+  name: string;
+  tagline: string;
+  overview: string;
+  pros: string[];
+  cons: string[];
+  bestFor: string;
+  badge?: string;
+}
+
+export interface ComparisonMatrixRow {
+  feature: string;
+  itemAValue: string;
+  itemBValue: string;
+  winner: 'itemA' | 'itemB' | 'tie';
+  explanation?: string;
+}
+
+export interface ComparisonDeepDiveSection {
+  title: string;
+  content: string[];
+  keyTakeaway?: string;
+}
+
+export interface ComparisonVerdict {
+  summary: string;
+  chooseItemAIf: string[];
+  chooseItemBIf: string[];
+  finalRecommendation: string;
+}
+
+export interface ComparisonEntity {
+  slug: string;
+  title: string;
+  category: string;
+  summary: string;
+  itemA: ComparisonItemDetail;
+  itemB: ComparisonItemDetail;
+  comparisonMatrix: ComparisonMatrixRow[];
+  deepDive: ComparisonDeepDiveSection[];
+  verdict: ComparisonVerdict;
+  faqs: FAQItem[];
+  seoTitle: string;
+  seoDescription: string;
+  seoKeywords: string[];
+}
+
+export interface CostTierPrice {
+  range: string;
+  minPrice: number;
+  maxPrice: number;
+  period?: string;
+  description: string;
+  features: string[];
+}
+
+export interface CostBreakdownItem {
+  name: string;
+  costRange: string;
+  description: string;
+  factors: string[];
+}
+
+export interface CostBreakdowns {
+  domain: CostBreakdownItem;
+  server: CostBreakdownItem;
+  design: CostBreakdownItem;
+  dev: CostBreakdownItem;
+  maintenance: CostBreakdownItem;
+}
+
+export interface HiddenCostWarning {
+  title: string;
+  description: string;
+  riskLevel: 'low' | 'medium' | 'high';
+  howToAvoid: string;
+}
+
+export interface RoiAnalysis {
+  overview: string;
+  metrics: { label: string; value: string; impact: string }[];
+  breakEvenTimeline: string;
+  tipsToMaximizeRoi: string[];
+}
+
+export interface CostGuideEntity {
+  slug: string;
+  title: string;
+  summary: string;
+  category: string;
+  tierPrices: {
+    starter: CostTierPrice;
+    business: CostTierPrice;
+    enterprise: CostTierPrice;
+  };
+  costBreakdowns: CostBreakdowns;
+  hiddenCostsWarning: HiddenCostWarning[];
+  roiAnalysis: RoiAnalysis;
+  faqs: FAQItem[];
+  seoTitle: string;
+  seoDescription: string;
+  seoKeywords: string[];
+}
+
+export interface MatrixEntity {
+  slug: string; // e.g. 'konstruksi-jakarta'
+  industrySlug: string; // 'konstruksi'
+  citySlug: string; // 'jakarta'
+  industryId: string; // ID in INDUSTRIES, e.g. 'construction'
+  industryName: string; // e.g. 'Konstruksi & Pemborong Bangunan'
+  cityName: string; // e.g. 'Jakarta'
+  province: string;
+  title: string;
+  tagline: string;
+  description: string;
+  marketContext: string;
+  heroProblems: string[];
+  districts: string[];
+  landmarkContext: string;
+  localBusinessCulture: string;
+  pricingExpectation: string;
+  recommendedPackage: string;
+  recommendedDesigns: string[];
+  recommendedFeatures: string[];
+  essentialSections: { title: string; explanation: string }[];
+  faqs: FAQItem[];
   seoTitle: string;
   seoDescription: string;
   seoKeywords: string[];

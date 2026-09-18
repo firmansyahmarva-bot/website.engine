@@ -76,7 +76,7 @@ export default function TypographyShowcasePage() {
                 </div>
                 <span className="text-xs text-slate-400 font-mono">Skala Web Standar</span>
               </div>
-              <BrowserFrame url={`https://websiteplatform.id/typo-${idx + 1}`}>
+              <BrowserFrame url={`https://jasawebsite.net/typo-${idx + 1}`}>
                 <div className="p-8 bg-white space-y-6">
                   <div>
                     <span className="text-[10px] uppercase font-bold text-slate-400 block mb-1">Heading 1 (Hero Title)</span>

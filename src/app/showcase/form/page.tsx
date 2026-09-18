@@ -34,7 +34,7 @@ export default function FormShowcasePage() {
             <h2 className="text-lg font-bold text-slate-900">1. Instant Lead Capture Form (Live Functional)</h2>
             <span className="text-xs text-slate-500 font-mono">WhatsApp Fallback • Single Screen</span>
           </div>
-          <BrowserFrame url="https://websiteplatform.id/form-lead">
+          <BrowserFrame url="https://jasawebsite.net/form-lead">
             <div className="p-8 bg-white max-w-xl mx-auto">
               <LeadForm defaultPackage="Paket Bisnis (Paling Populer)" />
             </div>
@@ -47,7 +47,7 @@ export default function FormShowcasePage() {
             <h2 className="text-lg font-bold text-slate-900">2. Status Validasi Kolom Input (Input States)</h2>
             <span className="text-xs text-slate-500 font-mono">Focus • Valid • Error States</span>
           </div>
-          <BrowserFrame url="https://websiteplatform.id/form-states">
+          <BrowserFrame url="https://jasawebsite.net/form-states">
             <div className="p-8 bg-white grid grid-cols-1 sm:grid-cols-3 gap-6">
               <div className="space-y-1.5">
                 <label className="text-xs font-bold text-slate-700">Status Normal (Default)</label>

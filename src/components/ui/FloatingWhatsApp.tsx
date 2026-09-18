@@ -1,8 +1,9 @@
-﻿'use client';
+'use client';
 
 import React, { useState, useEffect } from 'react';
 import { MessageCircle, X, Sparkles, Clock, Send } from 'lucide-react';
 import { generateDirectWhatsAppUrl } from '@/lib/whatsapp';
+import { trackEvent } from '@/lib/analytics';
 
 export default function FloatingWhatsApp() {
   const [isOpen, setIsOpen] = useState(false);
@@ -75,7 +76,10 @@ export default function FloatingWhatsApp() {
             href={whatsappHref}
             target="_blank"
             rel="noopener noreferrer"
-            onClick={() => setHasInteracted(true)}
+            onClick={() => {
+              setHasInteracted(true);
+              trackEvent('click_whatsapp', { location: 'floating_balloon' });
+            }}
             className="w-full inline-flex items-center justify-center gap-2 px-4 py-2.5 rounded-xl bg-emerald-600 hover:bg-emerald-700 text-white font-bold text-xs shadow-md transition-colors"
           >
             <MessageCircle className="w-4 h-4 fill-white" />
@@ -94,7 +98,10 @@ export default function FloatingWhatsApp() {
           href={whatsappHref}
           target="_blank"
           rel="noopener noreferrer"
-          onClick={() => setHasInteracted(true)}
+          onClick={() => {
+            setHasInteracted(true);
+            trackEvent('click_whatsapp', { location: 'floating_fab' });
+          }}
           className="relative inline-flex items-center gap-2.5 px-4 py-3 sm:px-5 sm:py-3.5 rounded-full bg-emerald-500 hover:bg-emerald-600 text-white font-bold text-sm shadow-xl shadow-emerald-600/30 transition-all transform hover:scale-105 focus-visible:ring-2 focus-visible:ring-emerald-400 group"
           aria-label="Konsultasi via WhatsApp"
         >

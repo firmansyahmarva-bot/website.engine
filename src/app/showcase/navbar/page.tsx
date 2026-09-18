@@ -35,7 +35,7 @@ export default function NavbarShowcasePage() {
             <h2 className="text-lg font-bold text-slate-900">1. Minimalist Clean (SaaS & Agensi)</h2>
             <span className="text-xs text-slate-500 font-mono">Logo Kiri • Menu Tengah • CTA Kanan</span>
           </div>
-          <BrowserFrame url="https://websiteplatform.id/navbar-minimal">
+          <BrowserFrame url="https://jasawebsite.net/navbar-minimal">
             <nav className="p-4 bg-white border-b border-slate-200 flex items-center justify-between">
               <div className="font-extrabold text-lg text-slate-900 tracking-tight">
                 Nexus<span className="text-blue-600">.</span>
@@ -64,7 +64,7 @@ export default function NavbarShowcasePage() {
             <h2 className="text-lg font-bold text-slate-900">2. Corporate Enterprise (B2B & Korporat)</h2>
             <span className="text-xs text-slate-500 font-mono">Topbar Pengumuman • Hotline • Sub-menu</span>
           </div>
-          <BrowserFrame url="https://websiteplatform.id/navbar-enterprise">
+          <BrowserFrame url="https://jasawebsite.net/navbar-enterprise">
             <header className="bg-white border-b border-slate-200">
               {/* Topbar */}
               <div className="px-6 py-1.5 bg-slate-900 text-slate-300 text-xs flex items-center justify-between">
@@ -106,7 +106,7 @@ export default function NavbarShowcasePage() {
             <h2 className="text-lg font-bold text-slate-900">3. Centered Floating Island (Modern Neo)</h2>
             <span className="text-xs text-slate-500 font-mono">Pill Floating • Glassmorphism Blur</span>
           </div>
-          <BrowserFrame url="https://websiteplatform.id/navbar-floating">
+          <BrowserFrame url="https://jasawebsite.net/navbar-floating">
             <div className="p-6 bg-gradient-to-b from-slate-100 to-slate-200">
               <nav className="max-w-2xl mx-auto px-5 py-3 bg-white/85 backdrop-blur-md rounded-full border border-white/60 shadow-lg flex items-center justify-between">
                 <span className="font-extrabold text-sm text-slate-900">LUMINA</span>
@@ -130,7 +130,7 @@ export default function NavbarShowcasePage() {
             <h2 className="text-lg font-bold text-slate-900">4. Dark Tech & Developer Platform</h2>
             <span className="text-xs text-slate-500 font-mono">Dark Slate 950 • Status Indicator</span>
           </div>
-          <BrowserFrame url="https://websiteplatform.id/navbar-dark-tech">
+          <BrowserFrame url="https://jasawebsite.net/navbar-dark-tech">
             <nav className="p-4 bg-slate-950 border-b border-slate-800 flex items-center justify-between text-white">
               <div className="flex items-center gap-3">
                 <span className="font-mono font-bold text-emerald-400">~/core-engine</span>
@@ -158,7 +158,7 @@ export default function NavbarShowcasePage() {
             <h2 className="text-lg font-bold text-slate-900">5. E-Commerce Multi-Category</h2>
             <span className="text-xs text-slate-500 font-mono">Search Bar Tengah • Wishlist & Cart</span>
           </div>
-          <BrowserFrame url="https://websiteplatform.id/navbar-ecommerce">
+          <BrowserFrame url="https://jasawebsite.net/navbar-ecommerce">
             <header className="bg-white border-b border-slate-200">
               <div className="p-4 flex items-center justify-between gap-4">
                 <span className="text-xl font-black text-rose-600">TOKOMU</span>
@@ -196,7 +196,7 @@ export default function NavbarShowcasePage() {
             <h2 className="text-lg font-bold text-slate-900">6. Healthcare & Medical Clinic</h2>
             <span className="text-xs text-slate-500 font-mono">Emergency Hotline • Booking Dokter</span>
           </div>
-          <BrowserFrame url="https://websiteplatform.id/navbar-clinic">
+          <BrowserFrame url="https://jasawebsite.net/navbar-clinic">
             <header className="bg-white border-b border-slate-200">
               <div className="px-6 py-2 bg-rose-600 text-white text-xs flex items-center justify-between font-medium">
                 <span>🚨 IGD & Ambulans 24 Jam: (021) 777-911</span>

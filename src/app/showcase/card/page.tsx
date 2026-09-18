@@ -33,7 +33,7 @@ export default function CardShowcasePage() {
             <h2 className="text-lg font-bold text-slate-900">1. Testimonial & Review Card</h2>
             <span className="text-xs text-slate-500 font-mono">Bintang Emas • Foto Profil • Rating 5.0</span>
           </div>
-          <BrowserFrame url="https://websiteplatform.id/card-testimonial">
+          <BrowserFrame url="https://jasawebsite.net/card-testimonial">
             <div className="p-8 bg-slate-100/60 grid grid-cols-1 sm:grid-cols-2 gap-6">
               <div className="p-6 bg-white rounded-2xl border border-slate-200 shadow-sm space-y-4">
                 <div className="flex text-amber-400 text-sm">
@@ -80,7 +80,7 @@ export default function CardShowcasePage() {
             <h2 className="text-lg font-bold text-slate-900">2. Metric & Key Stat Card</h2>
             <span className="text-xs text-slate-500 font-mono">Angka Besar • Indikator Pertumbuhan</span>
           </div>
-          <BrowserFrame url="https://websiteplatform.id/card-stats">
+          <BrowserFrame url="https://jasawebsite.net/card-stats">
             <div className="p-8 bg-white grid grid-cols-1 sm:grid-cols-3 gap-6">
               <div className="p-6 bg-blue-50/50 rounded-2xl border border-blue-100 space-y-2">
                 <span className="text-[11px] font-bold text-blue-600 uppercase tracking-wide">Kecepatan Loading</span>

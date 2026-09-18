@@ -1,0 +1,32 @@
+# JasaWebsite — Global B2B Web Development & Software Engineering Platform
+
+> High-performance Next.js 16 web development and Jamstack engineering for international enterprises, B2B manufacturers, exporters, and professional service firms.
+
+JasaWebsite develops modern enterprise websites built on Next.js 16, React 19, TypeScript 5, and Tailwind CSS using pre-rendered Static Site Generation (SSG). We deliver guaranteed 100/100 Google Core Web Vitals, zero CMS security vulnerabilities, Generative Engine Optimization (GEO) structured data for AI search engines, and direct sales conversion workflows.
+
+## Key Services & Commercial Packages
+
+- [Global Homepage](https://jasawebsite.net/en): Overview of B2B engineering capabilities, performance benchmarks, and international client solutions.
+- [Website Packages](https://jasawebsite.net/en/website-packages): Structured tiers in USD, SGD, and IDR:
+  - Starter Package ($80 USD / S$110 SGD / Rp 1,250,000): Up to 3 pages, 3-5 days delivery, 100% responsive, WhatsApp routing.
+  - Professional Business Package ($190 USD / S$250 SGD / Rp 2,950,000): Up to 7 pages, 7-10 days delivery, modular catalog, full Schema.org JSON-LD, 60-day maintenance warranty.
+  - Enterprise Custom Package ($420+ USD / S$560+ SGD / Rp 6,500,000+): Unlimited dynamic pages, multi-language architecture (EN/ID/AR), gated PDF brochure downloads, quote calculators, 1-year priority SLA.
+- [Pricing Calculator](https://jasawebsite.net/en/pricing): Interactive real-time cost estimation in USD and SGD with transparent mathematical formula and zero monthly licensing fees.
+- [Design Systems Catalog](https://jasawebsite.net/en/designs): 10 curated visual design concepts tailored to specific B2B buyer psychology (Modern Corporate, Premium Executive, Minimalist Nordic, Industrial Manufacturing, Tech SaaS, etc.).
+- [Interactive UI Showcase](https://jasawebsite.net/showcase): Live component library featuring 12 UI categories including navbars, hero banners, forms, and pure CSS micro-animations.
+- [Free Website Audit](https://jasawebsite.net/audit-gratis): Diagnostic tool evaluating performance, Core Web Vitals bottlenecks, and mobile responsiveness.
+
+## Architectural Advantages
+
+1. **Static Site Generation (SSG)**: HTML and metadata are pre-compiled at build time and served through global CDN edge points with Time-To-First-Byte (TTFB) < 50ms.
+2. **Perfect Core Web Vitals**: Largest Contentful Paint (LCP) < 1.0s, Interaction to Next Paint (INP) < 50ms, Cumulative Layout Shift (CLS) = 0.00.
+3. **Zero Database Attack Surface**: No exposed MySQL database or obsolete WordPress plugins on the public internet, completely eliminating SQL injection and malware injection vectors.
+4. **AI Search & GEO Ready**: Complete Schema.org JSON-LD microdata (Organization, LocalBusiness, ProfessionalService, FAQPage, HowTo, TechArticle) recognized by ChatGPT, Perplexity, Claude, and Google Search.
+5. **Multi-Currency Global Billing**: Formal commercial invoicing in USD, SGD, and IDR with international payment support via SWIFT wire transfer, Wise Business, and corporate cards.
+
+## Contact & International Inquiries
+
+- Website: https://jasawebsite.net/en
+- WhatsApp: +62 851-8314-1624
+- Email: hello@jasawebsite.net
+- Regional Coverage: Serving global clients across Southeast Asia, North America, Europe, Australia, and 62 major metropolitan cities in Indonesia.

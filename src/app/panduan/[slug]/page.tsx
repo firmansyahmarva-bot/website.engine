@@ -23,6 +23,8 @@ import {
   SSGvsSSRDiagram,
 } from '@/components/diagrams';
 import { generateDirectWhatsAppUrl } from '@/lib/whatsapp';
+import { LeadForm } from '@/components/LeadForm';
+import { ContextualScrollCTA } from '@/components/ui/ContextualScrollCTA';
 
 interface Props {
   params: Promise<{ slug: string }>;
@@ -358,6 +360,14 @@ export default async function GlossaryDetailPage({ params }: Props) {
               </div>
             </section>
 
+            {/* Inline Lead Capture Section */}
+            <section id="konsultasi-gratis" className="p-6 sm:p-8 bg-white rounded-2xl border border-slate-200/90 shadow-xs">
+              <LeadForm
+                defaultPackage="Paket Bisnis (Paling Populer)"
+                className="max-w-xl mx-auto"
+              />
+            </section>
+
             {/* Related Terms Grid */}
             {relatedTerms.length > 0 && (
               <section className="space-y-4 pt-6 border-t border-slate-200">
@@ -518,6 +528,9 @@ export default async function GlossaryDetailPage({ params }: Props) {
           </aside>
         </div>
       </div>
+
+      {/* Contextual ~65% Scroll-Depth CTA */}
+      <ContextualScrollCTA term={entry.term} whatsappUrl={waUrl} />
     </article>
   );
 }

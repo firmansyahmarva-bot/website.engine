@@ -31,7 +31,7 @@ export default function ButtonShowcasePage() {
         {/* Primary Action States */}
         <section className="space-y-4">
           <h2 className="text-lg font-bold text-slate-900">1. Status Interaksi Tombol Utama (Primary States)</h2>
-          <BrowserFrame url="https://websiteplatform.id/buttons-states">
+          <BrowserFrame url="https://jasawebsite.net/buttons-states">
             <div className="p-8 bg-white grid grid-cols-2 sm:grid-cols-4 gap-6 items-center justify-items-center">
               <div className="text-center space-y-2">
                 <button className="px-5 py-2.5 bg-blue-600 text-white font-bold text-xs rounded-xl shadow-md hover:bg-blue-500 transition-all cursor-pointer">
@@ -77,7 +77,7 @@ export default function ButtonShowcasePage() {
         {/* WhatsApp High-Conversion Triggers */}
         <section className="space-y-4">
           <h2 className="text-lg font-bold text-slate-900">2. Tombol WhatsApp Konversi Khusus Indonesia</h2>
-          <BrowserFrame url="https://websiteplatform.id/buttons-whatsapp">
+          <BrowserFrame url="https://jasawebsite.net/buttons-whatsapp">
             <div className="p-8 bg-white grid grid-cols-1 sm:grid-cols-3 gap-6 items-center">
               <div className="p-5 bg-slate-50 rounded-2xl text-center space-y-3 border border-slate-100">
                 <p className="text-xs font-bold text-slate-800">Pulse Ring Calling</p>

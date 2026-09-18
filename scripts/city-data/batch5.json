@@ -1,0 +1,887 @@
+[
+  {
+    "name": "Jember",
+    "slug": "jember",
+    "province": "Jawa Timur",
+    "tier": "mid",
+    "districts": [
+      "Sumbersari",
+      "Kaliwates",
+      "Patrang",
+      "Tanggul",
+      "Puger",
+      "Ambulu",
+      "Balung"
+    ],
+    "landmarkContext": "Pusat pertumbuhan komersial Jember berporos di sepanjang koridor Jalan Hayam Wuruk dan Jalan Gajah Mada di Kaliwates yang dipadati pusat perbelanjaan Lippo Plaza Jember dan Roxy Square, berdampingan dengan kawasan akademis Universitas Jember (Unej) di Sumbersari. Di wilayah selatan, bentang pantai dan pelabuhan pendaratan ikan Puger menjadi sentra maritim, sementara Pusat Penelitian Kopi dan Kakao Indonesia (Puslitkoka) di Rambipuji mengukuhkan posisi Jember sebagai ibukota riset perkebunan nasional.",
+    "localBusinessCulture": "Kultur niaga Jember sangat dipengaruhi oleh entitas budaya 'Pandalungan'—peleburan harmonis antara tradisi agraris Jawa yang santun dengan karakter saudagar Madura yang lugas, ulet, dan berani berspekulasi bisnis. Para pengusaha tembakau cerutu, komoditas edamame, dan pedagang pasar menghargai perjumpaan langsung (silaturahmi tatap muka) serta akad transaksi tunai/tempo yang transparan. Rekomendasi informal antar-keluarga perkebunan menjadi faktor penentu dalam memilih rekanan teknologi.",
+    "dominantPlatformHabit": "Pelaku usaha agro dan tembakau menggunakan WhatsApp Business untuk pertukaran nota timbangan dan penawaran sampel komoditas. Promosi festival tahunan Jember Fashion Carnaval (JFC) dan kuliner mahasiswa mendominasi TikTok dan Instagram, sedangkan website resmi mulai diincar pengusaha lokal untuk menembus pasar ekspor cerutu dan kopi ke mancanegara.",
+    "competitorLandscape": "Layanan web di Jember mayoritas ditawarkan oleh mahasiswa prodi teknologi informasi kampus lokal atau percetakan rumahan dengan biaya Rp 700.000 - Rp 2.000.000. Situs yang dihasilkan umumnya menggunakan CMS instan tanpa perlindungan keamanan siber, minim riset SEO ekspor B2B, dan tidak memiliki dokumentasi pemeliharaan berkala.",
+    "localSearchBehavior": "Pencarian regional terfokus pada 'pabrik cerutu jember indonesia', 'supplier edamame beku jember', 'jasa pembuatan website jember', 'paket wisata pantai papuma jember', dan 'info kos mahasiswa unej jember'.",
+    "seasonalFactor": "Perhelatan akbar Jember Fashion Carnaval (JFC) setiap bulan Agustus memicu lonjakan okupansi hotel dan sewa rental kendaraan hingga titik maksimal; diiringi masa panen tembakau bawah naungan (TBN/Na-Oogst) pada pertengahan hingga akhir tahun yang mengalirkan likuiditas miliaran rupiah ke kantong petani dan juragan gudang.",
+    "connectivityProfile": "Jaringan 4G seluler (Telkomsel, Indosat, XL) sangat lancar di kawasan segitiga emas Sumbersari-Kaliwates-Patrang, namun dapat melemah saat menuju area gudang tembakau di pedesaan atau pesisir Puger. Halaman website wajib dioptimasi dengan kompresi data gambar maksimal agar tetap dapat dimuat stabil di area perkebunan.",
+    "industryDeepDive": [
+      {
+        "industrySlug": "agriculture",
+        "localAngle": "Jember adalah produsen daun tembakau cerutu pembungkus (dekblad) nomor satu di dunia dan pengekspor edamame serta kopi robusta lereng Pegunungan Argopuro. Perusahaan agro-industri Jember membutuhkan website profil B2B multibahasa (Indonesia-Inggris) yang menampilkan sertifikasi GAP (Good Agricultural Practices), kapasitas gudang pendingin (cold storage), dan spesifikasi daun cerutu ekspor."
+      },
+      {
+        "industrySlug": "education",
+        "localAngle": "Dengan populasi lebih dari 60.000 mahasiswa aktif di Unej, Politeknik Negeri Jember (Polije), dan UIN KHAS Jember, ekosistem lembaga kursus keahlian, bimbingan tes masuk kedokteran, dan asrama hunian modern membutuhkan website landing page dengan sistem pendaftaran daring terintegrasi notifikasi otomatis WhatsApp."
+      },
+      {
+        "industrySlug": "tourism",
+        "localAngle": "Daya tarik wisata Pantai Papuma, Teluk Love, agrowisata Puslitkoka, serta magnet karnaval dunia JFC membutuhkan portal pariwisata terpadu yang memadukan kalender event tahunan, galeri foto estetis berformat WebP ringan, dan fitur direct booking akomodasi penginapan lokal."
+      }
+    ],
+    "localFaqs": [
+      {
+        "question": "Apakah website ini bisa membantu pemasaran produk tembakau, cerutu, dan kopi Jember ke luar negeri?",
+        "answer": "Bisa. Kami merancang arsitektur website ekspor dwibahasa (Bahasa Indonesia dan Bahasa Inggris) lengkap dengan struktur SEO global dan formulir Request for Quotation (RFQ) agar pembeli komoditas dari Eropa, Amerika, atau Timur Tengah dapat langsung mengirimkan permintaan kuotasi harga resmi."
+      },
+      {
+        "question": "Berapa biaya pembuatan website untuk pelaku usaha di Jember?",
+        "answer": "Biaya pembuatan website di Jember mulai dari Rp 1.800.000 untuk paket profil usaha mandiri hingga Rp 8.000.000 untuk portal terpadu ekspor agribisnis atau pendaftaran institusi pendidikan."
+      },
+      {
+        "question": "Apakah tim Anda bisa meeting langsung di kantor atau gudang kami di Jember?",
+        "answer": "Tentu saja. Kami melayani sesi konsultasi tatap muka langsung di wilayah Jember kota, Kaliwates, Sumbersari, maupun area pergudangan sekitar untuk memotret fasilitas dan merumuskan strategi profil bisnis Anda."
+      },
+      {
+        "question": "Berapa lama proses pembuatan website hingga selesai dan bisa diakses?",
+        "answer": "Waktu pengerjaan rata-rata memerlukan 5 hingga 10 hari kerja setelah materi naskah profil, foto produk, dan izin usaha Anda terkumpul secara lengkap."
+      },
+      {
+        "question": "Apakah website sudah teroptimasi agar mudah dicari di Google lokal Jember?",
+        "answer": "Pasti. Kami menyematkan optimasi Local SEO lengkap dengan pendaftaran Google Profil Bisnis (Google Maps) terverifikasi, kata kunci target lokal Jawa Timur, dan kecepatan muat PageSpeed 95+."
+      }
+    ],
+    "nearbyCitySlugs": [
+      "lumajang",
+      "bondowoso",
+      "situbondo",
+      "banyuwangi"
+    ],
+    "relevantIndustrySlugs": [
+      "agriculture",
+      "education",
+      "tourism",
+      "hospitality"
+    ],
+    "typicalPriceExpectation": "Rp 1.800.000 - Rp 9.500.000",
+    "economicProfile": "Kabupaten Jember merupakan pusat perekonomian kawasan Tapal Kuda Jawa Timur, bertumpu pada agro-industri tembakau cerutu kualitas dunia, komoditas edamame beku, ekosistem puluhan ribu mahasiswa perguruan tinggi negeri, serta gelaran karnaval budaya internasional.",
+    "seoTitle": "Jasa Pembuatan Website Jember | Spesialis Agro-Industri, Edukasi & Bisnis",
+    "seoDescription": "Jasa pembuatan website di Jember untuk eksportir tembakau cerutu, kampus, paket wisata Papuma, dan UMKM. Desain modern, ultra cepat, PageSpeed 95+, bergaransi SEO.",
+    "seoKeywords": [
+      "jasa pembuatan website jember",
+      "bikin web jember murah",
+      "web developer jember",
+      "jasa website tembakau cerutu jember",
+      "web design unej jember"
+    ]
+  },
+  {
+    "name": "Banyuwangi",
+    "slug": "banyuwangi",
+    "province": "Jawa Timur",
+    "tier": "mid",
+    "districts": [
+      "Banyuwangi Kota",
+      "Rogojampi",
+      "Kalipuro",
+      "Genteng",
+      "Muncar",
+      "Licin",
+      "Kabat"
+    ],
+    "landmarkContext": "Banyuwangi membentang di ujung timur Pulau Jawa, berporos di sekitar Taman Sritanjung dan Pendopo Sabha Swagata Blambangan di pusat kota, terhubung ke utara menuju Pelabuhan Ketapang sebagai gerbang penyeberangan utama Selat Bali. Di kaki lereng barat, Kecamatan Licin menjadi pintu masuk pendakian fenomena api biru Kawah Ijen dan deretan eco-resort kelas dunia, sementara di pesisir selatan, Muncar beroperasi sebagai pelabuhan pendaratan ikan dan industri pengalengan sarden terbesar di Indonesia.",
+    "localBusinessCulture": "Kultur bisnis masyarakat Osing Banyuwangi sangat menjunjung tinggi kearifan tradisi leluhur yang berpadu selaras dengan visi modern smart regency. Pelaku usaha di sektor pariwisata dan industri pengolahan sangat sadar akan pentingnya reputasi brand, estetika arsitektur berkelanjutan (eco-friendly), serta kepuasan ulasan pelanggan digital. Hubungan kerja sama bisnis B2B dibina melalui keterbukaan komunikasi dan pembuktian komitmen pelayanan profesional.",
+    "dominantPlatformHabit": "Operator tur wisata alam dan resort butik memanfaatkan Instagram serta TikTok sebagai etalase visual utama, sedangkan transaksi pesanan paket tur Ijen dan persewaan mobil berlangsung melalui obrolan WhatsApp. Untuk pabrik perikanan Muncar, korespondensi ekspor dan audit karantina mengandalkan website resmi serta email korporat.",
+    "competitorLandscape": "Sebagian besar penyedia jasa web di Banyuwangi hanya menawarkan template agen wisata sederhana yang lambat dibuka oleh turis asing saat bepergian. Akibatnya, operator tur lokal kerap kalah bersaing dengan biro perjalanan besar dari Bali atau Surabaya yang mendominasi halaman 1 pencarian Google.",
+    "localSearchBehavior": "Pencarian didominasi wisatawan domestik dan mancanegara dengan kata kunci 'ijen blue fire tour banyuwangi', 'hotel resort dekat kawah ijen', 'pabrik pengalengan sarden muncar', dan pengusaha lokal mencari 'jasa pembuatan website banyuwangi profesional'.",
+    "seasonalFactor": "Puncak kunjungan wisatawan mancanegara (khususnya asal Eropa dan Australia) terjadi pada musim kemarau bulan Juli hingga Oktober untuk mendaki Kawah Ijen; ditambah lonjakan arus mudik penyeberangan Ketapang-Gilimanuk pada libur Lebaran dan agenda tahunan Banyuwangi Festival (B-Fest).",
+    "connectivityProfile": "Koneksi data seluler sangat cepat di area perkotaan Banyuwangi, Rogojampi, dan pelabuhan Ketapang. Namun, turis yang sedang dalam perjalanan menuju Kawah Ijen, Taman Nasional Alas Purwo, atau pantai terpencil kerap menghadapi sinyal lemah, sehingga aset website wisata harus terkompresi secara optimal agar tetap cepat terbaca dalam kondisi jaringan minim.",
+    "industryDeepDive": [
+      {
+        "industrySlug": "tourism",
+        "localAngle": "Sebagai magnet wisata bertaraf internasional (Kawah Ijen, Pulau Merah, G-Land, Baluran), operator wisata lokal membutuhkan website dwibahasa responsif dengan panduan rute perjalanan rinci, galeri visual memukau, dan formulir booking open trip langsung via WhatsApp tanpa jeda."
+      },
+      {
+        "industrySlug": "fishery",
+        "localAngle": "Pelabuhan Muncar adalah sentra industri pengalengan ikan sarden, tepung ikan, dan cold storage udang skala ekspor. Website korporat perikanan Banyuwangi memerlukan pembuktian kepatuhan sertifikasi BPOM, Halal, HACCP, serta standar ekspor ke pasar Jepang, Uni Eropa, dan Amerika Serikat."
+      },
+      {
+        "industrySlug": "hospitality",
+        "localAngle": "Eco-resort, villa bambu privat di Licin, dan hotel transit di sekitar Pelabuhan Ketapang membutuhkan platform pemesanan langsung (direct booking) resmi untuk membebaskan pemilik usaha dari beban potongan komisi agen perjalanan online (OTA) yang mencapai 15-20% per malam."
+      }
+    ],
+    "localFaqs": [
+      {
+        "question": "Apakah website wisata Banyuwangi bisa dibuat dalam dua bahasa untuk turis mancanegara?",
+        "answer": "Sangat bisa. Kami merancang website bilingual (Bahasa Indonesia dan Bahasa Inggris) dengan struktur tag hreflang resmi agar paket wisata Blue Fire Ijen atau G-Land Anda dapat ditemukan oleh turis dari berbagai belahan dunia di Google internasional."
+      },
+      {
+        "question": "Berapa biaya pembuatan website profesional di Banyuwangi?",
+        "answer": "Paket pembuatan website di Banyuwangi berkisar mulai dari Rp 1.800.000 untuk landing page operator wisata hingga Rp 8.500.000 untuk website resort atau katalog ekspor industri perikanan Muncar."
+      },
+      {
+        "question": "Apakah website bisa menghemat biaya komisi dari aplikasi OTA seperti Traveloka atau Agoda?",
+        "answer": "Ya. Website direct booking resmi memungkinkan tamu hotel atau villa Anda melakukan reservasi langsung melalui WhatsApp atau payment gateway instan, sehingga seluruh margin pendapatan kamar masuk 100% ke rekening usaha Anda tanpa terpotong fee platform."
+      },
+      {
+        "question": "Berapa lama waktu pembuatan website pariwisata di Banyuwangi?",
+        "answer": "Waktu pengerjaan standar berkisar antara 5 hingga 10 hari kerja setelah materi foto kamar/destinasi dan deskripsi harga paket Anda kami terima lengkap."
+      },
+      {
+        "question": "Apakah website yang dibuat ringan diakses turis saat berada di area minim sinyal?",
+        "answer": "Pasti. Website kami dirancang menggunakan arsitektur ultra ringan Next.js dengan kompresi WebP otomatis, memastikan halaman tetap terbuka mulus meski diakses menggunakan sinyal seluler tipis di sekitar lereng Ijen."
+      }
+    ],
+    "nearbyCitySlugs": [
+      "jember",
+      "situbondo",
+      "denpasar",
+      "bondowoso"
+    ],
+    "relevantIndustrySlugs": [
+      "tourism",
+      "fishery",
+      "hospitality",
+      "agriculture"
+    ],
+    "typicalPriceExpectation": "Rp 1.800.000 - Rp 10.000.000",
+    "economicProfile": "Kabupaten Banyuwangi adalah permata pariwisata alam dan maritim di ujung timur Pulau Jawa, digerakkan oleh ekosistem pariwisata alam kelas dunia Kawah Ijen, industri perikanan tangkap dan pengalengan sarden Muncar, serta gerbang logistik penyeberangan Jawa-Bali.",
+    "seoTitle": "Jasa Pembuatan Website Banyuwangi | Spesialis Wisata Ijen, Hotel & Perikanan",
+    "seoDescription": "Jasa bikin website profesional di Banyuwangi untuk operator tur Kawah Ijen, resort, pabrik ikan Muncar, dan UMKM. Desain modern, ultra cepat, PageSpeed 95+, SEO global.",
+    "seoKeywords": [
+      "jasa pembuatan website banyuwangi",
+      "bikin web wisata banyuwangi",
+      "web developer banyuwangi",
+      "jasa website tour ijen banyuwangi",
+      "web design banyuwangi murah"
+    ]
+  },
+  {
+    "name": "Mataram",
+    "slug": "mataram",
+    "province": "Nusa Tenggara Barat",
+    "tier": "mid",
+    "districts": [
+      "Ampenan",
+      "Mataram",
+      "Cakranegara",
+      "Selaparang",
+      "Sandubaya",
+      "Sekarbela"
+    ],
+    "landmarkContext": "Mataram berdenyut sebagai ibukota Provinsi NTB sekaligus pusat perdagangan Lombok, ditandai oleh kemegahan Islamic Center NTB (Masjid Hubbul Wathan) di Selaparang dan pesona Kota Tua Ampenan di pesisir barat. Koridor komersial utama berpusat di pusat pertokoan pecinan Cakranegara yang padat, sentra kerajinan emas dan mutiara air laut di Sekarbela, serta Terminal Mandalika di Sandubaya yang menghubungkan arus niaga lintas pulau Sumbawa dan Flores.",
+    "localBusinessCulture": "Kultur niaga di Mataram mencerminkan perpaduan harmonis antara falsafah religius masyarakat Sasak dengan dinamika etnis Tionghoa dan Bali di pusat perdagangan Cakranegara. Pebisnis sangat menghargai integritas moral, kejelasan legalitas fisik toko, dan komitmen pelayanan yang tulus. Keputusan pembelian barang berharga (seperti perhiasan mutiara) maupun jasa teknologi sangat bertumpu pada rasa aman dan sertifikat keaslian resmi yang dapat dipertanggungjawabkan.",
+    "dominantPlatformHabit": "Pelaku usaha mutiara Sekarbela dan kain tenun ikat memanfaatkan WhatsApp Business untuk pengiriman video katalog detail kepada pembeli borongan di Jakarta dan Surabaya. Media sosial Instagram aktif mempromosikan wisata kuliner ayam taliwang dan destinasi Mandalika, sementara website resmi menjadi syarat mutlak untuk membangun citra kemewahan toko perhiasan mutiara.",
+    "competitorLandscape": "Penyedia jasa pembuatan website berbasis lokal di Mataram masih sangat terbatas; sebagian besar biro perjalanan wisata dan toko perhiasan terpaksa memakai jasa vendor dari Bali atau Surabaya dengan tarif mahal dan kesulitan saat membutuhkan bantuan teknis langsung di lokasi.",
+    "localSearchBehavior": "Pencarian internet didominasi calon pembeli luar daerah dengan kata kunci 'mutiara lombok sekarbela asli bersertifikat', 'paket tour mandalika lombok murah', 'hotel bintang mataram lombok', dan pengusaha lokal mencari 'jasa pembuatan website mataram lombok'.",
+    "seasonalFactor": "Gelaran ajang balap internasional MotoGP di Sirkuit Mandalika (September/Oktober) dan World Superbike (WSBK) memicu ledakan kedatangan turis dan lonjakan belanja cinderamata mutiara; diiringi musim liburan musim panas turis asing ke Gili Trawangan serta festival Bau Nyale.",
+    "connectivityProfile": "Jaringan 4G/5G seluler sangat stabil di sepanjang koridor jalan protokol Mataram dan Cakranegara. Mayoritas pembeli perhiasan mutiara dan calon wisatawan mengakses katalog melalui ponsel cerdas kelas atas, sehingga antarmuka situs harus dirancang elegan, responsif, dan menyajikan foto makro perhiasan yang sangat tajam tanpa jeda pemuatan.",
+    "industryDeepDive": [
+      {
+        "industrySlug": "retail",
+        "localAngle": "Sentra kerajinan mutiara Sekarbela memasok perhiasan mutiara air laut (South Sea Pearls) dan air tawar kualitas ekspor. Website butik perhiasan mutiara Mataram membutuhkan desain mewah bertema luxury modern, dilengkapi sertifikat keaslian digital, panduan grade kilau (luster), dan tombol konsultasi personal via WhatsApp VIP."
+      },
+      {
+        "industrySlug": "tourism",
+        "localAngle": "Sebagai simpul transit menuju Kawasan Ekonomi Khusus (KEK) Mandalika, Gunung Rinjani, dan Tiga Gili, biro perjalanan wisata di Mataram membutuhkan landing page berkecepatan tinggi dengan fitur pemesanan paket open trip, sewa mobil lepas kunci, dan ulasan pelanggan terverifikasi."
+      },
+      {
+        "industrySlug": "hospitality",
+        "localAngle": "Hotel bisnis di pusat kota Mataram dan homestay syariah di koridor Islamic Center memerlukan platform reservasi kamar langsung yang memadukan fasilitas ballroom pertemuan korporat, paket wisata halal (halal tourism), dan pemesanan kamar instan tanpa potongan komisi pihak ketiga."
+      }
+    ],
+    "localFaqs": [
+      {
+        "question": "Apakah website ini cocok untuk toko perhiasan dan mutiara di Sekarbela Lombok?",
+        "answer": "Sangat cocok. Kami merancang tata letak website berkelas mewah dengan fitur galeri foto makro beresolusi tinggi, informasi sertifikat keaslian butiran mutiara, dan tombol order WhatsApp VIP yang memudahkan pembeli luar pulau melakukan transaksi dengan aman."
+      },
+      {
+        "question": "Berapa kisaran biaya pembuatan website di Kota Mataram?",
+        "answer": "Biaya pembuatan website di Mataram berkisar mulai dari Rp 2.000.000 untuk profil bisnis sederhana hingga Rp 8.500.000 untuk katalog perhiasan eksklusif atau portal biro perjalanan wisata Lombok."
+      },
+      {
+        "question": "Apakah website kami bisa bersaing di pencarian Google untuk paket wisata Mandalika?",
+        "answer": "Ya. Kami menerapkan struktur Local SEO dan riset kata kunci strategis seputar wisata Lombok dan Mandalika sehingga website Anda berpeluang besar menduduki halaman teratas saat calon wisatawan mencari paket liburan di Google."
+      },
+      {
+        "question": "Apakah tim Anda bisa meeting langsung di Cakranegara atau Mataram?",
+        "answer": "Tentu. Kami menyediakan layanan koordinasi dan konsultasi langsung untuk pelaku usaha di wilayah Kota Mataram dan sekitarnya guna mendiskusikan konsep desain, kurasi materi foto, serta pengoperasian sistem."
+      },
+      {
+        "question": "Berapa lama pengerjaan website hingga siap tayang?",
+        "answer": "Waktu pengerjaan berkisar antara 5 hingga 10 hari kerja setelah materi foto produk perhiasan, deskripsi paket tour, dan profil usaha Anda kami terima secara lengkap."
+      }
+    ],
+    "nearbyCitySlugs": [
+      "denpasar",
+      "bima",
+      "sumbawa-besar",
+      "praya"
+    ],
+    "relevantIndustrySlugs": [
+      "retail",
+      "tourism",
+      "hospitality",
+      "culinary"
+    ],
+    "typicalPriceExpectation": "Rp 2.000.000 - Rp 10.000.000",
+    "economicProfile": "Kota Mataram adalah pusat pemerintahan, perdagangan, dan gerbang transit pariwisata utama Provinsi Nusa Tenggara Barat, ditopang oleh perdagangan komoditas mutiara kelas dunia Sekarbela, pusat perniagaan Cakranegara, serta ekosistem penunjang event motorsport Sirkuit Mandalika.",
+    "seoTitle": "Jasa Pembuatan Website Mataram Lombok | Web Mutiara, Wisata Mandalika & Bisnis",
+    "seoDescription": "Jasa pembuatan website di Mataram Lombok untuk toko mutiara Sekarbela, biro tour Mandalika, hotel, dan UMKM. Desain mewah, loading super cepat, PageSpeed 95+.",
+    "seoKeywords": [
+      "jasa pembuatan website mataram",
+      "bikin web lombok mataram",
+      "web developer mataram",
+      "jasa website mutiara lombok sekarbela",
+      "web design mandalika lombok"
+    ]
+  },
+  {
+    "name": "Kupang",
+    "slug": "kupang",
+    "province": "Nusa Tenggara Timur",
+    "tier": "mid",
+    "districts": [
+      "Oebobo",
+      "Kelapa Lima",
+      "Alak",
+      "Kota Raja",
+      "Maulafa",
+      "Kota Lama"
+    ],
+    "landmarkContext": "Kupang berdiri anggun di pesisir Teluk Kupang sebagai ibukota Provinsi NTT, berpusat di sekitar Kantor Gubernur NTT berarsitektur alat musik Sasando di Oebobo dan kawasan Pantai Teddys Kota Lama yang bersejarah. Di koridor industri barat, Pelabuhan Tenau dan Kawasan Industri Bolok di Alak mengendalikan distribusi semen dan kargo maritim, sementara bentangan pesisir Pantai Lasiana dan Pasir Panjang menjadi pusat denyut kuliner sei sapi dan pariwisata bahari.",
+    "localBusinessCulture": "Kultur sosial dan berniaga masyarakat Flobamora di Kupang sangat mengutamakan semangat kekeluargaan, ketulusan rasa hormat, dan keterbukaan komunikasi langsung. Pengambilan keputusan bisnis di NTT banyak ditentukan oleh reputasi rekam jejak, legalitas badan usaha resmi, serta rekomendasi personal dari tokoh masyarakat atau mitra kerja. Hubungan kemitraan jangka panjang terbina kokoh ketika penyedia jasa menunjukkan kepedulian tulus dan komitmen pendampingan purnajual.",
+    "dominantPlatformHabit": "Masyarakat dan pedagang lokal sangat aktif berinteraksi di grup Facebook jual-beli Kupang serta mengandalkan WhatsApp untuk koordinasi pesanan makanan dan jasa harian. Namun, untuk memenangkan proyek pengadaan pemerintah (APBD/APBN) dan kerja sama kemitraan LSM/BUMN, kepemilikan website korporat berstandar formal adalah syarat wajib yang mutlak.",
+    "competitorLandscape": "Ketersediaan tenaga ahli pengembang web profesional di Kota Kupang masih sangat minim; jasa TI lokal mayoritas berupa teknisi jaringan kantor atau toko servis komputer. Perusahaan kontraktor dan pengusaha kuliner di Kupang sering kali kesulitan menemukan mitra pengembang web yang memahami kaidah performa web modern dan keamanan data.",
+    "localSearchBehavior": "Pencarian internet banyak dilakukan oleh pembeli luar pulau untuk 'sei sapi kupang frozen vakum asli', 'kontraktor infrastruktur ntt kupang', 'sewa mobil kupang lepas kunci', serta pengusaha daerah yang mencari 'jasa pembuatan website kupang ntt terpercaya'.",
+    "seasonalFactor": "Realisasi proyek pengadaan tender fisik pemerintah mengalami percepatan pada kuartal 3 dan 4; diiringi lonjakan konsumsi kuliner daging olahan serta cinderamata kain tenun ikat pada perayaan Paskah, musim pesta pernikahan (Juli-Oktober), serta hari raya Natal dan Tahun Baru.",
+    "connectivityProfile": "Jaringan internet serat optik dan 4G seluler telah mencakup area perkotaan Kupang, namun koneksi dapat melambat saat memasuki kawasan pinggiran atau kepulauan sekitar. Halaman website wajib dioptimasi seringan mungkin, bebas dari beban script animasi berat, agar dapat diakses seketika di seluruh pelosok Nusa Tenggara Timur.",
+    "industryDeepDive": [
+      {
+        "industrySlug": "culinary",
+        "localAngle": "Kuliner Sei Sapi asap tradisional khas Kupang memiliki pasar konsumen fanatik di seluruh Indonesia. Website produsen daging sei Kupang membutuhkan toko online terpadu dengan informasi kemasan beku vakum tahan lama, sertifikasi Halal/BPOM, serta kalkulator ongkos kirim kargo udara otomatis ke berbagai kota besar nusantara."
+      },
+      {
+        "industrySlug": "contractor",
+        "localAngle": "Perusahaan kontraktor sipil, pengaspalan jalan, dan penyedia instalasi jaringan air bersih di NTT membutuhkan website profil korporat resmi untuk memenuhi kualifikasi evaluasi tender LPSE, dilengkapi galeri portofolio proyek fisik, dokumen SBU/NIB, serta laporan kepatuhan keselamatan kerja."
+      },
+      {
+        "industrySlug": "tourism",
+        "localAngle": "Sebagai pintu gerbang penyeberangan menuju Pulau Semau, Pulau Rote, dan ekspedisi overland Timor, biro perjalanan di Kupang memerlukan website yang menyajikan jadwal penyeberangan ferry, paket diving terumbu karang, dan sistem pemesanan transportasi darat terintegrasi WhatsApp."
+      }
+    ],
+    "localFaqs": [
+      {
+        "question": "Apakah website ini cocok untuk kualifikasi tender proyek kontraktor di NTT?",
+        "answer": "Sangat cocok. Kami berpengalaman membangun website profil perusahaan kontraktor yang dirancang sesuai standar verifikasi lelang tender LPSE, menampilkan rekam jejak proyek fisik, daftar peralatan alat berat, sertifikat keahlian, dan dokumen legalitas lengkap."
+      },
+      {
+        "question": "Berapa biaya pembuatan website profesional di Kota Kupang?",
+        "answer": "Biaya pembuatan website di Kupang mulai dari Rp 2.000.000 untuk profil usaha standar hingga Rp 8.500.000 untuk toko online pengiriman kuliner sei nusantara atau portal korporat kontraktor."
+      },
+      {
+        "question": "Apakah website kuliner bisa melayani pemesanan sei sapi beku ke luar pulau?",
+        "answer": "Bisa. Kami mengintegrasikan sistem katalog produk dengan integrasi cek ongkos kirim otomatis ekspedisi kargo udara satu hari sampai (Paxel/JNE YES) sehingga pembeli di Jakarta atau Surabaya bisa langsung memesan paket sei beku dengan mudah."
+      },
+      {
+        "question": "Bagaimana jika kami berada di luar pulau Timor, apakah tetap bisa dilayani?",
+        "answer": "Bisa. Kami melayani seluruh wilayah NTT (Kupang, Flores, Sumba, Alor, Rote) melalui konsultasi virtual daring, presentasi desain via Google Meet, serta pendampingan materi secara intensif melalui WhatsApp."
+      },
+      {
+        "question": "Berapa lama proses pembuatan website hingga online?",
+        "answer": "Waktu pengerjaan umumnya memakan waktu 6 hingga 12 hari kerja setelah dokumen profil, daftar layanan, dan materi foto fasilitas usaha Anda kami terima lengkap."
+      }
+    ],
+    "nearbyCitySlugs": [
+      "atambua",
+      "ende",
+      "maumere",
+      "waingapu"
+    ],
+    "relevantIndustrySlugs": [
+      "culinary",
+      "contractor",
+      "tourism",
+      "logistics"
+    ],
+    "typicalPriceExpectation": "Rp 2.000.000 - Rp 10.000.000",
+    "economicProfile": "Kota Kupang adalah pusat pemerintahan, pelabuhan kargo maritim, dan episentrum perdagangan Provinsi Nusa Tenggara Timur, bertumpu pada industri pengolahan kuliner khas sei sapi, belanja modal konstruksi infrastruktur regional, serta gerbang wisata kepulauan Flobamora.",
+    "seoTitle": "Jasa Pembuatan Website Kupang NTT | Web Kontraktor, Sei Sapi & Wisata",
+    "seoDescription": "Jasa pembuatan website di Kupang NTT untuk perusahaan kontraktor LPSE, toko online sei sapi beku, biro wisata, dan UMKM. Cepat, aman, PageSpeed 95+, ramah Google.",
+    "seoKeywords": [
+      "jasa pembuatan website kupang",
+      "bikin web kupang ntt",
+      "web developer kupang",
+      "jasa website kontraktor kupang",
+      "web toko sei sapi kupang"
+    ]
+  },
+  {
+    "name": "Manado",
+    "slug": "manado",
+    "province": "Sulawesi Utara",
+    "tier": "large",
+    "districts": [
+      "Wenang",
+      "Malalayang",
+      "Sario",
+      "Wanea",
+      "Tikala",
+      "Mapanget",
+      "Singkil"
+    ],
+    "landmarkContext": "Manado membentang di tepian Teluk Manado dengan latar megah Pulau Manado Tua, berporos di sepanjang koridor bisnis Boulevard on Business (Jalan Piere Tendean) di Kawasan Megamas dan Manado Town Square (Mantos). Di utara, Bandara Internasional Sam Ratulangi di Mapanget menyambut penerbangan langsung dari Asia Timur, terhubung dengan kemegahan Jembatan Soekarno yang melintasi muara Sungai Tondano menuju akses pelayaran Taman Nasional Bunaken.",
+    "localBusinessCulture": "Falsafah luhur Sam Ratulangi 'Sitou Timou Tumou Tou' (Manusia baru dapat disebut manusia jika telah memanusiakan sesamanya) menjadi jiwa keramahan masyarakat Minahasa. Gaya hidup masyarakat Manado sangat ekspresif, kosmopolitan, berdaya beli tinggi, dan sangat menghargai kualitas visual serta gengsi sebuah merk. Keputusan pembelian bisnis di Manado dipengaruhi oleh estetika tampilan yang elegan, pembawaan komunikasi yang percaya diri, serta reputasi kemitraan yang terpercaya.",
+    "dominantPlatformHabit": "Masyarakat Manado sangat aktif bermedia sosial di Instagram dan Facebook untuk gaya hidup, fashion, dan kuliner; obrolan WhatsApp menjadi pusat negosiasi transaksi harian; sedangkan operator diving Bunaken dan eksportir perikanan sangat bergantung pada website resmi dwibahasa untuk menjaring wisatawan asing.",
+    "competitorLandscape": "Sejumlah agensi desain grafis di Manado mampu menghasilkan visual yang menarik, namun kerap mengabaikan sisi teknis rekayasa web seperti optimasi Core Web Vitals, skor PageSpeed, dan arsitektur data terstruktur. Hal ini mengakibatkan website menjadi lambat dibuka turis mancanegara yang hendak memesan paket selam.",
+    "localSearchBehavior": "Pencarian didominasi wisatawan global dan pembeli B2B dengan kata kunci 'bunaken diving resort manado', 'eksportir tuna segar manado', 'hotel bintang dekat megamas manado', serta pebisnis lokal mencari 'jasa pembuatan website manado profesional'.",
+    "seasonalFactor": "Musim selam terbaik di Bunaken berlangsung pada bulan Mei hingga Oktober saat perairan tenang dan jarak pandang bawah laut mencapai puncaknya; ditambah perayaan keagamaan massal seperti Pengucapan Syukur (Thanksgiving) dan perayaan Natal-Tahun Baru yang memicu perputaran belanja ritel spektakuler.",
+    "connectivityProfile": "Kota Manado memiliki keunggulan konektivitas berkat kabel serat optik bawah laut internasional dan jaringan 4G/5G seluler yang merata. Mayoritas pengguna gawai menggunakan smartphone kelas menengah ke atas yang mengharapkan animasi website halus, visual tajam, dan pemuatan instan tanpa jeda buffering.",
+    "industryDeepDive": [
+      {
+        "industrySlug": "tourism",
+        "localAngle": "Sebagai surga keanekaragaman hayati laut dunia di Taman Nasional Bunaken dan Selat Lembeh, operator diving center dan resort selam di Manado membutuhkan website kelas dunia multibahasa (Inggris, Mandarin, Indonesia) dengan kalender reservasi langsung, profil instruktur berlisensi PADI, dan galeri bawah laut definisi tinggi."
+      },
+      {
+        "industrySlug": "fishery",
+        "localAngle": "Manado dan Pelabuhan Perikanan Samudera Bitung adalah poros ekspor ikan tuna sirip kuning (yellowfin tuna) dan cakalang segar ke pasar Jepang dan Amerika. Website industri perikanan Manado membutuhkan profil korporat rantai dingin (cold chain) dengan bukti pemenuhan sertifikasi HACCP dan karantina ekspor kargo udara."
+      },
+      {
+        "industrySlug": "hospitality",
+        "localAngle": "Hotel bintang dan resort pantai di sepanjang koridor Megamas dan pesisir Malalayang memerlukan website representatif yang menyajikan panorama matahari terbenam Teluk Manado, direktori ballroom konferensi internasional MICE, serta mesin pemesanan kamar langsung tanpa biaya komisi perantara."
+      }
+    ],
+    "localFaqs": [
+      {
+        "question": "Apakah website bisa dirancang dalam Bahasa Inggris dan Mandarin untuk turis diving Bunaken?",
+        "answer": "Ya, kami mengkhususkan diri dalam membangun arsitektur website pariwisata internasional multibahasa (Inggris, Mandarin, Indonesia) yang teroptimasi SEO global untuk menjaring minat turis mancanegara langsung ke kontak reservasi Anda."
+      },
+      {
+        "question": "Berapa biaya pembuatan website profesional di Kota Manado?",
+        "answer": "Paket pembuatan website di Manado mulai dari Rp 2.500.000 untuk profil bisnis lokal hingga Rp 12.000.000 untuk portal diving resort mewah atau platform eksportir perikanan berstandar global."
+      },
+      {
+        "question": "Apakah website yang dibuat bisa menampilkan video galeri bawah laut dengan cepat?",
+        "answer": "Tentu. Kami menggunakan teknologi streaming video modern yang terkompresi tanpa mengurangi kejernihan visual, sehingga keindahan terumbu karang Bunaken dapat dinikmati pengunjung website seketika tanpa membuat loading lambat."
+      },
+      {
+        "question": "Apakah tim pengembang bisa meeting langsung di wilayah Manado?",
+        "answer": "Tentu saja. Kami siap menghadiri pertemuan langsung di kantor, resort, atau cafe Anda di seputar Megamas, Malalayang, maupun Bandara Sam Ratulangi untuk membahas konsep dan strategi digital bisnis Anda."
+      },
+      {
+        "question": "Berapa lama waktu pengerjaan website hingga siap online?",
+        "answer": "Waktu pengerjaan berkisar antara 7 hingga 14 hari kerja disesuaikan dengan kelengkapan materi kurasi foto, pilihan bahasa, dan sistem reservasi yang Anda butuhkan."
+      }
+    ],
+    "nearbyCitySlugs": [
+      "tomohon",
+      "bitung",
+      "gorontalo",
+      "kotamobagu"
+    ],
+    "relevantIndustrySlugs": [
+      "tourism",
+      "fishery",
+      "hospitality",
+      "culinary"
+    ],
+    "typicalPriceExpectation": "Rp 2.500.000 - Rp 14.000.000",
+    "economicProfile": "Kota Manado adalah ibukota metropolitan Sulawesi Utara dan gerbang pariwisata bahari Pasifik Indonesia, ditopang oleh magnet wisata bawah laut dunia Bunaken, industri ekspor perikanan tuna segar Bitung-Manado, serta sektor MICE dan perdagangan ritel modern.",
+    "seoTitle": "Jasa Pembuatan Website Manado | Spesialis Diving Bunaken, Hotel & Ekspor",
+    "seoDescription": "Jasa pembuatan website di Manado untuk diving center Bunaken, resort pantai, eksportir perikanan, dan bisnis. Desain memikat kelas dunia, loading instan, skor PageSpeed 95+.",
+    "seoKeywords": [
+      "jasa pembuatan website manado",
+      "bikin web diving bunaken manado",
+      "web developer manado",
+      "jasa website hotel manado",
+      "web design manado terpercaya"
+    ]
+  },
+  {
+    "name": "Palu",
+    "slug": "palu",
+    "province": "Sulawesi Tengah",
+    "tier": "mid",
+    "districts": [
+      "Palu Barat",
+      "Palu Timur",
+      "Palu Selatan",
+      "Mantikulore",
+      "Ulujadi",
+      "Tatanga",
+      "Palu Utara"
+    ],
+    "landmarkContext": "Palu membentang mengelilingi Teluk Palu yang diapit lembah pegunungan megah, ditandai oleh kembalinya ikon Jembatan Palu IV (Jembatan Ponulele) dan revitalisasi kawasan pesisir Pantai Talise. Di sisi utara, Kawasan Ekonomi Khusus (KEK) Palu di Pantoloan menjadi jangkar industri manufaktur dan hilirisasi tambang dekat Pelabuhan Pantoloan, sementara Alun-Alun Vatulemo dan Jalan Sam Ratulangi menjadi pusat administrasi dan geliat komersial kota.",
+    "localBusinessCulture": "Kultur niaga masyarakat Kaili di lembah Palu menjunjung tinggi nilai persaudaraan 'Nosarara Nosabatutu' (bersaudara dan bersatu), gotong royong, dan musyawarah mufakat. Pasca-rekonstruksi wilayah, pebisnis Palu memiliki ketangguhan luar biasa dan sangat selektif dalam memilih rekanan. Mereka mengutamakan mitra yang memiliki komitmen riil, transparansi spesifikasi material, dan legalitas badan usaha yang kokoh untuk menunjang proyek-proyek fisik maupun pasokan industri.",
+    "dominantPlatformHabit": "Aktivitas penawaran proyek dan pengadaan barang mengandalkan grup WhatsApp rekanan dan email formal kantor. Jual-beli lokal aktif di forum Facebook Palu, sedangkan produk legendaris bawang goreng khas Palu dan kopi kintamani lembah Palu mulai beralih ke website resmi untuk menjangkau pasar ritel modern nasional.",
+    "competitorLandscape": "Penyedia jasa pembuatan website berbasis lokal di Palu masih sangat terbatas dan umumnya menggunakan CMS lama tanpa perlindungan keamanan siber modern. Akibatnya, banyak perusahaan rekanan KEK Palu dan kontraktor tambang terpaksa mencari agensi dari Makassar atau Pulau Jawa.",
+    "localSearchBehavior": "Pencarian internet terfokus pada 'pabrik industri kek palu pantoloan', 'produsen bawang goreng palu asli', 'kontraktor konstruksi palu sulteng', dan pelaku usaha lokal mencari 'jasa pembuatan website palu profesional'.",
+    "seasonalFactor": "Perputaran anggaran proyek konstruksi pemerintah dan industri smelter nikel memuncak pada kuartal 3 dan 4; musim panen raya bawang merah batu khas Palu berlangsung stabil di lembah Palu menggerakkan industri oleh-oleh.",
+    "connectivityProfile": "Jaringan telekomunikasi seluler 4G telah pulih menyeluruh di pusat kota Palu dan koridor KEK Pantoloan. Mengingat sebagian staf operasional pabrik dan kontraktor mengakses informasi di lapangan terbuka, website wajib dirancang bersih, ringan, dan cepat terbuka tanpa lag.",
+    "industryDeepDive": [
+      {
+        "industrySlug": "manufacturing",
+        "localAngle": "Kawasan Ekonomi Khusus (KEK) Palu menampung industri pengolahan getah pinus, aspal buton, dan hilirisasi mineral tambang nikel. Perusahaan manufaktur di KEK Palu memerlukan website profil B2B yang menampilkan izin operasional kawasan berikat, fasilitas dermaga curah, dan standar keselamatan lingkungan hidup."
+      },
+      {
+        "industrySlug": "culinary",
+        "localAngle": "Bawang Goreng Palu (berbahan dasar bawang batu lokal) memiliki tekstur renyah alami dan aroma khas yang sangat diburu konsumen nusantara. Website produsen bawang goreng membutuhkan katalog e-commerce modern dengan kemasan toples premium, sertifikasi Halal/PIRT, dan fitur pesanan grosir ke agen oleh-oleh nasional."
+      },
+      {
+        "industrySlug": "contractor",
+        "localAngle": "Kebutuhan jasa konstruksi tahan gempa, perbaikan struktur baja, dan pengerjaan sipil infrastruktur di Sulawesi Tengah menuntut kontraktor memiliki website profil dengan dokumentasi portofolio rekayasa struktur, sertifikat SMK3, dan daftar alat berat yang dimiliki."
+      }
+    ],
+    "localFaqs": [
+      {
+        "question": "Apakah website ini cocok untuk profil perusahaan di Kawasan Ekonomi Khusus (KEK) Palu?",
+        "answer": "Sangat tepat. Kami merancang website profil industri B2B yang menonjolkan legalitas usaha, kepatuhan K3/ISO, fasilitas pergudangan atau pabrik, serta jalur komunikasi pengadaan yang memenuhi standar investor nasional maupun multinasional."
+      },
+      {
+        "question": "Berapa biaya pembuatan website untuk pelaku usaha di Kota Palu?",
+        "answer": "Biaya pembuatan website di Palu berkisar mulai dari Rp 1.800.000 untuk profil bisnis standar hingga Rp 8.500.000 untuk portal korporat manufaktur atau platform e-commerce produsen kuliner lokal."
+      },
+      {
+        "question": "Apakah website bisa dioptimasi agar produk Bawang Goreng Palu kami tembus pasar nasional?",
+        "answer": "Bisa. Kami menanamkan struktur SEO komersial sehingga saat pengguna di Jakarta, Surabaya, atau kota lain mencari distributor bawang goreng Palu asli di Google, website Anda tampil di peringkat teratas."
+      },
+      {
+        "question": "Berapa lama proses pembuatan website sampai bisa diakses publik?",
+        "answer": "Waktu pengerjaan berkisar antara 5 hingga 10 hari kerja setelah materi teks profil, dokumen perizinan, dan foto produk atau proyek Anda kami terima lengkap."
+      },
+      {
+        "question": "Apakah kami mendapatkan garansi keamanan dan bantuan jika website bermasalah?",
+        "answer": "Ya, kami memberikan garansi pemeliharaan teknis, sertifikat keamanan SSL resmi, serta bantuan konsultasi cepat via WhatsApp kapan pun Anda memerlukan pembaruan data atau bantuan teknis."
+      }
+    ],
+    "nearbyCitySlugs": [
+      "poso",
+      "luwuk",
+      "makassar",
+      "tolitoli"
+    ],
+    "relevantIndustrySlugs": [
+      "manufacturing",
+      "culinary",
+      "contractor",
+      "logistics"
+    ],
+    "typicalPriceExpectation": "Rp 1.800.000 - Rp 9.500.000",
+    "economicProfile": "Kota Palu adalah ibukota dan pusat perekonomian Provinsi Sulawesi Tengah, bertumpu pada Kawasan Ekonomi Khusus (KEK) Palu, jalur logistik Pelabuhan Pantoloan di Selat Makassar, sentra agro-industri bawang batu, serta jasa konstruksi dan penunjang pertambangan mineral.",
+    "seoTitle": "Jasa Pembuatan Website Palu | Spesialis KEK Pantoloan, Bawang Goreng & Kontraktor",
+    "seoDescription": "Jasa pembuatan website di Kota Palu untuk industri KEK Pantoloan, UMKM bawang goreng, kontraktor, dan bisnis lokal. Desain modern, cepat, PageSpeed 95+, garansi SEO.",
+    "seoKeywords": [
+      "jasa pembuatan website palu",
+      "bikin web palu sulteng",
+      "web developer palu",
+      "jasa website industri kek palu",
+      "web toko bawang goreng palu"
+    ]
+  },
+  {
+    "name": "Kendari",
+    "slug": "kendari",
+    "province": "Sulawesi Tenggara",
+    "tier": "mid",
+    "districts": [
+      "Mandonga",
+      "Kendari Barat",
+      "Baruga",
+      "Kadia",
+      "Poasia",
+      "Kambu",
+      "Abeli"
+    ],
+    "landmarkContext": "Kendari berkembang pesat di sekeliling Teluk Kendari, ditandai oleh kemegahan Jembatan Teluk Kendari (Bahteramas) yang membentang menghubungkan Kota Lama dengan Poasia, serta keunikan Masjid Al-Alam yang berdiri terapung di tengah teluk. Pusat kegiatan bisnis bertumpu di koridor Mandonga dan Kadia, sementara di pesisir Abeli dan Bungkutoko, Pelabuhan New Port Kendari menjadi urat nadi peti kemas dan tongkang pengangkut hasil tambang nikel Sulawesi Tenggara.",
+    "localBusinessCulture": "Kultur niaga Kendari digerakkan oleh dinamika masyarakat Tolaki yang bersahaja serta para pelaku usaha rantau yang sangat adaptif terhadap booming hilirisasi industri nikel di daratan Sultra. Transaksi bisnis bernilai miliaran rupiah menuntut profesionalisme, kelengkapan surat izin operasional alat, sertifikasi K3 pertambangan, dan kecepatan respons. Pengambil keputusan di sektor penunjang tambang sangat menghargai kejelasan legalitas dan rekam jejak kerja sama nyata di lapangan.",
+    "dominantPlatformHabit": "Komunikasi dan koordinasi logistik lapangan menggunakan grup WhatsApp secara intensif, proposal tender dikirimkan melalui email resmi korporat, sedangkan media sosial digunakan untuk promosi rental mobil proyek dan jasa akomodasi hotel. Website profesional kini menjadi syarat mutlak untuk lolos audit Vendor Management System (VMS) korporasi smelter.",
+    "competitorLandscape": "Minimnya agensi IT di Kendari yang menguasai standar profil teknik B2B engineering membuat perusahaan kontraktor dan agen perkapalan di Kendari sering kali terpaksa mengontrak konsultan IT asal Makassar atau Jakarta dengan biaya mahal dan komunikasi jarak jauh yang lambat.",
+    "localSearchBehavior": "Pencarian didominasi tim procurement industri dengan kata kunci 'vendor kontraktor nikel kendari sultra', 'agen kapal tongkang teluk kendari', 'rental excavator dan dump truck kendari', serta pengusaha mencari 'jasa pembuatan website kendari terpercaya'.",
+    "seasonalFactor": "Aktivitas penambangan dan pelayaran tongkang ore nikel mencapai puncaknya pada musim ombak tenang (April hingga November); diiringi siklus tender perpanjangan kontrak vendor tambang tahunan pada kuartal 4.",
+    "connectivityProfile": "Konektivitas serat optik dan 4G seluler sangat baik di wilayah perkotaan Kendari. Namun, para engineer dan kontraktor yang sedang bertugas di area site tambang pelosok Konawe atau Kolaka mengandalkan koneksi satelit atau sinyal terbatas, sehingga website perusahaan kontraktor wajib seringan mungkin agar dapat dibuka cepat di lokasi kerja tambang.",
+    "industryDeepDive": [
+      {
+        "industrySlug": "contractor",
+        "localAngle": "Ratusan penyedia jasa penambangan, kontraktor perintisan jalan tambang (hauling road), dan rental alat berat di Kendari membutuhkan website profil rekanan resmi yang memamerkan daftar armada (excavator, dump truck, dozer), sertifikat CSMS, dan rekam jejak K3 zero-accident."
+      },
+      {
+        "industrySlug": "logistics",
+        "localAngle": "Sebagai simpul lalu lintas laut tongkang pengangkut bijih nikel dan kargo kontainer, perusahaan shipping agency, bunker BBM industri, dan tugboat di Teluk Kendari butuh website yang menampilkan perizinan SIUPAL resmi, spesifikasi armada kapal tunda, dan layanan sandar pelabuhan."
+      },
+      {
+        "industrySlug": "tourism",
+        "localAngle": "Sebagai pintu gerbang menuju surga bahari Pulau Labengki dan Sombori (dijuluki miniatur Raja Ampat Sulawesi), biro perjalanan wisata di Kendari membutuhkan landing page dengan dokumentasi visual jernih teluk karang, jadwal open trip akhir pekan, dan tombol reservasi instan WhatsApp."
+      }
+    ],
+    "localFaqs": [
+      {
+        "question": "Apakah website ini memenuhi syarat audit rekanan vendor tambang nikel di Sulawesi Tenggara?",
+        "answer": "Ya. Website dirancang dengan standar kualifikasi korporat industri berat, mencakup sajian legalitas NIB/SBU, halaman sertifikasi keselamatan kerja (CSMS/SMK3), daftar armada alat berat terverifikasi, dan formulir permohonan kerja sama B2B resmi."
+      },
+      {
+        "question": "Berapa biaya pembuatan website untuk kontraktor dan perusahaan di Kendari?",
+        "answer": "Biaya pembuatan website di Kendari berkisar antara Rp 2.500.000 untuk profil bisnis standar hingga Rp 11.000.000 untuk portal komprehensif kontraktor tambang atau keagenan kapal pelayaran."
+      },
+      {
+        "question": "Apakah website bisa diakses cepat oleh staf kami yang sedang berada di lokasi tambang?",
+        "answer": "Pasti. Kami menggunakan arsitektur web modern Next.js yang sangat ringan dan efisien, sehingga halaman tetap dapat dibuka dengan cepat meski hanya mengandalkan sinyal seluler tipis di kawasan tambang Konawe atau Morowali."
+      },
+      {
+        "question": "Apakah tim Anda bisa meeting langsung di kantor kami di Kendari?",
+        "answer": "Tentu. Kami menyediakan layanan konsultasi dan presentasi langsung untuk wilayah Kota Kendari guna menyelaraskan spesifikasi portofolio armada, materi legalitas, dan strategi digital perusahaan Anda."
+      },
+      {
+        "question": "Berapa lama proses pembuatan website hingga siap online?",
+        "answer": "Waktu pengerjaan berkisar antara 6 hingga 12 hari kerja tergantung pada kelengkapan data spesifikasi armada, dokumen izin, dan foto fasilitas operasional Anda."
+      }
+    ],
+    "nearbyCitySlugs": [
+      "makassar",
+      "bau-bau",
+      "kolaka",
+      "morowali"
+    ],
+    "relevantIndustrySlugs": [
+      "contractor",
+      "logistics",
+      "tourism",
+      "mining"
+    ],
+    "typicalPriceExpectation": "Rp 2.500.000 - Rp 12.000.000",
+    "economicProfile": "Kota Kendari adalah ibukota dan episentrum ekonomi Provinsi Sulawesi Tenggara yang sedang bertumbuh eksponensial berkat geliat industri penunjang pertambangan nikel, keagenan kapal pelayaran tongkang, pelabuhan kontainer Bungkutoko, serta pariwisata kepulauan Labengki.",
+    "seoTitle": "Jasa Pembuatan Website Kendari | Spesialis Kontraktor Nikel, Pelayaran & Bisnis",
+    "seoDescription": "Jasa pembuatan website di Kendari untuk kontraktor alat berat tambang nikel, shipping agency, biro wisata Labengki, dan UMKM. Cepat, aman, PageSpeed 95+, siap tender.",
+    "seoKeywords": [
+      "jasa pembuatan website kendari",
+      "bikin web kontraktor kendari",
+      "web developer kendari",
+      "jasa website tambang nikel sultra",
+      "web design kendari terpercaya"
+    ]
+  },
+  {
+    "name": "Ambon",
+    "slug": "ambon",
+    "province": "Maluku",
+    "tier": "mid",
+    "districts": [
+      "Sirimau",
+      "Nusaniwe",
+      "Teluk Ambon",
+      "Baguala",
+      "Leitimur Selatan"
+    ],
+    "landmarkContext": "Ambon Manise bertakhta mengitari perairan Teluk Ambon yang memukau, disatukan oleh kemegahan Jembatan Merah Putih (JMP) sebagai jembatan kabel terpanjang di Indonesia Timur yang menghubungkan Sirimau dengan Teluk Ambon. Di pusat kota, Monumen Gong Perdamaian Dunia dan Lapangan Pattimura menjadi simbol persaudaraan, sementara di pesisir Baguala dan Leitimur Selatan terhampar keelokan Pantai Natsepa yang tersohor dengan rujak segarnya serta Pantai Liang (Hunimua) berair jernih pirus.",
+    "localBusinessCulture": "Kultur sosial masyarakat Ambon sangat berakar pada kearifan lokal 'Pela Gandong'—ikatan persaudaraan sejati lintas negeri dan agama yang menjunjung tinggi ketulusan hati, kehormatan janji, dan semangat kebersamaan. Dinobatkan sebagai 'UNESCO City of Music', warga Ambon memiliki apresiasi seni visual dan musikalitas yang sangat tinggi. Dalam berniaga, keterbukaan komunikasi tatap muka dan keselarasan rasa menjadi fondasi utama sebelum transaksi resmi disepakati.",
+    "dominantPlatformHabit": "Masyarakat Ambon sangat aktif di Facebook dan Instagram untuk berinteraksi sosial, membagikan karya musik, dan mempromosikan destinasi wisata pantai. WhatsApp menjadi kanal utama transaksi dagang komoditas rempah, sementara website resmi menjadi kebutuhan esensial untuk mempromosikan ekspor rempah pala-cengkeh ke pasar dunia.",
+    "competitorLandscape": "Ketersediaan agensi pembuatan website profesional di Kota Ambon masih sangat langka. Sebagian besar pelaku usaha yang membutuhkan website terpaksa mencari freelancer dari luar pulau yang sering kali tidak memberikan sesi pelatihan penggunaan dashboard dan tidak memahami karakter lokal Maluku.",
+    "localSearchBehavior": "Pencarian internet didominasi pembeli internasional dan wisatawan domestik dengan kata kunci 'ekspor biji pala banda ambon', 'minyak kayu putih ambon asli', 'paket diving teluk ambon', dan pengusaha lokal mencari 'jasa pembuatan website ambon maluku terpercaya'.",
+    "seasonalFactor": "Musim panen rempah cengkeh dan buah pala (Juli hingga Oktober) mengalirkan pendapatan besar bagi petani kepulauan; diiringi musim menyelam terbaik di Teluk Ambon saat perairan tenang pada bulan Oktober hingga April serta gelaran festival musik tahunan.",
+    "connectivityProfile": "Akses telekomunikasi perkotaan Ambon ditopang jaringan Palapa Ring Timur dan serat optik bawah laut dengan sinyal 4G yang baik. Namun, navigasi internet antar-pulau di Maluku kerap dipengaruhi cuaca laut, mewajibkan website berbobot ringan, bebas script berat, dan memiliki performa caching optimal.",
+    "industryDeepDive": [
+      {
+        "industrySlug": "agriculture",
+        "localAngle": "Maluku adalah kepulauan rempah bersejarah (Spice Islands) penghasil pala Banda, fuli, cengkeh, dan minyak kayu putih terbaik. Eksportir dan koperasi rempah Ambon memerlukan website B2B ekspor berstandar internasional yang menampilkan sertifikasi mutu karantina pertanian, persentase minyak atsiri, dan kapasitas tonase pengiriman kontainer."
+      },
+      {
+        "industrySlug": "tourism",
+        "localAngle": "Sebagai pintu gerbang eksplorasi surga bahari Banda Neira, Pantai Ora di Seram, dan spot muck-diving Teluk Ambon, biro perjalanan wisata di Ambon membutuhkan website dengan kalender open trip, galeri foto terumbu karang definisi tinggi, dan integrasi pemesanan tiket kapal cepat/pesawat perintis."
+      },
+      {
+        "industrySlug": "fishery",
+        "localAngle": "Wilayah Pengelolaan Perikanan (WPP) Laut Banda di sekitar Ambon merupakan lumbung ikan nasional penghasil tuna sirip kuning dan kerapu hidup. Perusahaan perikanan tangkap dan pengolahan ikan beku di Ambon butuh website korporat resmi untuk memenuhi uji kelayakan sanitasi HACCP pembeli luar negeri."
+      }
+    ],
+    "localFaqs": [
+      {
+        "question": "Apakah website ini bisa membantu ekspor rempah pala dan cengkeh Ambon ke luar negeri?",
+        "answer": "Bisa. Kami merancang arsitektur website B2B ekspor dwibahasa (Bahasa Indonesia dan Bahasa Inggris) lengkap dengan spesifikasi teknis kadar air rempah, sertifikasi karantina tumbuhan, dan tombol Request for Quotation (RFQ) untuk pembeli internasional."
+      },
+      {
+        "question": "Berapa biaya pembuatan website untuk pelaku usaha di Kota Ambon?",
+        "answer": "Biaya pembuatan website di Ambon mulai dari Rp 2.000.000 untuk profil bisnis standar hingga Rp 8.500.000 untuk platform B2B ekspor rempah atau portal biro perjalanan wisata kepulauan Maluku."
+      },
+      {
+        "question": "Apakah kami mendapatkan pelatihan untuk mengelola dan memperbarui isi website sendiri?",
+        "answer": "Pasti. Kami menyediakan video tutorial panduan praktis berbahasa Indonesia dan pendampingan tatap layar daring via Google Meet agar Anda atau staf Anda dapat dengan mudah memperbarui foto, artikel, maupun harga layanan kapan saja."
+      },
+      {
+        "question": "Apakah website tetap cepat dibuka oleh warga di pulau-pulau sekitar Maluku?",
+        "answer": "Ya. Website dibangun menggunakan teknologi statis Next.js yang sangat ringan dan terintegrasi jaringan Cloudflare CDN global, sehingga halaman langsung terbuka dalam hitungan detik meski diakses melalui sinyal seluler tipis di kepulauan."
+      },
+      {
+        "question": "Berapa lama proses pembuatan website sampai siap digunakan?",
+        "answer": "Waktu pengerjaan standar berkisar antara 6 hingga 12 hari kerja setelah dokumen profil usaha, foto komoditas/wisata, dan izin usaha Anda kami terima lengkap."
+      }
+    ],
+    "nearbyCitySlugs": [
+      "tual",
+      "ternate",
+      "sorong",
+      "kendari"
+    ],
+    "relevantIndustrySlugs": [
+      "agriculture",
+      "tourism",
+      "fishery",
+      "logistics"
+    ],
+    "typicalPriceExpectation": "Rp 2.000.000 - Rp 10.000.000",
+    "economicProfile": "Kota Ambon adalah ibukota bersejarah dan pusat perekonomian Provinsi Maluku, berlandaskan perdagangan ekspor komoditas rempah pala dan cengkeh dunia, potensi lumbung perikanan tangkap laut dalam, serta industri pariwisata bahari Banda Neira.",
+    "seoTitle": "Jasa Pembuatan Website Ambon Maluku | Web Rempah Pala, Wisata & Perikanan",
+    "seoDescription": "Jasa pembuatan website di Kota Ambon untuk eksportir rempah pala Banda, biro wisata Banda Neira, perikanan, dan UMKM. Desain memukau, ultra cepat, PageSpeed 95+.",
+    "seoKeywords": [
+      "jasa pembuatan website ambon",
+      "bikin web ambon maluku",
+      "web developer ambon",
+      "jasa website rempah pala ambon",
+      "web design wisata ambon"
+    ]
+  },
+  {
+    "name": "Jayapura",
+    "slug": "jayapura",
+    "province": "Papua",
+    "tier": "large",
+    "districts": [
+      "Jayapura Utara",
+      "Jayapura Selatan",
+      "Abepura",
+      "Heram",
+      "Muara Tami"
+    ],
+    "landmarkContext": "Jayapura berdiri megah di pesisir Teluk Youtefa dengan latar perbukitan hijau Cycloop, ditandai oleh kemegahan Jembatan Youtefa (Jembatan Merah) yang menjadi mahakarya infrastruktur modern penghubung Kota Jayapura dengan perbatasan Muara Tami. Pusat dinamika perdagangan dan kampus berpusat di koridor Abepura dan Heram (Universitas Cenderawasih), sementara pusat pemerintahan dan pelabuhan peti kemas bersandar di kawasan pelabuhan Jayapura Utara dan pusat perbelanjaan Mall Jayapura.",
+    "localBusinessCulture": "Kultur niaga di tanah Tabi Jayapura sangat menjunjung tinggi prinsip saling menghormati, penghormatan atas hak tanah adat, dan pembuktian komitmen nyata di lapangan. Pengusaha lokal dan pejabat pengadaan sangat mengutamakan keabsahan legalitas badan usaha, keberadaan kantor fisik operasional yang jelas, serta rekam jejak kerja sama yang tuntas tanpa meninggalkan masalah. Kepercayaan bisnis dibangun melalui dialog langsung yang bersahabat dan penuh rasa hormat.",
+    "dominantPlatformHabit": "Komunikasi kedinasan dan koordinasi proyek kontraktor berjalan intensif melalui WhatsApp dan panggilan telepon langsung. Grup media sosial Facebook sangat aktif untuk informasi komunitas warga, sementara website resmi berdomain co.id atau id menjadi tolok ukur utama verifikasi kredibilitas perusahaan saat mengikuti tender pemerintah atau BUMN.",
+    "competitorLandscape": "Biaya operasional penyedia jasa IT lokal di Papua relatif tinggi; agensi lokal sangat sedikit dan kerap mematok biaya pembuatan website yang mahal untuk fitur yang sangat mendasar. Banyak perusahaan kontraktor Papua memakai jasa web developer dari Jawa namun kecewa akibat layanan purna jual yang terputus saat terjadi kendala teknis.",
+    "localSearchBehavior": "Pencarian internet berfokus pada 'kontraktor konstruksi sipil jayapura papua', 'ekspedisi kargo udara jayapura pedalaman', 'distributor kopi wamena jayapura', serta instansi/perusahaan mencari 'jasa pembuatan website jayapura profesional'.",
+    "seasonalFactor": "Realisasi anggaran proyek fisik APBD/APBN Pemerintah Provinsi Papua dan kementerian memuncak pada kuartal 3 dan 4; diiringi perhelatan Festival Danau Sentani di pertengahan tahun serta lonjakan belanja massal warga menyambut Hari Raya Natal di bulan Desember.",
+    "connectivityProfile": "Konektivitas serat optik bawah laut SMPCS (Sulawesi Maluku Papua Cable System) menghubungkan Kota Jayapura dengan internet pita lebar. Namun, risiko gangguan kabel laut musiman mewajibkan arsitektur website statis yang dapat di-cache secara agresif di CDN global agar halaman tetap dapat diakses publik tanpa terputus.",
+    "industryDeepDive": [
+      {
+        "industrySlug": "contractor",
+        "localAngle": "Kontraktor pembangunan jalan Trans Papua, jembatan pedalaman, gedung kantor pemerintahan, dan fasilitas umum membutuhkan website profil badan usaha resmi yang menampilkan dokumen kualifikasi SBU, rekam jejak sertifikasi K3, dan daftar portofolio pengerjaan proyek berisiko tinggi."
+      },
+      {
+        "industrySlug": "logistics",
+        "localAngle": "Jayapura adalah hub transit logistik laut dan kargo udara perintis menuju wilayah pedalaman pegunungan Papua (Wamena, Yahukimo, Puncak Jaya). Perusahaan ekspedisi membutuhkan portal web dengan rincian jadwal penerbangan kargo, tarif per kilogram yang transparan, dan formulir lacak resi pengiriman."
+      },
+      {
+        "industrySlug": "agriculture",
+        "localAngle": "Komoditas Kopi Arabika Wamena, buah merah Papua, dan kerajinan noken tradisional yang diakui UNESCO membutuhkan etalase digital B2B berstandar nasional untuk menjalin kontrak pasokan rutin dengan jaringan kedai kopi modern, roastery, dan pasar souvenir resmi di seluruh Indonesia."
+      }
+    ],
+    "localFaqs": [
+      {
+        "question": "Apakah website ini dirancang untuk memenuhi syarat tender LPSE dan BUMN di Papua?",
+        "answer": "Ya. Kami merancang website profil kontraktor yang mematuhi standar kualifikasi prakualifikasi tender BUMN/pemerintah, meliputi tampilan dokumen legalitas badan usaha, sertifikat ISO/SMK3, daftar peralatan kerja, dan galeri portofolio proyek fisik."
+      },
+      {
+        "question": "Berapa biaya pembuatan website untuk perusahaan di Jayapura?",
+        "answer": "Biaya pembuatan website di Jayapura mulai dari Rp 3.000.000 untuk profil bisnis menengah hingga Rp 15.000.000 untuk portal komprehensif kontraktor konstruksi atau sistem ekspedisi logistik kargo perintis."
+      },
+      {
+        "question": "Bagaimana jika terjadi kendala teknis jaringan kabel laut di Papua?",
+        "answer": "Website kami dibangun di atas jaringan arsitektur terdistribusi modern (Cloudflare Edge CDN) yang memiliki fitur caching global. Halaman website perusahaan Anda tetap akan terbuka dengan cepat bagi calon mitra di Jakarta atau luar Papua meski jaringan lokal sedang mengalami perawatan."
+      },
+      {
+        "question": "Apakah kami mendapatkan domain resmi berbadan hukum seperti .co.id?",
+        "answer": "Ya, kami siap membantu pengurusan berkas administrasi dan pendaftaran domain resmi korporat berbadan hukum Indonesia seperti .co.id atau .id untuk memastikan tingkat legitimasi usaha Anda berada di tingkat tertinggi."
+      },
+      {
+        "question": "Berapa lama proses pembuatan website profil perusahaan di Jayapura?",
+        "answer": "Waktu pengerjaan umumnya berlangsung antara 7 hingga 14 hari kerja setelah materi dokumen legalitas, foto proyek lapangan, dan susunan pengurus perusahaan Anda kami terima lengkap."
+      }
+    ],
+    "nearbyCitySlugs": [
+      "sorong",
+      "merauke",
+      "timika",
+      "biak"
+    ],
+    "relevantIndustrySlugs": [
+      "contractor",
+      "logistics",
+      "agriculture",
+      "government"
+    ],
+    "typicalPriceExpectation": "Rp 3.000.000 - Rp 16.000.000",
+    "economicProfile": "Kota Jayapura adalah ibukota administratif, gerbang perdagangan perbatasan, dan simpul logistik terbesar di tanah Papua, ditopang oleh realisasi belanja infrastruktur konstruksi, ekosistem perguruan tinggi, pelabuhan peti kemas Teluk Youtefa, serta perdagangan komoditas kopi pegunungan.",
+    "seoTitle": "Jasa Pembuatan Website Jayapura Papua | Web Kontraktor, Ekspedisi & Bisnis",
+    "seoDescription": "Jasa pembuatan website di Jayapura Papua untuk perusahaan kontraktor tender LPSE, ekspedisi kargo perintis, kopi Wamena, dan bisnis. Desain profesional, aman, PageSpeed 95+.",
+    "seoKeywords": [
+      "jasa pembuatan website jayapura",
+      "bikin web papua jayapura",
+      "web developer jayapura",
+      "jasa website kontraktor papua",
+      "web design jayapura terpercaya"
+    ]
+  },
+  {
+    "name": "Sorong",
+    "slug": "sorong",
+    "province": "Papua Barat Daya",
+    "tier": "mid",
+    "districts": [
+      "Sorong Barat",
+      "Sorong Timur",
+      "Sorong Kota",
+      "Sorong Utara",
+      "Sorong Manoi",
+      "Aimas",
+      "Klaurung"
+    ],
+    "landmarkContext": "Sorong berdiri strategis di semenanjung kepala burung Papua sebagai ibukota Provinsi Papua Barat Daya, berpusat di sekitar Pelabuhan Rakyat dan Pelabuhan Perikanan Sorong Manoi yang menjadi titik keberangkatan kapal cepat dan liveaboard phinisi menuju Kepulauan Raja Ampat. Di daratan timur, pusat administrasi baru berkembang di Aimas, terhubung dengan Bandara Internasional Domine Eduard Osok (DEO) serta komplek industri hulu migas bersejarah di Klamono dan Kasim.",
+    "localBusinessCulture": "Kultur niaga di Sorong sangat dinamis dan kosmopolitan, dibentuk oleh perjumpaan intensif antara pekerja industri migas multinasional, wisatawan mancanegara kelas atas, dan masyarakat maritim Papua. Pelaku usaha di Sorong bertindak cepat, praktis, mengutamakan pembuktian armada fisik nyata, dan sangat menghargai profesionalisme ketepatan waktu. Kredibilitas online menjadi filter penentu bagi wisatawan asing dan korporasi energi saat memilih rekanan lokal.",
+    "dominantPlatformHabit": "Operator kapal wisata phinisi dan liveaboard menggunakan WhatsApp untuk konfirmasi ketersediaan kabin kamar secara cepat, sementara visual terumbu karang Raja Ampat dipamerkan secara masif di Instagram. Perusahaan penunjang migas dan galangan kapal mengandalkan website korporat resmi untuk memenuhi persyaratan prakualifikasi tender B2B.",
+    "competitorLandscape": "Keterbatasan tenaga ahli pengembang web lokal di Sorong menyebabkan banyak operator wisata dan kontraktor migas menggunakan jasa pembuat website dari luar daerah yang lambat merespons ketika terjadi kendala sistem atau perubahan jadwal tur.",
+    "localSearchBehavior": "Pencarian internet sangat tinggi pada kata kunci internasional dan domestik seperti 'raja ampat liveaboard cruise sorong', 'paket tour raja ampat dari sorong', 'galangan kapal shipyard sorong', serta pengusaha mencari 'jasa pembuatan website sorong papua barat daya'.",
+    "seasonalFactor": "Musim liburan menyelam terbaik Raja Ampat (Oktober hingga April) saat perairan teduh memicu arus ribuan turis berkocek tebal; ditambah siklus pengadaan logistik pangkalan migas dan musim penangkapan udang/tuna di Laut Seram.",
+    "connectivityProfile": "Jaringan 4G seluler sangat kuat di area perkotaan Sorong dan Aimas. Namun, wisatawan di atas kapal dan awak kapal cepat kerap mengakses website saat berada di perairan lepas dengan sinyal tipis, menuntut situs wisata dirancang dengan bobot data ultra ringan agar tidak gagal memuat halaman saat pemesanan kamar.",
+    "industryDeepDive": [
+      {
+        "industrySlug": "tourism",
+        "localAngle": "Sebagai gerbang utama surga bahari dunia Raja Ampat, operator kapal phinisi liveaboard, dive center, dan resort pulau privat di Sorong membutuhkan website kelas dunia dwibahasa (Inggris dan Indonesia) dengan sistem pemesanan kabin online, jadwal pelayaran terpadu, dan galeri foto bawah laut beresolusi tinggi."
+      },
+      {
+        "industrySlug": "logistics",
+        "localAngle": "Sorong adalah hub distribusi peti kemas dan pergudangan kargo semen/sembako untuk seluruh kawasan kepala burung Papua. Perusahaan ekspedisi kontainer dan agen pelayaran kapal perintis membutuhkan portal web yang memuat tarif angkut transparan dan sistem pelacakan manifest kargo terpadu."
+      },
+      {
+        "industrySlug": "contractor",
+        "localAngle": "Sebagai basis operasi minyak dan gas bumi serta dok perkapalan di Kasim dan Sorong Manoi, kontraktor mekanikal galangan kapal, fabrikasi pipa, dan penyedia bunker BBM laut butuh website profil perusahaan yang memenuhi standar keselamatan industri migas (HSE/CSMS)."
+      }
+    ],
+    "localFaqs": [
+      {
+        "question": "Apakah website ini bisa melayani direct booking untuk kapal liveaboard turis Raja Ampat?",
+        "answer": "Bisa. Kami merancang website pariwisata internasional dwibahasa dengan fitur kalender jadwal keberangkatan kapal (cruise schedule), denah kabin interaktif, formulir booking langsung, dan integrasi WhatsApp concierge bagi turis mancanegara."
+      },
+      {
+        "question": "Berapa biaya pembuatan website profesional di Kota Sorong?",
+        "answer": "Biaya pembuatan website di Sorong mulai dari Rp 2.500.000 untuk profil bisnis standar hingga Rp 12.000.000 untuk platform reservasi kapal phinisi liveaboard atau profil kontraktor industri migas."
+      },
+      {
+        "question": "Apakah website tetap cepat dibuka oleh tamu yang sedang berada di atas kapal cepat?",
+        "answer": "Pasti. Website kami dibangun dengan arsitektur Next.js termutakhir dengan optimasi kompresi data tingkat tinggi, memastikan halaman dapat terbuka mulus meski hanya menangkap sinyal seluler tipis di perairan Teluk Mayalibit atau Selat Dampier."
+      },
+      {
+        "question": "Apakah tim Anda bisa meeting langsung di Sorong?",
+        "answer": "Tentu. Kami menyediakan layanan konsultasi langsung di Sorong Kota, Aimas, maupun kawasan pelabuhan untuk memotret fasilitas armada kapal dan merumuskan strategi penayangan konten digital bisnis Anda."
+      },
+      {
+        "question": "Berapa lama waktu pengerjaan website hingga siap tayang?",
+        "answer": "Waktu pengerjaan standar memerlukan 7 hingga 14 hari kerja tergantung pada kelengkapan kurasi foto kabin/destinasi, materi sertifikasi kapal, dan sistem bahasa yang Anda pilih."
+      }
+    ],
+    "nearbyCitySlugs": [
+      "jayapura",
+      "manokwari",
+      "ambon",
+      "fakfak"
+    ],
+    "relevantIndustrySlugs": [
+      "tourism",
+      "logistics",
+      "contractor",
+      "fishery"
+    ],
+    "typicalPriceExpectation": "Rp 2.500.000 - Rp 13.000.000",
+    "economicProfile": "Kota Sorong adalah ibukota Provinsi Papua Barat Daya sekaligus episentrum transit pariwisata bahari kelas dunia Raja Ampat, pusat galangan kapal dan logistik peti kemas kepala burung Papua, serta pangkalan operasi eksplorasi hulu minyak dan gas bumi.",
+    "seoTitle": "Jasa Pembuatan Website Sorong | Spesialis Liveaboard Raja Ampat, Migas & Bisnis",
+    "seoDescription": "Jasa pembuatan website di Sorong Papua Barat Daya untuk kapal phinisi Raja Ampat, diving resort, logistik, dan kontraktor migas. Desain kelas dunia, ultra cepat, PageSpeed 95+.",
+    "seoKeywords": [
+      "jasa pembuatan website sorong",
+      "bikin web raja ampat sorong",
+      "web developer sorong papua",
+      "jasa website liveaboard sorong",
+      "web design sorong terpercaya"
+    ]
+  },
+  {
+    "name": "Cilacap",
+    "slug": "cilacap",
+    "province": "Jawa Tengah",
+    "tier": "large",
+    "districts": [
+      "Cilacap Tengah",
+      "Cilacap Selatan",
+      "Cilacap Utara",
+      "Kesugihan",
+      "Jeruklegi",
+      "Maos",
+      "Kroya"
+    ],
+    "landmarkContext": "Cilacap berdiri sebagai kota industri energi dan pelabuhan samudra terbesar di pesisir selatan Pulau Jawa, ditandai oleh bentangan cerobong raksasa Kilang Pertamina Refinery Unit IV Cilacap di Cilacap Tengah dan PLTU Jawa 8 Karangkandri di Kesugihan. Di sisi selatan, Pelabuhan Samudera Tanjung Intan melayani bongkar muat kargo curah kering dan tambang, bersanding dengan cagar budaya Benteng Pendem dan keindahan Pantai Teluk Penyu yang menghadap langsung ke Pulau Nusakambangan.",
+    "localBusinessCulture": "Kultur niaga Cilacap dibentuk oleh disiplin tinggi ekosistem korporasi energi migas, semen, dan ketenagalistrikan. Pengambilan keputusan pemilihan rekanan (vendor procurement) melewati proses evaluasi prakualifikasi yang sangat ketat, audit kepatuhan Keselamatan dan Kesehatan Kerja Lingkungan (K3LL/CSMS), serta verifikasi perizinan teknis. Para pemilik bisnis kontraktor lokal sangat menghargai profesionalisme kerja, ketepatan jadwal pemeliharaan pabrik, dan kepemilikan profil resmi perusahaan yang dapat dipertanggungjawabkan.",
+    "dominantPlatformHabit": "Aktivitas pengadaan di Kilang Pertamina dan PLTU menggunakan sistem e-Procurement korporasi dan email kantor berdomain resmi; koordinasi lapangan mengandalkan grup WhatsApp teknis; sementara website perusahaan berstandar enterprise menjadi dokumen pembuktian kelaikan saat proses audit rekanan.",
+    "competitorLandscape": "Sebagian besar penyedia jasa web di Cilacap hanya melayani toko komputer atau jasa desain percetakan dengan template blog seharga Rp 1.000.000 - Rp 2.500.000 yang tidak memahami standar CSMS industri migas. Perusahaan kontraktor di Cilacap kerap kesulitan menemukan pengembang web yang mampu menyusun portofolio teknis berstandar kilang.",
+    "localSearchBehavior": "Tim pengadaan dan kontraktor mencari rekanan dengan kata kunci teknis seperti 'vendor mekanikal kilang pertamina cilacap', 'supplier suku cadang pltu cilacap', 'kontraktor scaffolding perpipaan cilacap', serta 'jasa pembuatan website cilacap profesional'.",
+    "seasonalFactor": "Aktivitas proyek memuncak saat pelaksanaan Turn Around (TA/perawatan berkala kilang) Pertamina RU IV yang menyerap ribuan tenaga kerja teknis dan puluhan kontraktor penunjang bernilai ratusan miliar rupiah; disusul musim tangkapan udang jerbung dan lobster laut dalam di Teluk Penyu.",
+    "connectivityProfile": "Jaringan serat optik industri sangat andal di area perkantoran Pertamina, SBI Semen, dan PLTU Karangkandri. Namun, inspektur pengawas dan teknisi di area tangki penimbunan minyak atau dermaga Tanjung Intan membutuhkan akses web yang responsif di smartphone lapangan, mewajibkan arsitektur halaman yang ringan dan bebas dari elemen pemblokir rendering.",
+    "industryDeepDive": [
+      {
+        "industrySlug": "manufacturing",
+        "localAngle": "Ratusan rekanan fabrikasi perpipaan, insulasi panas (insulation), instrumentasi kelistrikan, dan pemeliharaan bejana tekan penunjang Kilang Pertamina RU IV membutuhkan website profil korporat dengan pembuktian sertifikasi CSMS kategori High Risk, ISO 9001, dan ISO 45001."
+      },
+      {
+        "industrySlug": "logistics",
+        "localAngle": "Pelabuhan Tanjung Intan adalah satu-satunya pelabuhan samudra laut dalam di pantai selatan Jawa yang melayani kargo batu bara PLTU, clinker semen, dan klinker gipsum. Perusahaan keagenan kapal laut (shipping agency) dan jasa bongkar muat butuh portal informasi kedalaman dermaga, fasilitas tugboat, dan izin operasional perhubungan laut."
+      },
+      {
+        "industrySlug": "fishery",
+        "localAngle": "Kawasan perairan Teluk Penyu dan Samudra Hindia di selatan Cilacap menghasilkan komoditas ekspor udang jerbung, ikan layur, tuna, dan ubur-ubur asin. Eksportir perikanan Cilacap memerlukan etalase B2B resmi dengan sertifikat Hazard Analysis Critical Control Point (HACCP) untuk melayani pembeli industri pengolahan Jepang dan Taiwan."
+      }
+    ],
+    "localFaqs": [
+      {
+        "question": "Apakah website ini memenuhi syarat verifikasi vendor kontraktor Pertamina RU IV Cilacap?",
+        "answer": "Ya. Website dirancang khusus memenuhi kriteria audit kualifikasi industri energi, menyajikan dokumen perizinan NIB/SBU, halaman sertifikasi keselamatan kerja CSMS/K3LL, rekam jejak pekerjaan turnaround kilang, dan saluran kontak pengadaan resmi."
+      },
+      {
+        "question": "Berapa biaya pembuatan website untuk perusahaan di Kabupaten Cilacap?",
+        "answer": "Biaya pembuatan website di Cilacap berkisar mulai dari Rp 2.500.000 untuk profil bisnis standar hingga Rp 12.000.000 untuk portal komprehensif kontraktor mekanikal kilang migas atau keagenan kapal pelabuhan Tanjung Intan."
+      },
+      {
+        "question": "Apakah kami bisa mengunggah dokumen Company Profile berformat PDF agar bisa diunduh tim procurement?",
+        "answer": "Bisa. Kami menyematkan fitur unduh profil perusahaan PDF satu pintu yang terintegrasi dengan pendataan nama dan email pengunduh, sehingga tim marketing Anda dapat langsung menindaklanjuti calon mitra proyek."
+      },
+      {
+        "question": "Apakah tim pengembang bisa hadir untuk meeting koordinasi di Cilacap?",
+        "answer": "Tentu. Tim konsultan kami siap menghadiri pertemuan langsung di kantor atau workshop Anda di wilayah Cilacap Kota, Jeruklegi, Kesugihan, maupun Kroya untuk menyelaraskan detail portofolio proyek dan kebutuhan sistem Anda."
+      },
+      {
+        "question": "Berapa lama proses pembuatan website profil kontraktor industri Cilacap?",
+        "answer": "Waktu pengerjaan rata-rata memakan waktu 7 hingga 14 hari kerja tergantung kelengkapan kurasi foto pekerjaan lapangan, sertifikat keahlian personel, dan struktur halaman yang disepakati."
+      }
+    ],
+    "nearbyCitySlugs": [
+      "purwokerto",
+      "kebumen",
+      "pangandaran",
+      "banjar"
+    ],
+    "relevantIndustrySlugs": [
+      "manufacturing",
+      "logistics",
+      "fishery",
+      "contractor"
+    ],
+    "typicalPriceExpectation": "Rp 2.500.000 - Rp 13.000.000",
+    "economicProfile": "Kabupaten Cilacap adalah raksasa industri pengolahan energi dan pelabuhan laut dalam terbesar di pantai selatan Jawa, menjadi lokasi Kilang Minyak Pertamina Refinery Unit IV terbesar di Asia Tenggara, PLTU raksasa Karangkandri, pabrik Semen Dynamix, serta industri perikanan tangkap Samudra Hindia.",
+    "seoTitle": "Jasa Pembuatan Website Cilacap | Spesialis Vendor Kilang Pertamina & PLTU",
+    "seoDescription": "Jasa pembuatan website di Cilacap untuk kontraktor mekanikal kilang Pertamina RU IV, vendor PLTU, keagenan pelabuhan, dan UMKM. Kredibel, aman, skor PageSpeed 95+.",
+    "seoKeywords": [
+      "jasa pembuatan website cilacap",
+      "bikin web kilang pertamina cilacap",
+      "web developer cilacap",
+      "jasa website vendor industri cilacap",
+      "web design kontraktor cilacap"
+    ]
+  }
+]

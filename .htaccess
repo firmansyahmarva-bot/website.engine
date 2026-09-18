@@ -2,6 +2,9 @@
   RewriteEngine On
   RewriteBase /
 
+  # 301 Permanent Redirects
+  RewriteRule ^panduan/cannibalization-keyword/?$ /panduan/kanibalisasi-keyword [R=301,L]
+
   # Security: Block access to git and source code
   RewriteRule ^(\.git|\.env|node_modules|src|package\.json|package-lock\.json|tsconfig\.json|next\.config\.ts) - [F,L]
 
@@ -29,3 +32,13 @@ ErrorDocument 404 /out/_not-found.html
 
 # Directory Index fallback
 DirectoryIndex index.php out/index.html index.html
+
+# Prevent indexing of Next.js RSC payload .txt files, allow llms.txt
+<IfModule mod_headers.c>
+  <FilesMatch "\.txt$">
+    Header set X-Robots-Tag "noindex, nofollow"
+  </FilesMatch>
+  <FilesMatch "(llms\.txt|llms-full\.txt)$">
+    Header unset X-Robots-Tag
+  </FilesMatch>
+</IfModule>

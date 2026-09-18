@@ -1,7 +1,7 @@
 import { PricingBreakdown } from '@/types';
 import { formatIDR } from '@/content/pricing';
 
-export const WHATSAPP_PHONE_NUMBER = '6281234567890'; // Replaceable with client's actual WhatsApp business number
+export const WHATSAPP_PHONE_NUMBER = '6281233367191'; // JasaWebsite WhatsApp business number
 
 export function generateWhatsAppMessage(breakdown: PricingBreakdown): string {
   const featureList =

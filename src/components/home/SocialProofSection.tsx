@@ -1,11 +1,11 @@
-﻿import React from 'react';
+import React from 'react';
 import { Star, TrendingUp, Building2, Briefcase, Award, CheckCircle } from 'lucide-react';
 
 const CASE_STUDIES = [
   {
     clientName: 'PT Surya Fabrikasi Logistik',
     sector: 'Manufaktur & Logistik B2B',
-    avatar: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=150&q=80',
+    avatar: '/images/avatar-budi.webp',
     director: 'Bambang Prasetyo — Direktur Operasional',
     quote: 'Sebelumnya website WordPress kami sering error dan butuh 6 detik untuk dibuka. Setelah dimigrasi ke platform Next.js ini, website terbuka instan dalam 0.6 detik. Klien tender B2B menilai kredibilitas perusahaan kami naik signifikan.',
     metric: '+210% Prospek Tender',
@@ -15,7 +15,7 @@ const CASE_STUDIES = [
   {
     clientName: 'Finansia Advisory Partners',
     sector: 'Konsultan Keuangan & Pajak',
-    avatar: 'https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=150&q=80',
+    avatar: '/images/avatar-linda.webp',
     director: 'Dra. Maya Anggraini, Ak., CA — Managing Partner',
     quote: 'Konsep desain Executive obsidian memberikan wibawa luar biasa. Integrasi langsung ke WhatsApp membuat calon klien VIP langsung menghubungi kami setelah membaca studi kasus layanan di website.',
     metric: '14 Klien Korporat Baru',
@@ -25,7 +25,7 @@ const CASE_STUDIES = [
   {
     clientName: 'PT Konstruksi Jaya Perkasa',
     sector: 'Kontraktor Sipil & MEP',
-    avatar: 'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=150&q=80',
+    avatar: '/images/avatar-hendra.webp',
     director: 'Hendra Setiawan, S.T. — General Contractor',
     quote: 'Struktur SEO on-page yang dibangun sangat rapi. Portofolio proyek gedung dan alat berat kami langsung terindeks di Google halaman 1 untuk pencarian jasa kontraktor baja wilayah Jabodetabek.',
     metric: 'Peringkat #1 Google SEO',
@@ -93,8 +93,11 @@ export default function SocialProofSection() {
                 <img
                   src={study.avatar}
                   alt={study.director}
-                  className="w-11 h-11 rounded-full object-cover border border-slate-200"
+                  width={44}
+                  height={44}
                   loading="lazy"
+                  decoding="async"
+                  className="w-11 h-11 rounded-full object-cover border border-slate-200"
                 />
                 <div>
                   <h4 className="text-xs font-bold text-slate-900">{study.director}</h4>

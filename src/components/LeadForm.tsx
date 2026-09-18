@@ -16,7 +16,7 @@ export function LeadForm({
   defaultPackage = 'Paket Bisnis (Paling Populer)',
   className = '',
 }: LeadFormProps) {
-  const [formData, setFormData] = useState<LeadSubmissionData>({
+  const [formData, setFormData] = useState<LeadSubmissionData>(() => ({
     fullName: '',
     whatsapp: '',
     companyName: '',
@@ -24,7 +24,9 @@ export function LeadForm({
     packageChoice: defaultPackage,
     city: defaultCity,
     notes: '',
-  });
+    website_hp: '',
+    render_ts: Date.now(),
+  }));
 
   const [isLoading, setIsLoading] = useState(false);
   const [submitted, setSubmitted] = useState(false);
@@ -107,6 +109,20 @@ export function LeadForm({
       )}
 
       <form onSubmit={handleSubmit} className="space-y-4 text-left">
+        {/* Anti-spam honeypot field - hidden from humans */}
+        <div className="hidden" aria-hidden="true" style={{ display: 'none' }}>
+          <label htmlFor="website_hp">Website HP</label>
+          <input
+            id="website_hp"
+            type="text"
+            name="website_hp"
+            tabIndex={-1}
+            autoComplete="off"
+            value={formData.website_hp || ''}
+            onChange={(e) => setFormData({ ...formData, website_hp: e.target.value })}
+          />
+        </div>
+
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
           <div>
             <label className="block text-xs font-semibold text-slate-700 mb-1">

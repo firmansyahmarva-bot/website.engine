@@ -46,10 +46,13 @@ export default function DesignsPage() {
                 {/* Visual Photographic Preview */}
                 <div className="relative h-56 w-full overflow-hidden bg-slate-900">
                   <img
-                    src={design.imageUrl || 'https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=800&q=80'}
+                    src={design.imageUrl || '/images/design-modern-corporate.webp'}
                     alt={design.name.id}
-                    className="w-full h-full object-cover object-center group-hover:scale-110 transition-transform duration-500"
+                    width={400}
+                    height={240}
                     loading="lazy"
+                    decoding="async"
+                    className="w-full h-full object-cover object-center group-hover:scale-110 transition-transform duration-500"
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-slate-950/85 via-slate-950/25 to-transparent" />
 

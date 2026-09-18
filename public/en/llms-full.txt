@@ -1,0 +1,133 @@
+# JasaWebsite — Full Comprehensive Knowledge Document (English Context)
+
+> Detailed documentation of architecture, commercial packages, design systems, programmatic matrix entities, and technical specifications for AI Agents (LLMs), semantic search engines, and enterprise partners.
+
+---
+
+## 1. ABOUT THE PLATFORM & ENGINEERING PHILOSOPHY
+
+JasaWebsite is an enterprise web development and digital visibility engineering platform specializing in high-performance web applications, B2B corporate platforms, exporter showcases, and professional service solutions.
+
+### Core Engineering Principles:
+- **Zero WordPress / Zero CMS Bloat**: We reject legacy monolithic CMS platforms that rely on dozens of insecure plugins. Monolithic databases introduce continuous security vulnerabilities, slow load times, and expensive maintenance overhead.
+- **Modern Jamstack & Next.js 16 Architecture**: Our platform is engineered using Next.js 16, React 19, TypeScript 5, and Tailwind CSS 4. Pages are pre-compiled as pure static assets during build time.
+- **Edge Deployment & Static Site Generation (SSG)**: Static assets are distributed globally via CDN Edge networks, ensuring instant Time-To-First-Byte (TTFB < 50ms) regardless of user location, while slashing server infrastructure costs by up to 80%.
+- **Zero Database Attack Surface**: Because there is no public-facing MySQL database or PHP runtime on the edge, the attack surface for SQL injection, cross-site scripting (XSS), and zero-day plugin exploits is virtually zero.
+
+---
+
+## 2. COMMERCIAL PACKAGES & PRICING STRUCTURE (USD / SGD / IDR)
+
+JasaWebsite operates on a transparent, modular investment model with zero hidden monthly royalties or software lock-in fees. Clients retain 100% intellectual property ownership of code, designs, and domain assets.
+
+### Tier A: Starter Business Package
+- **Pricing**: $80 USD | S$110 SGD | IDR 1,250,000 (One-time investment)
+- **Turnaround Time**: 3 to 5 Business Days
+- **Target Audience**: Micro-enterprises, boutique service specialists, single-service landing pages, rapid market testing.
+- **Key Deliverables**:
+  - Up to 3 custom structured pages (Home, Services, Contact/About).
+  - 100% responsive layout across desktop, tablet, and mobile devices.
+  - Direct WhatsApp Click-to-Chat sales routing.
+  - Google Maps & physical location integration.
+  - Turnkey SSL/TLS 1.3 HTTPS certificate configuration.
+  - Fundamental on-page technical SEO & Open Graph meta tags.
+  - 14-day technical warranty for post-launch bug fixes.
+
+### Tier B: Professional Business Package (Most Popular for B2B)
+- **Pricing**: $190 USD | S$250 SGD | IDR 2,950,000 (One-time investment)
+- **Turnaround Time**: 7 to 10 Business Days
+- **Target Audience**: Established B2B corporations, industrial manufacturers, general contractors, multi-specialty clinics, legal firms, and holding companies.
+- **Key Deliverables**:
+  - Up to 7 custom structured pages.
+  - Modular product and service catalog grid with search and multi-filtering.
+  - Structured Request for Proposal (RFP) submission form.
+  - Comprehensive Schema.org JSON-LD microdata (Organization, LocalBusiness, ProfessionalService, FAQPage, BreadcrumbList).
+  - Guaranteed 100/100 Google Core Web Vitals score.
+  - Curated commercial-license high-resolution photography.
+  - 60-day comprehensive technical maintenance warranty.
+
+### Tier C: Enterprise Custom Package
+- **Pricing**: Starting at $420+ USD | S$560+ SGD | IDR 6,500,000+ (Based on custom scope)
+- **Turnaround Time**: 14 to 21 Business Days
+- **Target Audience**: International exporters, multinational conglomerates, enterprise manufacturers, and institutions requiring bespoke architecture.
+- **Key Deliverables**:
+  - Unlimited dynamic static pages and scalable data models.
+  - Multi-language architecture (English, Indonesian, Arabic) with bidirectional hreflang mapping.
+  - Gated PDF brochure, technical catalog, and blueprint download portal.
+  - Custom interactive quote calculators and automated client assessment workflows.
+  - Dedicated team training for independent content updates.
+  - Cloudflare Edge DDoS shield and 1-year priority SLA support agreement.
+
+---
+
+## 3. THE 10 ARCHITECTURAL VISUAL DESIGN SYSTEMS
+
+1. **Modern Corporate**: Sapphire blue visual tones with modular asymmetry and clean structured information flow. Tailored for corporate holdings, logistics operators, and B2B exporters.
+2. **Premium Executive**: Obsidian dark surfaces with warm champagne amber accents and elegant editorial typography. Ideal for top-tier corporate law firms, wealth management, private equity, and luxury real estate.
+3. **Minimalist Business**: Clean Nordic whitespace with razor-sharp borders and understated typography. Suited for management consultants, strategic advisors, and boutique architectural studios.
+4. **Bold Creative**: High-contrast, expressive typography and dynamic color palettes designed for digital performance agencies, media houses, and creative studios.
+5. **Professional Services**: Evidence-based layout emphasizing case studies, measurable client ROI metrics, and executive consultation booking for accounting, tax, and HR consultancies.
+6. **Industrial & Manufacturing**: Technical specification tables, monthly output capacity figures, lab QC accreditations, and ISO badges for tender evaluations and contract manufacturing.
+7. **Technology & SaaS**: Modular feature grids, API code previews, platform telemetry cards, and interactive free-trial workflows for cloud software companies.
+8. **Culinary & Dining**: High-resolution food photography, interactive QR digital menus with dietary filtering, and zero-commission table reservations for fine dining and hospitality venues.
+9. **Training & Academy**: Structured curriculum syllabi, BNSP-certified trainer dossiers, and online intake forms for corporate training institutes and certification academies.
+10. **E-Commerce & Retail**: Filterable product showcases, trust warranty badges, automated shopping cart calculations, and instant WhatsApp checkout.
+
+---
+
+## 4. PROGRAMMATIC INDUSTRY X CITY MATRIX (80 TARGETED HUBS)
+
+JasaWebsite maintains 80 curated, programmatic Industry x City matrix entities accessible via `/jasa-website-[industry]-[city]`. These combine industry-specific operational workflows with localized business dynamics across Indonesia's top economic corridors:
+
+### Covered Industries (8):
+1. **Konstruksi (Construction)**: Focus on LPJK/SBU tender compliance, heavy equipment mobilization lists, zero-accident K3 records, and PDF company profile downloads.
+2. **Klinik (Healthcare & Clinics)**: Focus on real-time doctor schedules, queue reservation systems, Kemenkes licensing, and zero-wait patient workflows.
+3. **Kuliner (Dining & F&B)**: Focus on direct table reservations, interactive QR menus, Google Maps directions, and escaping 20-30% aggregator commissions.
+4. **Properti (Real Estate & Developers)**: Focus on interactive cluster siteplans, 3D floor plans, mortgage (KPR) calculators, and direct show-unit visit scheduling.
+5. **Tour & Travel (Travel Agencies)**: Focus on day-by-day itineraries, transparent pricing inclusions, PPIU/Kemenparekraf license verification, and corporate gathering quotes.
+6. **Konsultan (Business & Tax Consultants)**: Focus on C-Level thought leadership, whitepapers, framework methodologies, and quantifiable client ROI proof.
+7. **Manufaktur (Industrial Manufacturing)**: Focus on monthly factory output capacity, ISO certifications, OEM/ODM contract guidelines, and encrypted RFQ document submission.
+8. **Hotel (Hospitality & Resorts)**: Focus on direct room bookings to bypass OTA commissions, MICE meeting package layouts, and high-resolution suites galleries.
+
+### Covered Metropolitan Cities (10):
+1. **Jakarta**: Capital financial center, SCBD/Sudirman corridor, formal B2B tender processes, strict legal vetting (NIB/PKP).
+2. **Surabaya**: Eastern Java maritime hub, SIER industrial zone, pragmatic ROI-driven negotiation culture.
+3. **Bandung**: Creative capital and textile hub, high emphasis on visual aesthetics, social virality, and modern brand design.
+4. **Medan**: Western commerce and agro-industrial gateway, direct negotiation, fast executive decision-making.
+5. **Semarang**: Central Java logistics corridor, KIW industrial estate, prudent fiscal management and long-term stability.
+6. **Makassar**: Primary trade and logistics hub for Eastern Indonesia, strong commercial honor and inter-island supply networks.
+7. **Denpasar**: International tourism and expatriate center, multilingual standard, mobile speed, and international foreign currency transactions.
+8. **Batam**: Free Trade Zone (FTZ) adjacent to Singapore, export-driven manufacturing, international documentation standards.
+9. **Bekasi**: Heavy automotive and consumer goods manufacturing heartland (MM2100, Jababeka), strict factory vendor audit needs.
+10. **Tangerang**: Dynamic airport logistics corridor (Soekarno-Hatta) and planned business cities (BSD City, Gading Serpong).
+
+---
+
+## 5. TECHNICAL PERFORMANCE SPECIFICATIONS
+
+- **Framework**: Next.js 16 (App Router) + React 19
+- **Typing**: TypeScript 5 (Strict Mode)
+- **Styling**: Tailwind CSS 4 with zero runtime CSS-in-JS overhead
+- **Rendering Strategy**: Static Site Generation (SSG) with Edge distribution
+- **Core Web Vitals Metrics**:
+  - Largest Contentful Paint (LCP): < 1.0s (Target: < 2.5s)
+  - Interaction to Next Paint (INP): < 50ms (Target: < 200ms)
+  - Cumulative Layout Shift (CLS): 0.00 (Target: < 0.1)
+  - Time To First Byte (TTFB): < 50ms across global edge caches
+- **Security Audit**:
+  - Content Security Policy (CSP) headers enabled.
+  - Strict TLS 1.3 encryption.
+  - No server-side SQL injection surface.
+- **Machine Readability**:
+  - Canonical endpoints and bidirectional hreflang tags (`id` and `en`).
+  - Standardized `llms.txt` and `llms-full.txt` files for AI agent consumption.
+
+---
+
+## 6. GLOBAL CONTACT & COLLABORATION
+
+- Official Domain: https://jasawebsite.net
+- English Portal: https://jasawebsite.net/en
+- International Sales WhatsApp: +62 851-8314-1624
+- Corporate Email: hello@jasawebsite.net
+- Operating Hours: Monday – Saturday, 08:00 – 20:00 UTC+7 (24/7 Priority SLA for Enterprise Clients)

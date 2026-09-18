@@ -33,7 +33,7 @@ export default function HeroShowcasePage() {
             <h2 className="text-lg font-bold text-slate-900">1. Split-Screen with Interactive Card (SaaS / Jasa)</h2>
             <span className="text-xs text-slate-500 font-mono">50/50 Layout • Floating Card Mockup</span>
           </div>
-          <BrowserFrame url="https://websiteplatform.id/hero-split">
+          <BrowserFrame url="https://jasawebsite.net/hero-split">
             <div className="p-8 sm:p-14 bg-white grid grid-cols-1 md:grid-cols-2 gap-10 items-center">
               <div className="space-y-4 text-left">
                 <span className="inline-flex items-center gap-1.5 px-3 py-1 bg-blue-50 text-blue-700 text-xs font-bold rounded-full">
@@ -86,7 +86,7 @@ export default function HeroShowcasePage() {
             <h2 className="text-lg font-bold text-slate-900">2. Centered Statement with Proof Bar (B2B Authority)</h2>
             <span className="text-xs text-slate-500 font-mono">Pusat Fokus • Baris Logo Mitra</span>
           </div>
-          <BrowserFrame url="https://websiteplatform.id/hero-centered">
+          <BrowserFrame url="https://jasawebsite.net/hero-centered">
             <div className="p-8 sm:p-16 bg-gradient-to-b from-slate-900 to-slate-950 text-white text-center space-y-6">
               <div className="max-w-3xl mx-auto space-y-4">
                 <span className="px-3.5 py-1 bg-white/10 text-slate-300 text-xs font-bold rounded-full inline-block border border-white/10">

@@ -33,7 +33,7 @@ export default function SectionShowcasePage() {
             <h2 className="text-lg font-bold text-slate-900">1. Alur 4 Langkah Kerja (Process Flow)</h2>
             <span className="text-xs text-slate-500 font-mono">Numbered Badges • Connecting Line</span>
           </div>
-          <BrowserFrame url="https://websiteplatform.id/section-process">
+          <BrowserFrame url="https://jasawebsite.net/section-process">
             <div className="p-8 sm:p-14 bg-white space-y-8">
               <div className="text-center max-w-xl mx-auto space-y-2">
                 <span className="text-[10px] font-bold text-blue-600 uppercase tracking-widest">Alur Pengerjaan Cepat</span>
@@ -75,7 +75,7 @@ export default function SectionShowcasePage() {
             <h2 className="text-lg font-bold text-slate-900">2. Timeline Rekam Jejak Proyek (History Milestone)</h2>
             <span className="text-xs text-slate-500 font-mono">Vertical Rail • Milestone Dates</span>
           </div>
-          <BrowserFrame url="https://websiteplatform.id/section-timeline">
+          <BrowserFrame url="https://jasawebsite.net/section-timeline">
             <div className="p-8 sm:p-14 bg-slate-900 text-white space-y-8">
               <div className="max-w-xl space-y-2">
                 <span className="text-[10px] font-bold text-emerald-400 uppercase tracking-widest font-mono">COMPANY ROADMAP</span>

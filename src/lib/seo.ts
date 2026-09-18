@@ -1,8 +1,8 @@
 import { Metadata } from 'next';
 import { BreadcrumbItem, FAQItem } from '@/types';
 
-export const SITE_URL = 'https://websiteplatform.id'; // Canonical production domain placeholder
-export const SITE_NAME = 'WebsitePlatform';
+export const SITE_URL = 'https://jasawebsite.net'; // Canonical production domain
+export const SITE_NAME = 'JasaWebsite';
 
 export interface MetadataProps {
   title: string;
@@ -21,35 +21,94 @@ export function constructMetadata({
   ogType = 'website',
   image,
 }: MetadataProps): Metadata {
-  const url = `${SITE_URL}${path.startsWith('/') ? path : `/${path}`}`;
+  const normalizedPath = path.startsWith('/') ? path : `/${path}`;
+  const url = `${SITE_URL}${normalizedPath === '/' ? '' : normalizedPath}`;
+  const cleanSlug = normalizedPath.replace(/^\//, '').replace(/\//g, '-') || 'home';
+  const autoPngOg = `${SITE_URL}/og/${cleanSlug}.png`;
   const ogImageUrl = image
     ? (image.startsWith('http') ? image : `${SITE_URL}${image.startsWith('/') ? image : `/${image}`}`)
-    : `${SITE_URL}/images/og-default.svg`;
+    : autoPngOg;
+
+  const isEn = normalizedPath === '/en' || normalizedPath.startsWith('/en/');
+
+  // Bidirectional hreflang mapping for paired routes
+  const HREFLANG_PAIRS: Record<string, { id: string; en: string }> = {
+    '/': { id: `${SITE_URL}`, en: `${SITE_URL}/en` },
+    '/en': { id: `${SITE_URL}`, en: `${SITE_URL}/en` },
+    '/website-packages': {
+      id: `${SITE_URL}/website-packages`,
+      en: `${SITE_URL}/en/website-packages`,
+    },
+    '/en/website-packages': {
+      id: `${SITE_URL}/website-packages`,
+      en: `${SITE_URL}/en/website-packages`,
+    },
+    '/pricing': {
+      id: `${SITE_URL}/pricing`,
+      en: `${SITE_URL}/en/pricing`,
+    },
+    '/en/pricing': {
+      id: `${SITE_URL}/pricing`,
+      en: `${SITE_URL}/en/pricing`,
+    },
+    '/designs': {
+      id: `${SITE_URL}/designs`,
+      en: `${SITE_URL}/en/designs`,
+    },
+    '/en/designs': {
+      id: `${SITE_URL}/designs`,
+      en: `${SITE_URL}/en/designs`,
+    },
+  };
+
+  const matchedPair = HREFLANG_PAIRS[normalizedPath];
+
+  const languagesRecord: Record<string, string> = matchedPair
+    ? {
+        id: matchedPair.id,
+        en: matchedPair.en,
+        'x-default': matchedPair.id,
+      }
+    : isEn
+    ? {
+        en: url,
+        'x-default': url,
+      }
+    : {
+        id: url,
+        'x-default': url,
+      };
+
+  const baseKeywords = isEn
+    ? [
+        'global web development',
+        'software engineering services',
+        'enterprise web design',
+        'Next.js development company',
+        'B2B web development',
+      ]
+    : [
+        'jasa pembuatan website',
+        'bikin website profesional',
+        'web design indonesia',
+        'website UMKM',
+        'company profile',
+      ];
 
   return {
     title: `${title} | ${SITE_NAME}`,
     description,
-    keywords: [
-      'jasa pembuatan website',
-      'bikin website profesional',
-      'web design indonesia',
-      'website UMKM',
-      'company profile',
-      ...keywords,
-    ],
+    keywords: [...baseKeywords, ...keywords],
     alternates: {
       canonical: url,
-      languages: {
-        id: url,
-        'x-default': url,
-      },
+      languages: languagesRecord,
     },
     openGraph: {
       title: `${title} | ${SITE_NAME}`,
       description,
       url,
       siteName: SITE_NAME,
-      locale: 'id_ID',
+      locale: isEn ? 'en_US' : 'id_ID',
       type: ogType,
       images: [
         {
@@ -91,7 +150,7 @@ export function generateOrganizationSchema() {
     description: 'Platform dan jasa pembuatan website profesional berstandar modern, cepat, dan teroptimasi SEO.',
     contactPoint: {
       '@type': 'ContactPoint',
-      telephone: '+62-812-3456-7890',
+      telephone: '+62-812-3336-7191',
       contactType: 'customer support',
       areaServed: 'ID',
       availableLanguage: ['Indonesian', 'English'],

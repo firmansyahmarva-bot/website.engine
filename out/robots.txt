@@ -1,8 +1,13 @@
 User-Agent: *
+Allow: /llms.txt
+Allow: /llms-full.txt
+Allow: /en/llms.txt
+Allow: /en/llms-full.txt
 Allow: /
 Disallow: /api/
 Disallow: /_next/private/
 Disallow: /contact.php
+Disallow: /*.txt$
 
 User-Agent: GPTBot
 User-Agent: PerplexityBot
@@ -11,7 +16,15 @@ User-Agent: Google-Extended
 User-Agent: Amazonbot
 User-Agent: Bytespider
 User-Agent: Applebot
+Allow: /llms.txt
+Allow: /llms-full.txt
+Allow: /en/llms.txt
+Allow: /en/llms-full.txt
 Allow: /
+Disallow: /api/
+Disallow: /_next/private/
+Disallow: /contact.php
+Disallow: /*.txt$
 
-Host: https://websiteplatform.id
-Sitemap: https://websiteplatform.id/sitemap.xml
+Host: https://jasawebsite.net
+Sitemap: https://jasawebsite.net/sitemap.xml

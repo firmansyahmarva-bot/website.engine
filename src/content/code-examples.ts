@@ -196,7 +196,7 @@ export const CODE_EXAMPLES: CodeExampleEntity[] = [
       'Tombol kontak WhatsApp dengan format pesan otomatis berbasis URL encoding dan styling warna resmi.',
     language: 'tsx',
     code: `export function WhatsAppButton({ serviceName, price }: { serviceName: string; price: string }) {
-  const phone = "6281234567890";
+  const phone = "6281233367191";
   const message = \`Halo, saya ingin konsultasi mengenai pembuatan website paket \${serviceName} (Estimasi \${price}). Mohon info jadwal pengerjaannya.\`;
   const url = \`https://wa.me/\${phone}?text=\${encodeURIComponent(message)}\`;
 
@@ -274,7 +274,7 @@ export const CODE_EXAMPLES: CodeExampleEntity[] = [
   <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 lg:py-16">
     <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-5 gap-8">
       <div className="col-span-2 space-y-3">
-        <span className="text-xl font-bold text-white">WebsitePlatform</span>
+        <span className="text-xl font-bold text-white">JasaWebsite</span>
         <p className="text-xs text-slate-400 max-w-xs">Solusi website bisnis siap pakai dengan performa Core Web Vitals tinggi.</p>
       </div>
       <div>

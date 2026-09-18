@@ -189,7 +189,7 @@ export function GalleryClient() {
             <div className="p-6 space-y-6 max-h-[75vh] overflow-y-auto">
               <BrowserFrame
                 title={`${activeModalDesign.name.id} Live Simulation`}
-                url={`https://websiteplatform.id/demos/${activeModalDesign.slug}`}
+                url={`https://jasawebsite.net/demos/${activeModalDesign.slug}`}
               >
                 {/* Simulated live page */}
                 <div

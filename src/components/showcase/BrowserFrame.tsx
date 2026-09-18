@@ -12,7 +12,7 @@ interface BrowserFrameProps {
 
 export function BrowserFrame({
   title = 'Website Preview',
-  url = 'https://websiteplatform.id/demo',
+  url = 'https://jasawebsite.net/demo',
   children,
   allowViewportToggle = true,
   className = '',

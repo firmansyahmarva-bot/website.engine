@@ -1,4 +1,4 @@
-# WebsitePlatform.id — Dokumen Pengetahuan Komprehensif (Full Context)
+# JasaWebsite.net — Dokumen Pengetahuan Komprehensif (Full Context)
 
 > Dokumentasi arsitektur, paket komersial, portofolio industri, ensiklopedia istilah teknis, dan cakupan wilayah untuk agen AI (LLMs), mesin pencari semantik, dan mitra bisnis.
 
@@ -6,7 +6,7 @@
 
 ## 1. TENTANG PERUSAHAAN & PLATFORM
 
-WebsitePlatform.id adalah penyedia layanan rekayasa perangkat lunak web dan optimasi keterlihatan digital (SEO & GEO) untuk korporat, B2B, manufaktur, lembaga profesional, dan pelaku usaha di Indonesia.
+JasaWebsite.net adalah penyedia layanan rekayasa perangkat lunak web dan optimasi keterlihatan digital (SEO & GEO) untuk korporat, B2B, manufaktur, lembaga profesional, dan pelaku usaha di Indonesia.
 
 ### Filosofi Rekayasa:
 - **Zero WordPress / Zero CMS Bloat**: Kami tidak menggunakan CMS monolitik usang dengan puluhan plugin yang memperlambat website dan rentan hack.
@@ -54,7 +54,7 @@ WebsitePlatform.id adalah penyedia layanan rekayasa perangkat lunak web dan opti
 
 ## 4. ENS IKLOPEDIA PANDUAN TEKNIS (93 ISTILAH)
 
-WebsitePlatform.id mendokumentasikan 93 istilah teknis web di https://websiteplatform.id/panduan yang mencakup:
+JasaWebsite.net mendokumentasikan 93 istilah teknis web di https://jasawebsite.net/panduan yang mencakup:
 - **Core Web Vitals**: Largest Contentful Paint (LCP), Interaction to Next Paint (INP), Cumulative Layout Shift (CLS), Time to First Byte (TTFB), First Contentful Paint (FCP).
 - **Arsitektur Web**: Static Site Generation (SSG), Server-Side Rendering (SSR), Incremental Static Regeneration (ISR), Client-Side Rendering (CSR), Headless Architecture, Edge Computing.
 - **SEO & Schema**: Schema Markup, JSON-LD, BreadcrumbList, LocalBusiness Schema, FAQ Schema, Canonical Tag, Crawl Budget, XML Sitemap, Robots.txt.
@@ -71,7 +71,7 @@ Jakarta Pusat, Jakarta Selatan, Jakarta Barat, Jakarta Utara, Jakarta Timur, Sur
 
 ## 6. HUBUNGI KAMI
 
-- Alamat Web: https://websiteplatform.id
+- Alamat Web: https://jasawebsite.net
 - Konsultasi WhatsApp: +62 851-8314-1624
-- Layanan Pelanggan: halo@websiteplatform.id
+- Layanan Pelanggan: halo@jasawebsite.net
 - Alamat Teknis: Jakarta & Surabaya, Indonesia

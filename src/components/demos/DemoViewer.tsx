@@ -290,7 +290,7 @@ export default function DemoViewer({ currentDesign }: DemoViewerProps) {
               <div className="max-w-5xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-4 text-center sm:text-left">
                 <div>
                   <p className="font-semibold text-white">{currentDesign.name.id} Enterprise Theme</p>
-                  <p className="text-[11px] text-slate-500 mt-0.5">Preview interaktif sistem desain WebsitePlatform.</p>
+                  <p className="text-[11px] text-slate-500 mt-0.5">Preview interaktif sistem desain JasaWebsite.</p>
                 </div>
                 <div className="flex items-center gap-4 text-[11px]">
                   <span>Privasi</span>

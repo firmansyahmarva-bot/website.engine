@@ -1,4 +1,4 @@
-﻿import React from 'react';
+import React from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
 import {
@@ -111,10 +111,13 @@ export default function HeroSection() {
               {/* Visual Showcase Preview Image */}
               <div className="relative h-64 sm:h-80 w-full rounded-xl overflow-hidden bg-slate-950">
                 <img
-                  src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=1000&q=80"
+                  src="/images/hero-preview.webp"
+                  srcSet="/images/hero-preview.webp 1x, /images/hero-preview@2x.webp 2x"
                   alt="Tampilan Desain Website Modern Bisnis dan Dashboard Analitik"
+                  width={600}
+                  height={380}
+                  fetchPriority="high"
                   className="w-full h-full object-cover object-top hover:scale-105 transition-transform duration-700"
-                  loading="eager"
                 />
                 
                 {/* Overlay gradient at bottom of preview */}

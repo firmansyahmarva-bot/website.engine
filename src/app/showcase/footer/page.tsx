@@ -34,7 +34,7 @@ export default function FooterShowcasePage() {
             <h2 className="text-lg font-bold text-slate-900">1. Corporate 4-Column Mega Footer (Dark)</h2>
             <span className="text-xs text-slate-500 font-mono">Slate 950 • ISO Certification • Legal</span>
           </div>
-          <BrowserFrame url="https://websiteplatform.id/footer-corporate">
+          <BrowserFrame url="https://jasawebsite.net/footer-corporate">
             <footer className="p-8 sm:p-12 bg-slate-950 text-slate-400 text-xs">
               <div className="grid grid-cols-1 md:grid-cols-4 gap-8 mb-8 pb-8 border-b border-slate-800">
                 <div className="space-y-3 md:col-span-1">
@@ -67,7 +67,7 @@ export default function FooterShowcasePage() {
                 <div className="space-y-2">
                   <h4 className="text-white font-bold text-xs uppercase mb-3">Kantor Operasional</h4>
                   <p className="text-slate-400">Gedung Graha Perkasa Lt. 8, Jl. TB Simatupang No. 45, Jakarta Selatan</p>
-                  <p className="text-emerald-400 font-bold">WhatsApp: 0812-3456-7890</p>
+                  <p className="text-emerald-400 font-bold">WhatsApp: 0812-3336-7191</p>
                   <p className="text-slate-400">Email: tender@astragraha.co.id</p>
                 </div>
               </div>
@@ -89,7 +89,7 @@ export default function FooterShowcasePage() {
             <h2 className="text-lg font-bold text-slate-900">2. Modern Light with Newsletter Form</h2>
             <span className="text-xs text-slate-500 font-mono">White Pure • Newsletter Subscription</span>
           </div>
-          <BrowserFrame url="https://websiteplatform.id/footer-light">
+          <BrowserFrame url="https://jasawebsite.net/footer-light">
             <footer className="p-8 sm:p-12 bg-white border-t border-slate-200 text-slate-600 text-xs">
               <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8 pb-8 border-b border-slate-100">
                 <div>

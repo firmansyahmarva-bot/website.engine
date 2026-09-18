@@ -3,7 +3,6 @@ import { WebsiteTemplate } from '@/types';
 export const websiteTemplates: WebsiteTemplate[] = [
   {
     id: 'corporate-executive',
-    previewImage: 'https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=1000&q=80',
     name: 'Executive & Enterprise Corporate',
     category: 'Corporate & Holding',
     tagline: 'Minimalist, Prestigious, Slate & Platinum',
@@ -35,7 +34,6 @@ export const websiteTemplates: WebsiteTemplate[] = [
   },
   {
     id: 'saas-dark',
-    previewImage: 'https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=1000&q=80',
     name: 'NeoTech SaaS & AI Platform',
     category: 'SaaS & Digital Tech',
     tagline: 'Dark Mode, Glassmorphic, Neon Glow Badges',
@@ -67,7 +65,6 @@ export const websiteTemplates: WebsiteTemplate[] = [
   },
   {
     id: 'luxury-realestate',
-    previewImage: 'https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?auto=format&fit=crop&w=1000&q=80',
     name: 'Palazzo Luxury Villa & Real Estate',
     category: 'Property & Real Estate',
     tagline: 'Architectural Elegance, Rich Galleries, Floorplans',
@@ -99,7 +96,6 @@ export const websiteTemplates: WebsiteTemplate[] = [
   },
   {
     id: 'healthcare-clinic',
-    previewImage: 'https://images.unsplash.com/photo-1629909613654-28e377c37b09?auto=format&fit=crop&w=1000&q=80',
     name: 'Apex Health Clinic & Medical Care',
     category: 'Healthcare & Clinic',
     tagline: 'Clean Trust Blue, Doctor Directory, Fast Booking',
@@ -193,7 +189,6 @@ export const websiteTemplates: WebsiteTemplate[] = [
   },
   {
     id: 'creative-brutalist',
-    previewImage: 'https://images.unsplash.com/photo-1507238691740-187a5b1d37b8?auto=format&fit=crop&w=1000&q=80',
     name: 'Studio Kroma Bold Creative Portfolio',
     category: 'Creative & Agency',
     tagline: 'High-Impact Typography, Bold Interaction, Case Studies',
@@ -256,7 +251,6 @@ export const websiteTemplates: WebsiteTemplate[] = [
   },
   {
     id: 'academy-edtech',
-    previewImage: 'https://images.unsplash.com/photo-1524178232363-1fb2b075b655?auto=format&fit=crop&w=1000&q=80',
     name: 'OmniSkill Academy & Training Hub',
     category: 'Education & Courses',
     tagline: 'Vibrant, Course Catalog, Curriculum Accordion',

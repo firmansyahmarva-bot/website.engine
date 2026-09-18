@@ -87,57 +87,36 @@ export const DesignHubs: React.FC<DesignHubsProps> = ({ currentLang, onSelectTem
                 key={template.id}
                 className="group flex flex-col rounded-2xl bg-slate-900/80 border border-slate-800/80 hover:border-slate-700 overflow-hidden shadow-xl transition-all duration-300 hover:-translate-y-1 hover:shadow-2xl hover:shadow-blue-950/20"
               >
-                {/* Realistic Browser Window Mockup Banner */}
-                <div className="relative h-56 w-full flex flex-col overflow-hidden border-b border-slate-800 bg-slate-950">
-                  
-                  {/* macOS Window Top Bar */}
-                  <div className="h-7 px-3 bg-slate-900/90 border-b border-slate-800/80 flex items-center justify-between z-20 shrink-0">
-                    <div className="flex items-center gap-1.5">
-                      <span className="w-2.5 h-2.5 rounded-full bg-rose-500/80 inline-block" />
-                      <span className="w-2.5 h-2.5 rounded-full bg-amber-500/80 inline-block" />
-                      <span className="w-2.5 h-2.5 rounded-full bg-emerald-500/80 inline-block" />
-                    </div>
-                    <div className="px-2.5 py-0.5 rounded-full bg-slate-950/80 border border-slate-800 text-[10px] text-slate-400 font-mono tracking-tight flex items-center gap-1">
-                      <span className="text-emerald-400">🔒</span>
-                      <span>webscale.engine/{template.id}</span>
-                    </div>
-                    <div className="flex items-center gap-1 px-1.5 py-0.5 rounded bg-emerald-950/90 border border-emerald-500/30 text-emerald-300 text-[10px] font-extrabold">
-                      <Zap className="w-3 h-3 fill-emerald-400 text-emerald-400" />
+                {/* Visual Header / Stylized Mockup Banner */}
+                <div 
+                  className="relative h-48 w-full p-5 flex flex-col justify-between overflow-hidden border-b border-slate-800"
+                  style={{ background: `linear-gradient(135deg, ${template.colorScheme.primary} 0%, ${template.colorScheme.secondary} 100%)` }}
+                >
+                  {/* Glowing ambient ring */}
+                  <div 
+                    className="absolute -right-8 -bottom-8 w-40 h-40 rounded-full blur-2xl opacity-40 pointer-events-none"
+                    style={{ background: template.colorScheme.accent }}
+                  />
+
+                  {/* Top Bar inside Card: Speed Score & Category */}
+                  <div className="flex items-center justify-between z-10">
+                    <span className="text-[11px] font-bold uppercase tracking-wider px-2.5 py-1 rounded-md bg-black/40 text-white backdrop-blur-md border border-white/10">
+                      {template.category}
+                    </span>
+                    <div className="flex items-center gap-1 px-2.5 py-1 rounded-md bg-emerald-950/80 border border-emerald-500/30 text-emerald-300 text-xs font-extrabold backdrop-blur-md">
+                      <Zap className="w-3.5 h-3.5 fill-emerald-400 text-emerald-400" />
                       <span>{template.speedScore}</span>
                     </div>
                   </div>
 
-                  {/* High-Resolution Website Preview with Smooth Zoom */}
-                  <div className="relative flex-1 w-full overflow-hidden">
-                    {template.previewImage && (
-                      <img
-                        src={template.previewImage}
-                        alt={template.name}
-                        className="w-full h-full object-cover object-top group-hover:scale-105 transition-transform duration-700 ease-out"
-                        loading="lazy"
-                      />
-                    )}
-
-                    {/* Dark gradient overlay for typography readability */}
-                    <div className="absolute inset-0 bg-gradient-to-t from-slate-950 via-slate-950/50 to-transparent" />
-
-                    {/* Category pill & Title overlay */}
-                    <div className="absolute inset-0 p-4 flex flex-col justify-between z-10">
-                      <div>
-                        <span className="text-[10px] font-bold uppercase tracking-wider px-2 py-0.5 rounded bg-slate-950/80 text-cyan-300 backdrop-blur-md border border-cyan-500/30">
-                          {template.category}
-                        </span>
-                      </div>
-
-                      <div>
-                        <span className="text-[11px] font-medium text-slate-300 drop-shadow">
-                          {template.style}
-                        </span>
-                        <h3 className="text-base font-extrabold text-white tracking-tight drop-shadow-md group-hover:text-cyan-300 transition-colors">
-                          {template.name}
-                        </h3>
-                      </div>
-                    </div>
+                  {/* Center Mockup Illustration Header */}
+                  <div className="z-10 mt-auto">
+                    <span className="text-xs font-medium text-slate-300">
+                      {template.style}
+                    </span>
+                    <h3 className="text-lg font-extrabold text-white tracking-tight drop-shadow-sm">
+                      {template.name}
+                    </h3>
                   </div>
                 </div>
 

@@ -4,20 +4,9 @@ import Link from 'next/link';
 import {
   Sparkles,
   ArrowRight,
-  HelpCircle,
   BookOpen,
   CheckCircle2,
   Wrench,
-  Tags,
-  MessageSquare,
-  Gauge,
-  Calculator,
-  Code2,
-  Share2,
-  Search,
-  Monitor,
-  Eye,
-  Link2,
 } from 'lucide-react';
 
 import { TOOLS, getToolBySlug, getRelatedTools } from '@/content/tools';
@@ -25,18 +14,7 @@ import { constructMetadata } from '@/lib/seo';
 import Breadcrumb from '@/components/ui/Breadcrumb';
 import FAQAccordion from '@/components/ui/FAQAccordion';
 import ToolCta from '@/components/tools/ToolCta';
-
-// Import all 10 interactive tool client components
-import MetaTagGenerator from '@/components/tools/MetaTagGenerator';
-import WhatsAppLinkGenerator from '@/components/tools/WhatsAppLinkGenerator';
-import WebsiteSpeedEstimator from '@/components/tools/WebsiteSpeedEstimator';
-import RoasCalculator from '@/components/tools/RoasCalculator';
-import SchemaGenerator from '@/components/tools/SchemaGenerator';
-import OgPreview from '@/components/tools/OgPreview';
-import SerpCharacterCounter from '@/components/tools/SerpCharacterCounter';
-import ViewportTester from '@/components/tools/ViewportTester';
-import ContrastChecker from '@/components/tools/ContrastChecker';
-import UtmBuilder from '@/components/tools/UtmBuilder';
+import { TOOL_COMPONENTS, ICON_MAP } from '@/components/tools/registry';
 
 export const dynamic = 'force-static';
 
@@ -68,46 +46,6 @@ export async function generateMetadata({ params }: ToolPageProps): Promise<Metad
     keywords: tool.seoKeywords,
   });
 }
-
-function renderToolComponent(slug: string) {
-  switch (slug) {
-    case 'meta-tag-generator':
-      return <MetaTagGenerator />;
-    case 'whatsapp-link-generator':
-      return <WhatsAppLinkGenerator />;
-    case 'website-speed-estimator':
-      return <WebsiteSpeedEstimator />;
-    case 'roas-calculator':
-      return <RoasCalculator />;
-    case 'schema-generator':
-      return <SchemaGenerator />;
-    case 'og-preview':
-      return <OgPreview />;
-    case 'serp-character-counter':
-      return <SerpCharacterCounter />;
-    case 'viewport-tester':
-      return <ViewportTester />;
-    case 'contrast-checker':
-      return <ContrastChecker />;
-    case 'utm-builder':
-      return <UtmBuilder />;
-    default:
-      return null;
-  }
-}
-
-const ICON_MAP: Record<string, React.ComponentType<{ className?: string }>> = {
-  Tags,
-  MessageSquare,
-  Gauge,
-  Calculator,
-  Code2,
-  Share2,
-  Search,
-  Monitor,
-  Eye,
-  Link2,
-};
 
 export default async function ToolDetailPage({ params }: ToolPageProps) {
   const { slug } = await params;
@@ -141,6 +79,8 @@ export default async function ToolDetailPage({ params }: ToolPageProps) {
   };
 
   const IconComp = ICON_MAP[tool.iconName] || Sparkles;
+
+  const ToolComponent = TOOL_COMPONENTS[tool.slug];
 
   return (
     <div className="bg-slate-50 min-h-screen pb-20">
@@ -185,7 +125,7 @@ export default async function ToolDetailPage({ params }: ToolPageProps) {
                 className="inline-flex items-center gap-2 px-4 py-2 rounded-xl bg-slate-100 hover:bg-slate-200 text-slate-700 text-xs font-semibold transition-colors"
               >
                 <Wrench className="w-4 h-4 text-slate-500" />
-                <span>Lihat Semua 10 Tools</span>
+                <span>Lihat Semua {TOOLS.length} Tools</span>
               </Link>
             </div>
           </div>
@@ -195,7 +135,7 @@ export default async function ToolDetailPage({ params }: ToolPageProps) {
       {/* Interactive Tool Component Area */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mt-10">
         <div className="bg-white p-6 sm:p-8 rounded-3xl border border-slate-200 shadow-md">
-          {renderToolComponent(tool.slug)}
+          {ToolComponent ? <ToolComponent /> : null}
         </div>
 
         {/* How To Use & Features Guide */}

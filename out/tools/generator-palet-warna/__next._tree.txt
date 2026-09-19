@@ -1,0 +1,2 @@
+:HL["/_next/static/css/b56b51c25d0b0b1c.css","style"]
+0:{"tree":{"name":"","param":null,"prefetchHints":4176,"slots":{"children":{"name":"tools","param":null,"prefetchHints":4192,"slots":{"children":{"name":"slug","param":{"type":"d","key":"generator-palet-warna","siblings":[]},"prefetchHints":4192,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":4256,"slots":null}}}}}}},"staleTime":300,"buildId":"iQIzGRVbjW-hTErYgr68O"}

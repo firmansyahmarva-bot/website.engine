@@ -663,6 +663,532 @@ export const TOOLS: ToolItem[] = [
     ],
     relatedToolSlugs: ['roas-calculator', 'whatsapp-link-generator', 'og-preview'],
   },
+  {
+    id: 'qr-code-generator',
+    slug: 'qr-code-generator',
+    name: 'QR Code Generator',
+    title: 'Generator QR Code Online Gratis (URL, WiFi, WhatsApp & Teks)',
+    tagline: 'Buat QR code vektor beresolusi tinggi untuk website, koneksi WiFi instan, pesan WhatsApp, atau teks bebas dengan opsi unduh PNG dan SVG.',
+    description:
+      'Generator QR code gratis 100% client-side tanpa batas masa berlaku. Buat kode QR untuk tautan website, scan otomatis WiFi tanpa ketik password, pesan WhatsApp cepat, serta kartu nama digital dengan kustomisasi warna dan ekspor file vektor SVG/PNG siap cetak.',
+    category: 'Marketing',
+    badge: 'Paling Populer',
+    iconName: 'QrCode',
+    features: [
+      'Mendukung 4 format data: URL Website, Jaringan WiFi, Pesan WhatsApp, dan Teks Bebas',
+      'Ekspor vektor SVG tajam siap cetak banner, brosur, atau kartu nama fisik',
+      'Ekspor gambar PNG resolusi tinggi (HD) tanpa pecah',
+      'Kustomisasi warna foreground dan background sesuai identitas brand',
+      '100% Client-side tanpa login, tanpa masa kedaluwarsa, dan aman privasi',
+    ],
+    howToUse: [
+      {
+        step: 'Pilih Tipe Konten QR',
+        detail: 'Tentukan jenis data yang ingin dimasukkan: URL website, data login WiFi, nomor WhatsApp, atau teks informasi.',
+      },
+      {
+        step: 'Isi Informasi & Atur Warna',
+        detail: 'Lengkapi kolom input dan sesuaikan warna QR code dengan palet warna brand atau materi cetak Anda.',
+      },
+      {
+        step: 'Unduh File PNG atau SVG',
+        detail: 'Klik tombol Unduh PNG untuk media digital atau Unduh SVG untuk kebutuhan cetak skala besar tanpa pecah.',
+      },
+    ],
+    faqs: [
+      {
+        question: 'Apakah QR code yang dihasilkan memiliki masa berlaku (kadaluwarsa)?',
+        answer:
+          'Tidak. QR code yang dihasilkan bersifat statis (static QR code), sehingga tidak akan pernah kedaluwarsa dan dapat dipindai selamanya tanpa biaya langganan.',
+      },
+      {
+        question: 'Bagaimana cara menghubungkan smartphone ke WiFi lewat QR code?',
+        answer:
+          'Setelah mencetak atau menampilkan QR code WiFi, cukup buka kamera smartphone atau aplikasi pemindai QR. Sistem Android atau iOS akan otomatis menawarkan opsi "Hubungkan ke Jaringan" tanpa perlu mengetik kata sandi secara manual.',
+      },
+      {
+        question: 'Mengapa format SVG lebih direkomendasikan untuk cetak fisik?',
+        answer:
+          'SVG adalah format gambar berbasis vektor (matematika kurva), sehingga saat dicetak pada spanduk atau baliho berukuran meteran sekalipun, garis-garis modul QR tetap presisi 100% dan mudah dipindai oleh sensor kamera.',
+      },
+    ],
+    ctaType: 'website-packages',
+    ctaTitle: 'Ingin Website Bisnis yang Terintegrasi dengan QR Code & WhatsApp Marketing?',
+    ctaDescription:
+      'Tingkatkan penjualan dengan website profesional berkecepatan tinggi yang dirancang untuk closing otomatis via WhatsApp dan strategi pemasaran omnichannel.',
+    seoTitle: 'Generator QR Code Gratis Online - Buat QR Code URL, WiFi & WA',
+    seoDescription:
+      'Generator QR code gratis online tanpa batas. Buat QR code untuk website, login WiFi otomatis, WhatsApp, dan teks bebas. Unduh format PNG HD & SVG siap cetak.',
+    seoKeywords: [
+      'generator qr code gratis',
+      'buat qr code online',
+      'qr code generator indonesia',
+      'qr code wifi gratis',
+      'bikin barcode qr wa',
+    ],
+    relatedToolSlugs: ['whatsapp-link-generator', 'utm-builder', 'kompres-gambar'],
+  },
+  {
+    id: 'kompres-gambar',
+    slug: 'kompres-gambar',
+    name: 'Kompres Gambar Online',
+    title: 'Kompres Gambar Online Gratis (WebP, JPG & PNG)',
+    tagline: 'Perkecil ukuran file foto dan gambar hingga 85% tanpa mengurangi ketajaman visual. 100% aman dan berjalan langsung di browser Anda.',
+    description:
+      'Alat kompresi gambar berbasis browser yang cepat dan privat. Mengubah foto berukuran megabyte menjadi ratusan kilobyte dengan format modern WebP dan JPEG agar website Anda lolos uji kecepatan Core Web Vitals Google.',
+    category: 'Performance',
+    badge: 'Optimasi Kilat',
+    iconName: 'FileImage',
+    features: [
+      'Kompresi gambar instan langsung di peramban tanpa antrean server',
+      'Mendukung konversi otomatis ke format WebP generasi baru rekomendasi Google',
+      'Slider kontrol kualitas visual fleksibel (10% hingga 95%)',
+      'Pilihan reduksi dimensi resolusi (1920px Full HD, 1200px Banner, 800px Blog)',
+      'Perbandingan ukuran sebelum dan sesudah kompresi secara transparan',
+      'Privasi mutlak: Foto tidak pernah diunggah atau disimpan di cloud server',
+    ],
+    howToUse: [
+      {
+        step: 'Pilih atau Tarik File Gambar',
+        detail: 'Tarik file foto format JPG, PNG, atau WebP dari komputer atau smartphone Anda ke kotak upload.',
+      },
+      {
+        step: 'Atur Kualitas & Resolusi',
+        detail: 'Sesuaikan slider kualitas (disarankan 75%) dan pilih resolusi maksimal sesuai kebutuhan penempatan di web.',
+      },
+      {
+        step: 'Periksa Penghematan & Unduh',
+        detail: 'Lihat persentase ukuran yang berhasil dihemat lalu klik tombol Unduh Gambar Terkompresi.',
+      },
+    ],
+    faqs: [
+      {
+        question: 'Mengapa format WebP lebih baik daripada JPEG atau PNG biasa?',
+        answer:
+          'WebP dikembangkan oleh Google dengan algoritma kompresi lossy dan lossless yang mampu menghasilkan ukuran file 26-34% lebih kecil dibanding JPEG biasa pada kualitas visual yang identik, membuat loading website jauh lebih cepat.',
+      },
+      {
+        question: 'Apakah foto yang saya kompres aman dari pencurian data?',
+        answer:
+          'Sangat aman. Seluruh algoritma kompresi dijalankan sepenuhnya di memori browser lokal perangkat Anda (HTML5 Canvas API). Tidak ada satu byte pun data yang dikirim ke server kami.',
+      },
+      {
+        question: 'Berapa ukuran file gambar yang ideal untuk halaman website?',
+        answer:
+          'Untuk gambar hero/banner utama, idealnya di bawah 200 KB. Untuk gambar produk atau ilustrasi artikel, usahakan di bawah 80 KB agar skor Largest Contentful Paint (LCP) website tetap prima.',
+      },
+    ],
+    ctaType: 'audit-gratis',
+    ctaTitle: 'Website Anda Terasa Berat Karena File Gambar Belum Teroptimasi?',
+    ctaDescription:
+      'Dapatkan audit performa gratis dari tim kami. Kami mengidentifikasi aset gambar berukuran besar dan memperbaiki Core Web Vitals website Anda hingga skor 100/100.',
+    seoTitle: 'Kompres Gambar Online Gratis - Perkecil Ukuran Foto JPG, PNG, WebP',
+    seoDescription:
+      'Alat kompres gambar online gratis tercepat di Indonesia. Perkecil ukuran foto JPG, PNG, dan WebP hingga 85% tanpa pecah. 100% aman langsung di browser.',
+    seoKeywords: [
+      'kompres gambar online',
+      'perkecil ukuran foto',
+      'kompres foto jpg png',
+      'compress image webp gratis',
+      'cara mengecilkan kb foto',
+    ],
+    relatedToolSlugs: ['website-speed-estimator', 'generator-favicon', 'meta-tag-generator'],
+  },
+  {
+    id: 'generator-nama-usaha',
+    slug: 'generator-nama-usaha',
+    name: 'Generator Nama Usaha',
+    title: 'Generator Nama Usaha & Brand Bisnis Online Gratis',
+    tagline: 'Temukan puluhan ide nama brand toko, startup, dan UMKM yang unik, mudah diingat, serta siap didaftarkan domain website-nya.',
+    description:
+      'Alat bantu ide kreatif untuk menemukan nama usaha terbaik berdasarkan kata kunci dan sektor industri. Dilengkapi kategorisasi gaya nama (modern tech, nusantara elegan, catchy, korporat global), slogan inspiratif, serta saran ekstensi domain website (.com, .id, .co.id).',
+    category: 'Marketing',
+    badge: 'Inspirasi Bisnis',
+    iconName: 'Lightbulb',
+    features: [
+      'Rekomendasi 20+ variasi nama bisnis unik berdasarkan kata kunci industri',
+      'Pilihan 4 gaya nama: Modern Digital, Nuansa Nusantara, Singkat & Catchy, serta Korporat Global',
+      'Inspirasi slogan / tagline otomatis yang relevan untuk setiap usulan nama',
+      'Saran kecocokan nama domain website (.com, .id, .co.id)',
+      'Fitur salin 1-klik ke clipboard untuk mencatat ide favorit Anda',
+    ],
+    howToUse: [
+      {
+        step: 'Ketik Kata Kunci Usaha',
+        detail: 'Masukkan 1 atau 2 kata kunci yang mendeskripsikan produk atau layanan Anda (misal: Kopi, Fashion, Laundry, Properti).',
+      },
+      {
+        step: 'Filter Sesuai Karakter Brand',
+        detail: 'Gunakan filter gaya nama untuk memfokuskan hasil pada nuansa modern, elegan lokal, atau korporat.',
+      },
+      {
+        step: 'Pilih & Salin Nama Terbaik',
+        detail: 'Tinjau kombinasi nama, slogan, dan ide domain lalu salin nama pilihan untuk segera didaftarkan.',
+      },
+    ],
+    faqs: [
+      {
+        question: 'Apa saja ciri nama usaha yang baik dan mudah diingat?',
+        answer:
+          'Nama usaha yang ideal umumnya terdiri dari 1 hingga 3 suku kata, mudah diucapkan oleh lidah Indonesia, tidak memiliki konotasi ambigu, serta relevan dengan proposisi nilai produk Anda.',
+      },
+      {
+        question: 'Kapan sebaiknya saya mendaftarkan nama domain website untuk usaha baru?',
+        answer:
+          'Segera setelah Anda menentukan nama brand. Ketersediaan nama domain sangat kompetitif, dan mendaftarkan domain .com atau .id sedini mungkin akan melindungi identitas brand Anda dari siber-spekulan.',
+      },
+      {
+        question: 'Apakah nama yang dihasilkan di sini bebas hak cipta?',
+        answer:
+          'Nama yang dihasilkan merupakan kombinasi kreatif algoritmik. Sebelum merilis brand secara resmi ke publik, disarankan untuk mengecek status pendaftaran merek di Pangkalan Data Kekayaan Intelektual (PDKI) Kemenkumham RI.',
+      },
+    ],
+    ctaType: 'configure',
+    ctaTitle: 'Sudah Punya Nama Usaha Keren? Saatnya Bangun Website Resminya',
+    ctaDescription:
+      'Klaim domain brand Anda dan bangun website profesional siap pakai mulai dari 499rb. Tampil kredibel di mata pelanggan dan calon investor.',
+    seoTitle: 'Generator Nama Usaha Online Gratis - Cari Ide Nama Toko & Brand',
+    seoDescription:
+      'Generator nama usaha online gratis. Temukan puluhan rekomendasi nama brand unik, keren, dan mudah diingat untuk toko online, startup, dan UMKM Indonesia.',
+    seoKeywords: [
+      'generator nama usaha',
+      'cara membuat nama toko',
+      'ide nama brand unik',
+      'nama usaha keren dan artinya',
+      'generator nama bisnis online',
+    ],
+    relatedToolSlugs: ['generator-palet-warna', 'generator-link-bio', 'qr-code-generator'],
+  },
+  {
+    id: 'generator-password',
+    slug: 'generator-password',
+    name: 'Generator Password',
+    title: 'Generator Password Kuat & Acak Online (Keamanan Tinggi)',
+    tagline: 'Buat kata sandi acak yang aman, bebas dari tebakan hacker, dengan indikator kekuatan entropi kriptografis instan.',
+    description:
+      'Generator kata sandi online berbasis kriptografi lokal browser. Buat password kuat untuk akun hosting cPanel, CMS WordPress, database, admin website, dan email bisnis dengan panjang dan kombinasi karakter yang dapat dikonfigurasi penuh.',
+    category: 'Performance',
+    badge: 'Keamanan Cyber',
+    iconName: 'KeyRound',
+    features: [
+      'Panjang karakter fleksibel dari 8 hingga 48 karakter standar keamanan tinggi',
+      'Kombinasi 4 set karakter: Huruf besar, huruf kecil, angka, dan simbol khusus',
+      'Opsi eliminasi karakter ambigu (menghilangkan 0 vs O, 1 vs l, I) agar mudah dibaca',
+      'Meteran kekuatan sandi real-time berbasis kalkulasi bit entropi',
+      'Daftar variasi alternatif sekali klik dan fitur salin instan ke clipboard',
+      '100% Client-side tanpa transmisi data keluar perangkat',
+    ],
+    howToUse: [
+      {
+        step: 'Tentukan Panjang Karakter',
+        detail: 'Geser slider panjang kata sandi (direkomendasikan minimal 16 karakter untuk keamanan akun penting).',
+      },
+      {
+        step: 'Pilih Jenis Karakter',
+        detail: 'Centang opsi huruf besar, kecil, angka, serta simbol khusus sesuai persyaratan sistem Anda.',
+      },
+      {
+        step: 'Salin Password Aman',
+        detail: 'Klik tombol salin pada password utama atau pilih salah satu dari variasi alternatif di kolom samping.',
+      },
+    ],
+    faqs: [
+      {
+        question: 'Berapa panjang password yang direkomendasikan untuk keamanan maksimal?',
+        answer:
+          'Standar National Institute of Standards and Technology (NIST) merekomendasikan minimal 12–16 karakter acak dengan campuran alfanumerik dan simbol untuk mempersulit peretasan brute-force.',
+      },
+      {
+        question: 'Apakah aman membuat password menggunakan alat online ini?',
+        answer:
+          'Sangat aman. Password di-generate secara lokal di dalam browser Anda menggunakan fungsi JavaScript acak tanpa pernah dikirim atau disimpan di server mana pun di internet.',
+      },
+      {
+        question: 'Mengapa karakter ambigu seperti 0 dan O sebaiknya dihindari?',
+        answer:
+          'Karakter seperti angka 0 dan huruf O kapital, atau angka 1 dan huruf L kecil (l), terlihat hampir sama pada sebagian besar font. Menghilangkannya meminimalisir kesalahan saat Anda perlu mengetik password secara manual.',
+      },
+    ],
+    ctaType: 'audit-gratis',
+    ctaTitle: 'Pastikan Keamanan Infrastruktur Website & Hosting Bisnis Anda',
+    ctaDescription:
+      'Website yang kami bangun menerapkan standar hardening keamanan: SSL HTTPS modern, proteksi brute force login, dan arsitektur Next.js bebas celah injeksi database.',
+    seoTitle: 'Generator Password Kuat Acak Online Gratis - Buat Kata Sandi Aman',
+    seoDescription:
+      'Generator password kuat acak online gratis. Buat kata sandi aman anti-hack untuk email, website, dan hosting cPanel dengan kombinasi simbol & meteran entropi.',
+    seoKeywords: [
+      'generator password kuat',
+      'buat password acak',
+      'generator kata sandi online',
+      'random password generator indonesia',
+      'keamanan password akun',
+    ],
+    relatedToolSlugs: ['contrast-checker', 'meta-tag-generator', 'website-speed-estimator'],
+  },
+  {
+    id: 'generator-palet-warna',
+    slug: 'generator-palet-warna',
+    name: 'Generator Palet Warna',
+    title: 'Generator Palet Warna Website & Brand Harmonis (5 Warna)',
+    tagline: 'Ciptakan kombinasi 5 warna selaras untuk website, logo, dan UI/UX berdasarkan rumus harmoni warna dengan live website preview.',
+    description:
+      'Alat perancang skema warna profesional untuk desainer web dan pemilik bisnis. Hasilkan palet warna harmonis (komplementer, analogous, triadic, monokromatik) dari satu warna dasar, lengkap dengan simulasi tampilan UI situs nyata dan ekspor variabel CSS.',
+    category: 'Design & UX',
+    badge: 'Desain UI/UX',
+    iconName: 'Palette',
+    features: [
+      'Algoritma harmoni warna matematis: Analogous, Complementary, Triadic, dan Monochromatic',
+      'Penetapan peran 5 warna standar UI: Primary, Secondary, Accent, Neutral Light, Neutral Dark',
+      'Simulasi tampilan nyata palet warna pada mini mock-up kartu hero website',
+      'Salin kode HEX dan RGB 1-klik untuk setiap warna',
+      'Ekspor otomatis ke variabel CSS (:root) siap pasang di stylesheet atau Tailwind CSS',
+      'Pilihan preset warna populer bertema teknologi, korporat, dan gaya modern',
+    ],
+    howToUse: [
+      {
+        step: 'Pilih Warna Dasar Brand',
+        detail: 'Gunakan color picker visual atau masukkan kode HEX warna utama yang Anda inginkan.',
+      },
+      {
+        step: 'Pilih Rumus Harmoni',
+        detail: 'Klik tab harmoni untuk memilih nuansa: Analogous untuk kesan selaras menenangkan, atau Complementary untuk kontras dinamis.',
+      },
+      {
+        step: 'Tinjau Preview & Salin Kode',
+        detail: 'Perhatikan bagaimana warna diterapkan pada kartu preview web lalu salin kode HEX atau variabel CSS yang tersedia.',
+      },
+    ],
+    faqs: [
+      {
+        question: 'Apa itu rumus aturan 60-30-10 dalam desain warna website?',
+        answer:
+          'Aturan 60-30-10 adalah panduan proporsi warna visual: 60% warna dominan netral (biasanya latar belakang), 30% warna sekunder (kartu atau teks navigasi), dan 10% warna aksen kontras khusus untuk tombol panggilan aksi (CTA).',
+      },
+      {
+        question: 'Apa perbedaan skema warna Analogous dan Complementary?',
+        answer:
+          'Skema Analogous menggunakan warna-warna yang bersebelahan pada roda warna sehingga memberikan nuansa serasi dan nyaman di mata. Skema Complementary menggunakan dua warna yang saling berseberangan sehingga menciptakan kontras tinggi yang menarik perhatian.',
+      },
+      {
+        question: 'Bagaimana cara memasang variabel CSS warna ke proyek website saya?',
+        answer:
+          'Salin kode CSS dari kotak ekspor lalu tempelkan ke berkas style utama Anda (misalnya globals.css di dalam selector :root). Setelah itu, Anda dapat memanggil warna tersebut dengan sintaks var(--primary).',
+      },
+    ],
+    ctaType: 'website-packages',
+    ctaTitle: 'Ingin Website dengan Sentuhan Desain Visual Eksklusif & Elegan?',
+    ctaDescription:
+      'Kami menghadirkan 10 konsep desain orisinal yang dikurasi khusus dengan palet warna modern, tipografi berkelas, dan interaksi visual mulus.',
+    seoTitle: 'Generator Palet Warna Website Online - Desain Warna Brand Harmonis',
+    seoDescription:
+      'Generator palet warna website dan brand gratis. Hasilkan 5 kombinasi warna harmonis (komplementer, analogous, triadic) lengkap dengan live UI preview & CSS variables.',
+    seoKeywords: [
+      'generator warna website',
+      'palet warna untuk brand',
+      'color palette generator indonesia',
+      'kombinasi warna desain web',
+      'skema warna harmonis',
+    ],
+    relatedToolSlugs: ['contrast-checker', 'generator-nama-usaha', 'generator-favicon'],
+  },
+  {
+    id: 'generator-link-bio',
+    slug: 'generator-link-bio',
+    name: 'Instagram Bio Link Generator',
+    title: 'Generator Link Bio Instagram & WhatsApp Bisnis Online',
+    tagline: 'Rangkai teks profil bio Instagram yang menarik, rapi, dan konversif lengkap dengan tautan WhatsApp serta link produk pilihan.',
+    description:
+      'Alat praktis untuk menyusun teks bio Instagram bisnis yang rapi dan profesional. Menggabungkan nama brand, penawaran nilai, link WhatsApp otomatis, dan hingga 3 tautan penting dalam satu blok teks siap salin dengan pratinjau smartphone interaktif.',
+    category: 'Marketing',
+    badge: 'Sosial Media',
+    iconName: 'AtSign',
+    features: [
+      'Penyusun teks bio Instagram lengkap dengan live character counter (maks 150 karakter)',
+      'Generator tautan chat WhatsApp instan dengan teks pesan pembuka kustom',
+      'Mendukung hingga 3 tautan tambahan (website resmi, katalog promo, portofolio)',
+      'Pratinjau tampilan visual smartphone realistis ala profil Instagram bisnis',
+      'Fitur salin 1-klik seluruh blok teks bio siap tempel ke aplikasi Instagram',
+      '100% Gratis tanpa biaya berlangganan hosting pihak ketiga',
+    ],
+    howToUse: [
+      {
+        step: 'Isi Informasi Profil Usaha',
+        detail: 'Tulis nama brand, kategori bidang usaha, dan ringkasan kalimat penawaran menarik (USP).',
+      },
+      {
+        step: 'Masukkan Nomor WhatsApp & Tautan',
+        detail: 'Tulis nomor WhatsApp kontak penjualan beserta tautan eksternal seperti website atau katalog produk Anda.',
+      },
+      {
+        step: 'Salin Teks ke Instagram',
+        detail: 'Klik tombol "Salin Seluruh Teks Bio" lalu tempelkan langsung ke pengaturan profil bio akun Instagram Anda.',
+      },
+    ],
+    faqs: [
+      {
+        question: 'Berapa batas karakter maksimal untuk bio profil Instagram?',
+        answer:
+          'Instagram membatasi teks deskripsi profil bio maksimal 150 karakter. Alat kami menyediakan penghitung karakter otomatis agar teks Anda pas dan tidak terpotong.',
+      },
+      {
+        question: 'Mengapa lebih baik mengarahkan bio Instagram ke website sendiri dibanding linktree?',
+        answer:
+          'Mengarahkan traffic langsung ke website domain Anda sendiri membangun otoritas SEO domain (backlink), memungkinkan pelacakan piksel iklan (Meta Pixel & GA4) secara akurat, dan memberi kesan brand yang jauh lebih profesional.',
+      },
+      {
+        question: 'Apakah format link WhatsApp di sini langsung membuka aplikasi chat?',
+        answer:
+          'Ya, tautan berformat wa.me resmi akan langsung membuka aplikasi WhatsApp di ponsel pengguna atau WhatsApp Web di komputer desktop lengkap dengan pesan pembuka yang telah disiapkan.',
+      },
+    ],
+    ctaType: 'website-packages',
+    ctaTitle: 'Ganti Bio Link Biasa Anda dengan Landing Page Bisnis Berkecepatan Tinggi',
+    ctaDescription:
+      'Tingkatkan konversi penjualan hingga 3x lipat dengan website landing page resmi yang didesain khusus untuk mengubah followers Instagram menjadi pembeli setia.',
+    seoTitle: 'Generator Link Bio Instagram Gratis - Buat Bio Profil WA & Bisnis',
+    seoDescription:
+      'Generator teks bio link Instagram gratis. Susun profil bio IG bisnis rapi, link WhatsApp otomatis, dan tautan katalog produk dengan live smartphone preview.',
+    seoKeywords: [
+      'cara buat link di bio instagram',
+      'link bio gratis',
+      'generator link bio wa',
+      'buat linktree sendiri gratis',
+      'bio instagram bisnis keren',
+    ],
+    relatedToolSlugs: ['whatsapp-link-generator', 'utm-builder', 'qr-code-generator'],
+  },
+  {
+    id: 'generator-tanda-tangan-email',
+    slug: 'generator-tanda-tangan-email',
+    name: 'Email Signature Generator',
+    title: 'Generator Tanda Tangan Email HTML Profesional (Gmail & Outlook)',
+    tagline: 'Buat tanda tangan email korporat modern dengan foto profil, logo perusahaan, nomor WhatsApp, dan link website yang siap tempel di Gmail dan Outlook.',
+    description:
+      'Generator signature email HTML gratis dengan tata letak tabel yang kompatibel 100% di semua aplikasi email klien (Gmail, Microsoft Outlook, Apple Mail, Thunderbird). Ciptakan citra profesional pada setiap korespondensi bisnis tanpa perlu keahlian koding.',
+    category: 'Marketing',
+    badge: 'Branding Korporat',
+    iconName: 'FileSignature',
+    features: [
+      'Kompatibilitas universal dengan Gmail, Microsoft Outlook, Apple Mail, dan Yahoo',
+      'Format tabel HTML terstandarisasi dengan inline CSS anti-berantakan di perangkat mobile',
+      'Mendukung foto profil lingkaran atau logo perusahaan beresolusi tinggi',
+      'Tautan kontak interaktif langsung klik: WhatsApp, Email, dan Alamat Website',
+      'Fitur salin Rich Text langsung paste ke jendela pengaturan Gmail/Outlook tanpa koding',
+      'Tersedia tombol salin kode HTML mentah untuk integrasi sistem email marketing',
+    ],
+    howToUse: [
+      {
+        step: 'Isi Data Diri & Perusahaan',
+        detail: 'Masukkan nama lengkap, jabatan, nama instansi/perusahaan, kontak WhatsApp, email, dan alamat kantor.',
+      },
+      {
+        step: 'Sesuaikan Foto & Warna Aksen',
+        detail: 'Cantumkan link URL foto atau logo perusahaan Anda serta pilih warna garis aksen tanda tangan.',
+      },
+      {
+        step: 'Salin & Tempel ke Email Client',
+        detail: 'Klik "Salin Tanda Tangan (Rich Text)" lalu buka menu Settings > Signature di Gmail atau Outlook, lalu tekan Ctrl+V (Paste).',
+      },
+    ],
+    faqs: [
+      {
+        question: 'Bagaimana cara memasang tanda tangan ini di akun Gmail web?',
+        answer:
+          'Buka Gmail > klik ikon gerigi Setelan di kanan atas > Pilih "Lihat semua setelan" > Gulir ke bagian "Tanda Tangan" (Signature) > Buat baru dan beri nama > Klik tombol "Salin Tanda Tangan" di alat ini, lalu tekan Ctrl+V (Paste) di kotak Gmail > Simpan Perubahan di bagian bawah.',
+      },
+      {
+        question: 'Mengapa tanda tangan email harus menggunakan tabel HTML inline?',
+        answer:
+          'Aplikasi email seperti Microsoft Outlook dan Gmail memblokir stylesheet CSS eksternal dan layout modern seperti Flexbox atau Grid. Menggunakan tabel HTML dengan inline style adalah satu-satunya metode yang menjamin tampilan tetap rapi di semua perangkat.',
+      },
+      {
+        question: 'Di mana saya bisa mengunggah foto profil untuk tanda tangan email?',
+        answer:
+          'Anda dapat menggunakan link foto profil dari website resmi perusahaan Anda, foto profil LinkedIn, atau layanan hosting gambar terpercaya yang memiliki URL publik langsung berawalan https://.',
+      },
+    ],
+    ctaType: 'website-packages',
+    ctaTitle: 'Lengkapi Tanda Tangan Email Anda dengan Website Resmi Perusahaan',
+    ctaDescription:
+      'Tingkatkan kepercayaan mitra bisnis dan klien korporat dengan website company profile profesional berarsitektur modern dan email domain resmi.',
+    seoTitle: 'Generator Tanda Tangan Email Gratis - Buat Email Signature HTML',
+    seoDescription:
+      'Generator email signature HTML profesional gratis. Buat tanda tangan email elegan dengan foto profil, logo brand, dan kontak WhatsApp untuk Gmail & Outlook.',
+    seoKeywords: [
+      'buat tanda tangan email',
+      'email signature generator',
+      'tanda tangan email gmail gratis',
+      'html signature email outlook',
+      'cara membuat email signature',
+    ],
+    relatedToolSlugs: ['whatsapp-link-generator', 'generator-palet-warna', 'meta-tag-generator'],
+  },
+  {
+    id: 'generator-favicon',
+    slug: 'generator-favicon',
+    name: 'Favicon Generator',
+    title: 'Generator Favicon Online Gratis - Buat Paket Ikon Favicon & Web App',
+    tagline: 'Ubah logo gambar biasa menjadi paket lengkap favicon.ico, 16x16, 32x32, Apple Touch Icon, dan Android PWA manifest dalam satu file ZIP instan.',
+    description:
+      'Alat generator favicon instan berbasis canvas browser. Cukup unggah satu gambar logo, dan sistem akan otomatis menghasilkan semua ukuran standar ikon browser desktop, retina display, iOS home screen, serta Android PWA lengkap dengan file site.webmanifest dan kode tag HTML <head>.',
+    category: 'Design & UX',
+    badge: 'Web Essentials',
+    iconName: 'Globe',
+    features: [
+      'Resize otomatis ke 6 ukuran standar: 16x16, 32x32, 48x48, 180x180 (Apple), 192x192, dan 512x512',
+      'Paket unduh arsip .ZIP lengkap termasuk favicon.ico dan site.webmanifest',
+      'Pratinjau langsung simulasi tab browser desktop dalam mode terang dan mode gelap',
+      'Unduh ikon individual per ukuran dalam format PNG resolusi tinggi',
+      'Kode snippet tag <head> siap salin langsung ke layout HTML atau Next.js',
+      '100% Client-side tanpa upload data ke server untuk kecepatan dan privasi maksimal',
+    ],
+    howToUse: [
+      {
+        step: 'Unggah Logo atau Ikon',
+        detail: 'Pilih file logo berbentuk persegi (format PNG transparan resolusi minimal 512x512px disarankan).',
+      },
+      {
+        step: 'Lihat Pratinjau Tab Browser',
+        detail: 'Periksa simulasi tampilan tab browser dalam light mode dan dark mode untuk memastikan ikon terbaca jelas.',
+      },
+      {
+        step: 'Unduh Paket ZIP & Pasang Kode',
+        detail: 'Klik tombol "Unduh Semua File Favicon (.ZIP)" dan salin cuplikan kode HTML yang disediakan ke tag <head> website Anda.',
+      },
+    ],
+    faqs: [
+      {
+        question: 'Berapa ukuran favicon standar yang dibutuhkan oleh website modern?',
+        answer:
+          'Website modern membutuhkan beberapa ukuran: 16x16 px untuk tab browser desktop standar, 32x32 px untuk layar Retina / taskbar OS, 180x180 px untuk Apple Touch Icon di iOS Safari, serta 192x192 px dan 512x512 px untuk Android PWA.',
+      },
+      {
+        question: 'Apakah format file ICO masih wajib digunakan saat ini?',
+        answer:
+          'Format PNG saat ini didukung oleh hampir semua peramban modern. Namun, menyertakan file favicon.ico di root website tetap sangat direkomendasikan untuk kompatibilitas penuh dengan sistem operasi dan bot crawler mesin pencari yang mencari berkas /favicon.ico secara otomatis.',
+      },
+      {
+        question: 'Apa fungsi file site.webmanifest yang disertakan dalam ZIP?',
+        answer:
+          'File site.webmanifest adalah konfigurasi standar Progressive Web App (PWA) yang memberitahu browser smartphone ikon mana yang harus dipakai saat pengguna menyimpan website Anda ke layar utama (Add to Home Screen).',
+      },
+    ],
+    ctaType: 'configure',
+    ctaTitle: 'Siapkan Seluruh Aset Brand & Bangun Website Bisnis Tanpa Repot',
+    ctaDescription:
+      'Serahkan urusan teknis favicon, metadata SEO, Core Web Vitals, dan hosting kepada tim ahli kami. Website Anda siap tayang dan siap jualan.',
+    seoTitle: 'Generator Favicon Online Gratis - Buat Favicon.ico & Apple Touch Icon',
+    seoDescription:
+      'Generator favicon online gratis terbaik. Ubah logo menjadi favicon.ico, 16x16, 32x32, apple-touch-icon, dan webmanifest dalam satu file ZIP siap pakai.',
+    seoKeywords: [
+      'buat favicon online',
+      'generator favicon gratis',
+      'favicon generator indonesia',
+      'cara membuat favicon ico',
+      'apple touch icon generator',
+    ],
+    relatedToolSlugs: ['kompres-gambar', 'generator-palet-warna', 'meta-tag-generator'],
+  },
 ];
 
 export function getToolBySlug(slug: string): ToolItem | undefined {

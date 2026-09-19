@@ -5,34 +5,13 @@ import Link from 'next/link';
 import {
   Search,
   ArrowRight,
-  Tags,
-  MessageSquare,
-  Gauge,
-  Calculator,
-  Code2,
-  Share2,
-  Monitor,
-  Eye,
-  Link2,
   Sparkles,
   ShieldCheck,
   Zap,
 } from 'lucide-react';
 import { TOOLS, ToolCategory, ToolItem } from '@/content/tools';
 import Reveal from '@/components/motion/Reveal';
-
-const ICON_MAP: Record<string, React.ComponentType<{ className?: string }>> = {
-  Tags,
-  MessageSquare,
-  Gauge,
-  Calculator,
-  Code2,
-  Share2,
-  Search,
-  Monitor,
-  Eye,
-  Link2,
-};
+import { ICON_MAP } from '@/components/tools/registry';
 
 const CATEGORIES: ('Semua' | ToolCategory)[] = ['Semua', 'SEO', 'Marketing', 'Performance', 'Design & UX'];
 

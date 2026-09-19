@@ -1,5 +1,9 @@
-﻿import React from 'react';
+﻿'use client';
+
+import React from 'react';
 import { Zap, Gauge, Search, CheckCircle, Smartphone, Globe, ArrowUpRight } from 'lucide-react';
+import Reveal from '@/components/motion/Reveal';
+import AnimatedCounter from '@/components/motion/AnimatedCounter';
 
 const LIGHTHOUSE_METRICS = [
   { label: 'Performance', score: 100, desc: 'Waktu muat instan tanpa script berlebih' },
@@ -40,22 +44,23 @@ export default function PerformanceProofSection() {
         {/* 4 Lighthouse Gauges */}
         <div className="grid grid-cols-2 lg:grid-cols-4 gap-4 sm:gap-6 mb-12">
           {LIGHTHOUSE_METRICS.map((item, idx) => (
-            <div
-              key={idx}
-              className="p-6 rounded-2xl bg-slate-800/80 border border-slate-700/80 shadow-lg text-center backdrop-blur-sm hover:border-emerald-500/40 transition-colors"
-            >
-              {/* Circular Gauge Representation */}
-              <div className="relative w-20 h-20 mx-auto mb-4 flex items-center justify-center">
-                <div className="w-full h-full rounded-full border-4 border-emerald-500/20 flex items-center justify-center">
-                  <div className="w-[72px] h-[72px] rounded-full border-4 border-emerald-400 flex items-center justify-center bg-emerald-950/40 shadow-inner">
-                    <span className="text-2xl font-extrabold text-emerald-400">{item.score}</span>
+            <Reveal key={idx} delay={idx * 120} direction="up">
+              <div className="p-6 rounded-2xl bg-slate-800/80 border border-slate-700/80 shadow-lg text-center backdrop-blur-sm hover:border-emerald-500/40 transition-colors h-full">
+                {/* Circular Gauge Representation */}
+                <div className="relative w-20 h-20 mx-auto mb-4 flex items-center justify-center">
+                  <div className="w-full h-full rounded-full border-4 border-emerald-500/20 flex items-center justify-center">
+                    <div className="w-[72px] h-[72px] rounded-full border-4 border-emerald-400 flex items-center justify-center bg-emerald-950/40 shadow-inner">
+                      <span className="text-2xl font-extrabold text-emerald-400">
+                        <AnimatedCounter value={item.score} duration={1000} />
+                      </span>
+                    </div>
                   </div>
                 </div>
-              </div>
 
-              <h3 className="text-base font-bold text-white mb-1">{item.label}</h3>
-              <p className="text-xs text-slate-400 leading-relaxed">{item.desc}</p>
-            </div>
+                <h3 className="text-base font-bold text-white mb-1">{item.label}</h3>
+                <p className="text-xs text-slate-400 leading-relaxed">{item.desc}</p>
+              </div>
+            </Reveal>
           ))}
         </div>
 

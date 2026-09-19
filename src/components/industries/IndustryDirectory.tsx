@@ -4,6 +4,8 @@ import { useState, useMemo } from 'react';
 import Link from 'next/link';
 import { Search, Briefcase, ArrowRight, CheckCircle2 } from 'lucide-react';
 import { IndustryEntity } from '@/types';
+import Reveal from '@/components/motion/Reveal';
+import TiltCard from '@/components/motion/TiltCard';
 
 interface Props {
   industries: IndustryEntity[];
@@ -105,12 +107,13 @@ export function IndustryDirectory({ industries }: Props) {
         </div>
       ) : (
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-          {filtered.map((ind) => (
-            <Link
-              key={ind.slug}
-              href={`/industries/${ind.slug}`}
-              className="group relative flex flex-col justify-between p-6 bg-white rounded-2xl border border-slate-200 hover:border-blue-500 hover:shadow-lg transition-all duration-200"
-            >
+          {filtered.map((ind, idx) => (
+            <Reveal key={ind.slug} delay={(idx % 6) * 60} direction="up" threshold={0.05}>
+              <TiltCard maxTilt={4}>
+                <Link
+                  href={`/industries/${ind.slug}`}
+                  className="group relative flex flex-col justify-between p-6 bg-white rounded-2xl border border-slate-200 hover:border-blue-500 hover:shadow-lg transition-all duration-200 h-full"
+                >
               <div>
                 <div className="flex items-center justify-between gap-2 mb-3">
                   <div className="w-10 h-10 rounded-xl bg-blue-50 text-blue-600 flex items-center justify-center group-hover:bg-blue-600 group-hover:text-white transition-colors duration-200">
@@ -149,7 +152,9 @@ export function IndustryDirectory({ industries }: Props) {
                 <span>Pelajari Solusi & Modul</span>
                 <ArrowRight className="w-4 h-4 transform group-hover:translate-x-1 transition-transform" />
               </div>
-            </Link>
+                </Link>
+              </TiltCard>
+            </Reveal>
           ))}
         </div>
       )}

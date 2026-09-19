@@ -19,6 +19,7 @@ import {
   Zap,
 } from 'lucide-react';
 import { TOOLS, ToolCategory, ToolItem } from '@/content/tools';
+import Reveal from '@/components/motion/Reveal';
 
 const ICON_MAP: Record<string, React.ComponentType<{ className?: string }>> = {
   Tags,
@@ -107,14 +108,14 @@ export default function ToolDirectory() {
         </div>
       ) : (
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-          {filteredTools.map((tool) => {
+          {filteredTools.map((tool, idx) => {
             const IconComp = ICON_MAP[tool.iconName] || Sparkles;
 
             return (
+              <Reveal key={tool.slug} delay={(idx % 6) * 50} direction="up" threshold={0.05}>
               <Link
-                key={tool.slug}
                 href={`/tools/${tool.slug}`}
-                className="group relative flex flex-col justify-between p-6 bg-white rounded-2xl border border-slate-200 hover:border-blue-500 hover:shadow-lg transition-all duration-200"
+                className="group relative flex flex-col justify-between p-6 bg-white rounded-2xl border border-slate-200 hover:border-blue-500 hover:shadow-lg transition-all duration-200 h-full"
               >
                 <div>
                   {/* Top Bar: Icon & Category/Badge */}
@@ -161,6 +162,7 @@ export default function ToolDirectory() {
                   <ArrowRight className="w-4 h-4 transform group-hover:translate-x-1 transition-transform" />
                 </div>
               </Link>
+              </Reveal>
             );
           })}
         </div>
